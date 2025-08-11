@@ -1,9 +1,12 @@
 [submodule "super-claude"]
-	path = super-claude
+	path = external-resources/super-claude
 	url = https://github.com/SuperClaude-Org/SuperClaude_Framework.git
 [submodule "awesome-claude-prompts"]
-	path = awesome-claude-prompts
+	path = external-resources/awesome-claude-prompts
 	url = https://github.com/langgptai/awesome-claude-prompts.git
 [submodule "awesome-claude-code-agents"]
-	path = awesome-claude-code-agents
+	path = external-resources/awesome-claude-code-agents
 	url = https://github.com/hesreallyhim/awesome-claude-code-agents.git
+[submodule "awesome-claude-code"]
+	path = external-resources/awesome-claude-code
+	url = https://github.com/hesreallyhim/awesome-claude-code.git
