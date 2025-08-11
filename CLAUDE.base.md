@@ -2,6 +2,11 @@
 
 {{project-description}}
 
+> The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+> NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
+> "OPTIONAL" in this document are to be interpreted as described in
+> [RFC 2119](/doc/html/rfc2119).
+
 ## Repository Overview
 
 {{repository-overview}}
@@ -157,3 +162,12 @@ Read @.claude/instructions/conventional-branch.md for more details.
 - **Clean History**: If you accidentally stage unrelated files, use `git restore --staged <file>` to unstage them. Do not use `git restore --staged .` to unstage all files.
 - **Commit Scope**: Each commit should represent a single, cohesive change that can be reviewed independently. Do not commit changes that are not related to the current task.
 - **Authoring**: Do NOT add "Co-authors", "Co-Authored-By: Claude <noreply@anthropic.com>" or "🤖 Generated with [Claude Code](https://claude.ai/code)" to the commit message.
+
+### Versioning
+
+- **Basics**: Read @.claude/shared/docs/semver.md for more details.
+- **Versioning Strategy**: Use semantic versioning (SemVer) for all new releases.
+- **Version Management**: Use the `version` command to manage the version of the project.
+- **Version File**: The version is stored in the `version.txt` file.
+- **Version Tag**: The version is tagged with the `v` prefix.
+- **Version History**: The version history is stored in the `version-history.md` file.
