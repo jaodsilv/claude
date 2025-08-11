@@ -1,0 +1,44 @@
+files: .
+default_stages: [pre-commit, pre-push]
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: trailing-whitespace
+        args: [--markdown-linebreak-ext=md]
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-illegal-windows-names
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: no-commit-to-branch
+      # Python Specific Hooks
+      #- id: check-ast
+      #- id: check-builtin-literals
+      #- id: check-docstring-first
+      #- id: debug-statements
+      #- id: destroyed-symlinks
+      #- id: double-quote-string-fixer
+      #- id: name-tests-test
+      #- id: requirements-txt-fixer
+      # args: [--{pytest,pytest-test-first,django,unittest}]
+      # file-type Specific Hooks
+      #- id: check-toml
+      #- id: check-vcs-permalinks
+      #- id: check-xml
+      - id: check-yaml
+      ## JSON Specific Hooks
+      - id: check-json
+      - id: pretty-format-json
+        args: [--autofix, --indent, --no-ensure-ascii, --no-sort-keys]
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
+        args: [.markdownlint-cli2.yaml]
+  # Consider visiting https://blog.nshephard.dev/posts/pre-commit-hooks/index.html for more hooks
