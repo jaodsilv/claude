@@ -1,6 +1,8 @@
 .claude/.credentials.json
+.claude/backups
 .claude/ide
 .claude/local
+.claude/logs
 .claude/projects
 .claude/shell-snapshots
 .claude/statsig
