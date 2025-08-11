@@ -1,0 +1,9 @@
+[submodule "super-claude"]
+	path = super-claude
+	url = https://github.com/SuperClaude-Org/SuperClaude_Framework.git
+[submodule "awesome-claude-prompts"]
+	path = awesome-claude-prompts
+	url = https://github.com/langgptai/awesome-claude-prompts.git
+[submodule "awesome-claude-code-agents"]
+	path = awesome-claude-code-agents
+	url = https://github.com/hesreallyhim/awesome-claude-code-agents.git
