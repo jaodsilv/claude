@@ -10,3 +10,6 @@
 [submodule "awesome-claude-code"]
 	path = external-resources/awesome-claude-code
 	url = https://github.com/hesreallyhim/awesome-claude-code.git
+[submodule ".claude/shared/submodules/awesome-claude-code-subagents"]
+	path = external-resources/awesome-claude-code-subagents
+	url = https://github.com/VoltAgent/awesome-claude-code-subagents.git
