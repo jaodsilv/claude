@@ -1,0 +1,9 @@
+.claude/.credentials.json
+.claude/ide
+.claude/local
+.claude/projects
+.claude/shell-snapshots
+.claude/statsig
+.claude/todos
+.claude/claude
+.env
