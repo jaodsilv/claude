@@ -48,6 +48,42 @@ This is a personal configuration repository for Claude Code custom base configs,
 - Use numbers (1., 2., 3.) for all lists and enumerations
 - Use tree structure for nested lists and enumerations
 
+## Custom Slash Command Parameters and template filling
+
+### Parameter Schemas
+
+- Schemas live in the `.claude/shared/schemas` directory, but with .yml extension instead of `.md`
+- The schemas directory is organized in a similar way to the `.claude/commands` directory
+
+#### Default Values
+
+- Default values live in the `.claude/shared/schemas` directory in the same paths as schemas, but with `.defaults.yml` extension instead of just `.yml`
+
+#### Parsing Arguments
+
+- When Parsing Arguments assign values to variables where:
+  - `$<variable-name>` is the name of the variable to assign the value to, e.g., `$urls` is the name of the variable to assign the value to the `urls` parameter
+  - `$<variable-name>[<array-index>]` access the value of the array index, e.g., `$urls[0]` is the value of the first url in the `urls` parameter
+  - `$<variable-name>.<object-key>` access inner values of the object, e.g., `$urls[0].url` is the value of the first url in the `urls` parameter
+- `<foreach $value in $<variable-name>>` blocks loops over the array sequentially and assign the value to the variable `$value`, e.g.,
+  ```
+  <foreach $url in $urls>
+    <task agent="@docs:downloader">
+      Download the url: <url>{{url}}</url>
+    </task>
+  </foreach>
+  ```
+
+### Prompt Templates
+
+- Custom Slash Commands and sub-agents can fill a prompt template with the parsed arguments to fill the command prompt when initializing a sub-agent Task.
+- Prompt templates live in the `.claude/shared/templates` directory
+- The templates directory is organized in a similar way to the `.claude` directory, but with only the commands and agents directories
+- The path to a template is a path with the same name as the command or agent without the file extension and with filename the step name appended by the extension `.md`, not the path to the agent where it will be used, e.g., if the command `/docs:download` fills a template in its `<fill>` block to sent to the `@docs:downloader` agent, then the template path is `@.claude/shared/templates/commands/docs/download/fill.md`
+- In the template, the placeholder "{{<variable-name>}}" or "{{ <variable-name> }}" should be replaced with the value of the variable `$<variable-name>`.
+- Similarly, the placeholder "{{<variable-name>.<object-key>}}" or "{{ <variable-name>.<object-key> }}" should be replaced with the value of the variable `$<variable-name>.<object-key>`.
+- Within a template, placeholders surrounded by backquotes are treated as code blocks and are not replaced with the value of the variable, e.g., "`{{<variable-name>}}`" or "`{{ <variable-name> }}`" should NOT be replaced with the value of the variable `$<variable-name>`.
+
 ## Application Purpose
 
 This repository is a personal configuration repository for Claude Code custom base configs, sub agents, custom slash commands and workflows.
