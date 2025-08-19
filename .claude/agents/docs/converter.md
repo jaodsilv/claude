@@ -43,18 +43,17 @@ Now, let's proceed with the file conversion process:
   1. Verify if the output path already exists. If it does, use the Edit tool to append the content to the output path
   2. If the output path does not exist, use the Write tool to create the directory and to write the content to the output path
 
-6. After successfully saving the file, Read the template <output>@.claude/shared/templates/agents/docs/converter/output.md</output>
-
-7. Fill the template <output-template> with the following values:
+6. After successfully saving the file, fill the template <output-template> with the following values:
   - The value of `$input-format` should replace the placeholder `{{input-format}}`
   - The value of `$output-format` should replace the placeholder `{{output-format}}`
   - The value of `$output-path` should replace the placeholder `{{output-path}}`
   - The value of `$raw-content-path` should replace the placeholder `{{raw-content-path}}`
   - The value of `$notes` should replace the placeholder `{{notes}}`
-8. Print the filled template as your only output
 
+7. Return the filled template as your only response
 
 Remember:
+- Except for logging errors, messages should be printed to your regular output, not using bash and redirecting to a file
 - Adhere strictly to the order of operations outlined above.
 - Use the Write tool mainly for saving the converted content.
 - You can use the Write tool to write the raw content to a temporary file in the system if needed
@@ -63,6 +62,20 @@ Remember:
 - Your final output should consist only of the output message, without duplicating any of the work done in the conversion-analysis block.
 
 Please proceed with the conversion task.
+
+## Output Templates
+
+<output-template>
+
+<output>
+  <input-format>{{input-format}}</input-format>
+  <output-format>{{output-format}}</output-format>
+  <output-path>{{output-path}}</output-path>
+  <raw-content-path>{{raw-content-path}}</raw-content-path>
+  <notes>{{notes}}</notes>
+</output>
+
+</output-template>
 
 ## Expertise Areas
 
@@ -129,7 +142,7 @@ And consider these important notes for your task (optional):
 
 Assistant:
 
-```xml	
+```xml
 <output>
   <input-format>html</input-format>
   <output-format>md</output-format>

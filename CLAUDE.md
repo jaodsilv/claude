@@ -33,13 +33,18 @@ This is a personal configuration repository for Claude Code custom base configs,
 - `agents` - Personal agents for Claude Code.
 - `commands` - Personal commands for Claude Code.
 - `hooks` - Personal hooks for Claude Code.
-- `instructions` - Personal instructions for Claude Code.
 - `scripts` - Scripts for Claude Code.
 - `shared` - Shared resources for Claude Code of documents there were not created here nor are they part of the submodules.
+- `logs` - Logs for Claude Code Agents.
 
 #### .claude/scripts
 
 - `agent-evolution.sh` - Script to evolve agents by looping agent evaluation and improvements.
+
+### .claude/shared
+
+- `docs` - Shared documents for Claude Code.
+- `downloads` - Shared downloads for Claude Code.
 
 ## Output Formatting Preferences
 
@@ -48,16 +53,20 @@ This is a personal configuration repository for Claude Code custom base configs,
 - Use numbers (1., 2., 3.) for all lists and enumerations
 - Use tree structure for nested lists and enumerations
 
-## Custom Slash Command Parameters and template filling
+## Custom Slash Commands and Sub-Agents instructions
 
-### Parameter Schemas
+- Follow the slash command/agent instructions throughfully, do not skip any steps unless explicitly stated.
+- Also, do not assume anything without reading the instructions
+- Do not add any additional steps unless explicitly stated.
 
-- Schemas live in the `.claude/shared/schemas` directory, but with .yml extension instead of `.md`
-- The schemas directory is organized in a similar way to the `.claude/commands` directory
+### Parameters, default values and template filling
 
-#### Default Values
+#### Definitions
 
-- Default values live in the `.claude/shared/schemas` directory in the same paths as schemas, but with `.defaults.yml` extension instead of just `.yml`
+- Schemas live within the command and agent files in a YAML format code block in the subsection `Parameters Schema`
+- Default values live within the command and agent files in a YAML format code block in the subsection `Default Parameters Values`
+- Template prompts live within the command and agent files in a markdown format code block in the subsection `Template Prompt for sub-agent Task tool` or `Template Prompts for sub-agent Task tool`
+- Template outputs live within the command and agent files in a markdown format code block in the subsection `Output Template` or `Output Templates`
 
 #### Parsing Arguments
 
@@ -68,18 +77,14 @@ This is a personal configuration repository for Claude Code custom base configs,
 - `<foreach $value in $<variable-name>>` blocks loops over the array sequentially and assign the value to the variable `$value`, e.g.,
   ```
   <foreach $url in $urls>
-    <task agent="@docs:downloader">
-      Download the url: <url>{{url}}</url>
-    </task>
+    Launch Task using the Task tool with sub-agent "@docs:batch-downloader"
+      Download the urls: <urls>{{urls}}</urls>
   </foreach>
   ```
 
-### Prompt Templates
+#### Prompt Templates
 
 - Custom Slash Commands and sub-agents can fill a prompt template with the parsed arguments to fill the command prompt when initializing a sub-agent Task.
-- Prompt templates live in the `.claude/shared/templates` directory
-- The templates directory is organized in a similar way to the `.claude` directory, but with only the commands and agents directories
-- The path to a template is a path with the same name as the command or agent without the file extension and with filename the step name appended by the extension `.md`, not the path to the agent where it will be used, e.g., if the command `/docs:download` fills a template in its `<fill>` block to sent to the `@docs:downloader` agent, then the template path is `@.claude/shared/templates/commands/docs/download/fill.md`
 - In the template, the placeholder "{{<variable-name>}}" or "{{ <variable-name> }}" should be replaced with the value of the variable `$<variable-name>`.
 - Similarly, the placeholder "{{<variable-name>.<object-key>}}" or "{{ <variable-name>.<object-key> }}" should be replaced with the value of the variable `$<variable-name>.<object-key>`.
 - Within a template, placeholders surrounded by backquotes are treated as code blocks and are not replaced with the value of the variable, e.g., "`{{<variable-name>}}`" or "`{{ <variable-name> }}`" should NOT be replaced with the value of the variable `$<variable-name>`.
@@ -105,9 +110,19 @@ This repository is a personal configuration repository for Claude Code custom ba
 ### Custom Slash Commands
 
 <!-- TODO: Add custom slash commands -->
+- /docs:download - Download documents from URLs and save them to a specified folder. Described in @.claude/commands/docs/download.md
 
-- `/create-agent <agent-name>{{agent-name}}</agent-name><task>{{task}}</task>`
+### Custom Sub-Agents
 
+<!-- TODO: Add custom sub-agents -->
+- @agent-docs:batch-downloader - Batch download documents from URLs and save them to a specified folder. Described in @.claude/agents/docs/batch-downloader.md. Called from the `/docs:download` command.
+- @agent-docs:downloader - Download a document from a URL and save it to a specified folder. Described in @.claude/agents/docs/downloader.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+- @agent-docs:converter - Convert a document to a specified format and save it to a specified folder. Described in @.claude/agents/docs/converter.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+- @agent-docs:conversion-verifier - Verify the conversion of a document to a specified format and save it to a specified folder. Described in @.claude/agents/docs/conversion-verifier.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+
+### Custom Workflows
+
+<!-- TODO: Add custom workflows -->
 
 ## Development Notes
 
@@ -141,4 +156,3 @@ Read @.claude/shared/docs/conventional-branch.md for more details.
 - **Version File**: The version is stored in the `version.txt` file.
 - **Version Tag**: The version is tagged with the `v` prefix.
 - **Version History**: The version history is stored in the `version-history.md` file.
-

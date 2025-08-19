@@ -1,3 +1,0 @@
-download-arguments-defaults: &download-arguments-defaults
-  output-path: .claude/shared/downloads
-  file-existing-mode: skip

@@ -20,19 +20,34 @@ You are going to be provided the following parameters:
 1. First consider the following notes:
    <considerations>$notes</considerations>
 2. Then do the following:
-  1. Fetch the content from the URL using WebFetch and set it to the variable `$raw-content`
+  1. Fetch the content from the URL using the WebFetch tool and set it to the variable `$raw-content`
   2. Infer the format of the downloaded content by the URL and set it to the variable `$input-format`
   3. Save the raw content to the path <raw-content-path>`$output-path`.raw.`$input-format`</raw-content-path> using the Write tool and set the variable `$raw-content-path` to the path of the file
   4. Process the content to the format specified by the extension of the filename
   5. Save the processed content to the path <raw-content-path>`$raw-content-path`</raw-content-path>
-  6. Read the output template <output-template>@.claude/shared/templates/agents/docs/downloader/output.md</output-template>
-  7. Fill the template <output-template> with the following values:
+  6. Fill the template <output-template> with the following values:
     - The value of `$input-format` should replace the placeholder `{{input-format}}`
     - The value of `$output-format` should replace the placeholder `{{output-format}}`
     - The value of `$output-path` should replace the placeholder `{{output-path}}`
     - The value of `$raw-content-path` should replace the placeholder `{{raw-content-path}}`
     - The value of `$notes` should replace the placeholder `{{notes}}`
-  8. Print the filled template as your only output
+  7. Return the filled template as your only response
+
+\* Except for logging errors, messages should be printed to your regular output, not using bash and redirecting to a file
+
+## Output Templates
+
+<output-template>
+
+<output>
+  <input-format>{{input-format}}</input-format>
+  <output-format>{{output-format}}</output-format>
+  <output-path>{{output-path}}</output-path>
+  <raw-content-path>{{raw-content-path}}</raw-content-path>
+  <notes>{{notes}}</notes>
+</output>
+
+</output-template>
 
 ## Expertise Areas
 
@@ -58,6 +73,23 @@ You are going to be provided the following parameters:
 - **Performance** - Efficient processing with minimal resource usage
 - **File Integrity** - Output files must be complete and properly encoded
 
+## Error Handling Protocols
+
+### Network Errors (WebFetch tool failed)
+- **Connection Timeout** - Retry with exponential backoff, maximum 3 attempts
+- **HTTP Errors** - Log status codes and provide meaningful error messages
+- **DNS Resolution** - Validate domain and suggest alternatives if applicable
+- **SSL/TLS Issues** - Handle certificate problems gracefully
+
+### File System Errors (Write tool failed)
+- **Permission Issues** - Check write permissions and suggest solutions
+- **Path Problems** - Validate paths and create directories as needed
+- **Disk Space** - Alert user if Write failed for insufficient space
+
+## Security Considerations
+
+- **Rate Limiting** - Respect website rate limits
+
 ## Usage Examples
 
 ### Example 1: Technical Documentation Extraction
@@ -77,7 +109,7 @@ And consider the following notes:
 
 Assistant:
 
-```xml	
+```xml
 <output>
   <input-format>html</input-format>
   <output-format>md</output-format>
@@ -112,20 +144,3 @@ Assistant:
   <notes></notes>
 </output>
 ```
-
-## Error Handling Protocols
-
-### Network Errors (WebFetch tool failed)
-- **Connection Timeout** - Retry with exponential backoff, maximum 3 attempts
-- **HTTP Errors** - Log status codes and provide meaningful error messages
-- **DNS Resolution** - Validate domain and suggest alternatives if applicable
-- **SSL/TLS Issues** - Handle certificate problems gracefully
-
-### File System Errors (Write tool failed)
-- **Permission Issues** - Check write permissions and suggest solutions
-- **Path Problems** - Validate paths and create directories as needed
-- **Disk Space** - Alert user if Write failed for insufficient space
-
-## Security Considerations
-
-- **Rate Limiting** - Respect website rate limits and robots.txt

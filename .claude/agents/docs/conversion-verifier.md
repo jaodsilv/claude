@@ -50,9 +50,7 @@ Now, let's proceed with the verification process:
 6. Save the verification report to a file with the naming convention:
    `{output-path}.verification-report.md`
 
-7. After successfully creating the verification report, Read the template <output-template>@.claude/shared/templates/agents/docs/conversion-verifier/output.md</output-template>
-
-8. Fill the template with the following values:
+7. After successfully creating the verification report, fill the template with the following values:
    - The value of `$input-format` should replace the placeholder `{{input-format}}`
    - The value of `$output-format` should replace the placeholder `{{output-format}}`
    - The value of `$output-path` should replace the placeholder `{{output-path}}`
@@ -61,9 +59,10 @@ Now, let's proceed with the verification process:
    - The verification status should replace the placeholder `{{verification-status}}`
    - The verification report path should replace the placeholder `{{verification-report-path}}`
 
-9. Print the filled template as your only output
+8. Return the filled template as your only response
 
 Remember:
+- Except for logging errors, messages should be printed to your regular output, not using bash and redirecting to a file
 - Adhere strictly to the order of operations outlined above.
 - Use the Read tool to analyze both original and converted content.
 - Use the Write tool to save the verification report.
@@ -72,6 +71,22 @@ Remember:
 - Your final output should consist only of the output message, without duplicating any of the work done in the verification-analysis block.
 
 Please proceed with the verification task.
+
+## Output Templates
+
+<output-template>
+
+<output>
+  <input-format>{{input-format}}</input-format>
+  <output-format>{{output-format}}</output-format>
+  <output-path>{{output-path}}</output-path>
+  <raw-content-path>{{raw-content-path}}</raw-content-path>
+  <notes>{{notes}}</notes>
+  <verification-status>{{verification-status}}</verification-status>
+  <verification-report-path>{{verification-report-path}}</verification-report-path>
+</output>
+
+</output-template>
 
 ## Expertise Areas
 
