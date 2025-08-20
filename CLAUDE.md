@@ -15,10 +15,10 @@ This is a personal configuration repository for Claude Code custom base configs,
 
 - `README.md` - Basic project description
 - `LICENSE` - MIT license file
-- `.claude` - Personal configuration for Claude Code
+- `.claude` - Project specific configuration for Claude Code
+- `dotclaude` - Actual .claude mounted at `~/.claude`. This is where you should put non-project specific configuration.
 - `CLAUDE.base.md` - Base configuration for Claude Code to copy to other projects
 - `external-resources` - External resources for Claude Code.
-- `scripts` - Scripts for Claude Code, including agent-evolution.sh.
 
 ### External Resources
 
@@ -28,20 +28,20 @@ This is a personal configuration repository for Claude Code custom base configs,
 - `awesome-claude-code-subagents` - Awesome Claude Code Subagents, a collection of Claude Code agents.
 - `awesome-claude-code` - Awesome Claude Code, a collection of Claude Code resources.
 
-### .claude
+### `dotclaude/`
 
 - `agents` - Personal agents for Claude Code.
 - `commands` - Personal commands for Claude Code.
 - `hooks` - Personal hooks for Claude Code.
-- `scripts` - Scripts for Claude Code.
+- `scripts` - Scripts for Claude Code, including agent-evolution.sh.
 - `shared` - Shared resources for Claude Code of documents there were not created here nor are they part of the submodules.
 - `logs` - Logs for Claude Code Agents.
 
-#### .claude/scripts
+#### `dotclaude/scripts`
 
 - `agent-evolution.sh` - Script to evolve agents by looping agent evaluation and improvements.
 
-### .claude/shared
+### `dotclaude/shared`
 
 - `docs` - Shared documents for Claude Code.
 - `downloads` - Shared downloads for Claude Code.
@@ -102,6 +102,7 @@ This repository is a personal configuration repository for Claude Code custom ba
 ### Git
 
 <!-- TODO: Add git commands -->
+- `git worktree add -b <branch-name> <path>` - Create a new branch and worktree for a task
 
 ### Github
 
@@ -110,15 +111,15 @@ This repository is a personal configuration repository for Claude Code custom ba
 ### Custom Slash Commands
 
 <!-- TODO: Add custom slash commands -->
-- /docs:download - Download documents from URLs and save them to a specified folder. Described in @.claude/commands/docs/download.md
+- /docs:download - Download documents from URLs and save them to a specified folder. Described in @~/.claude/commands/docs/download.md
 
 ### Custom Sub-Agents
 
 <!-- TODO: Add custom sub-agents -->
-- @agent-docs:batch-downloader - Batch download documents from URLs and save them to a specified folder. Described in @.claude/agents/docs/batch-downloader.md. Called from the `/docs:download` command.
-- @agent-docs:downloader - Download a document from a URL and save it to a specified folder. Described in @.claude/agents/docs/downloader.md. Called from the `@agent-docs:batch-downloader` sub-agent.
-- @agent-docs:converter - Convert a document to a specified format and save it to a specified folder. Described in @.claude/agents/docs/converter.md. Called from the `@agent-docs:batch-downloader` sub-agent.
-- @agent-docs:conversion-verifier - Verify the conversion of a document to a specified format and save it to a specified folder. Described in @.claude/agents/docs/conversion-verifier.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+- @agent-docs:batch-downloader - Batch download documents from URLs and save them to a specified folder. Described in @~/.claude/agents/docs/batch-downloader.md. Called from the `/docs:download` command.
+- @agent-docs:downloader - Download a document from a URL and save it to a specified folder. Described in @~/.claude/agents/docs/downloader.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+- @agent-docs:converter - Convert a document to a specified format and save it to a specified folder. Described in @~/.claude/agents/docs/converter.md. Called from the `@agent-docs:batch-downloader` sub-agent.
+- @agent-docs:conversion-verifier - Verify the conversion of a document to a specified format and save it to a specified folder. Described in @~/.claude/agents/docs/conversion-verifier.md. Called from the `@agent-docs:batch-downloader` sub-agent.
 
 ### Custom Workflows
 
@@ -136,11 +137,11 @@ This repository appears to be in early stages and will contain:
 
 #### Branch Naming
 
-Read @.claude/shared/docs/conventional-branch.md for more details.
+Read @~/.claude/shared/docs/conventional-branch.md for more details.
 
 #### Commit Conventions
 
-- **Basics**: Read @.claude/shared/docs/conventional-commits.md for more details.
+- **Basics**: Read @~/.claude/shared/docs/conventional-commits.md for more details.
 - **Focused Commits**: Only commit files directly related to your current task or change
 - **Staging Discipline**: Use `git add` selectively to stage only relevant files, not `git add .`
 - **Unrelated Changes**: Keep unrelated changes (one-time testing files, config updates, etc.) in separate commits
@@ -150,7 +151,7 @@ Read @.claude/shared/docs/conventional-branch.md for more details.
 
 ### Versioning
 
-- **Basics**: Read @.claude/shared/docs/semver.md for more details.
+- **Basics**: Read @~/.claude/shared/docs/semver.md for more details.
 - **Versioning Strategy**: Use semantic versioning (SemVer) for all new releases.
 - **Version Management**: Use the `version` command to manage the version of the project.
 - **Version File**: The version is stored in the `version.txt` file.

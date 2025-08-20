@@ -16,6 +16,7 @@
 - `README.md` - Basic project description
 - `LICENSE` - MIT license file
 - `.claude` - Project-specific Claude Code configuration
+- `~/.claude` - User Claude Code configuration
 
 ## Output Formatting Preferences
 - Always use numbered lists instead of bullet points when listing items
@@ -151,11 +152,11 @@
 
 #### Branch Naming
 
-Read @.claude/instructions/conventional-branch.md for more details.
+Read @~/.claude/instructions/conventional-branch.md for more details.
 
 #### Commit Conventions
 
-- **Basics**: Read @.claude/instructions/conventional-commits.md for more details.
+- **Basics**: Read @~/.claude/instructions/conventional-commits.md for more details.
 - **Focused Commits**: Only commit files directly related to your current task or change
 - **Staging Discipline**: Use `git add` selectively to stage only relevant files, not `git add .`
 - **Unrelated Changes**: Keep unrelated changes (one-time testing files, config updates, etc.) in separate commits
@@ -165,7 +166,7 @@ Read @.claude/instructions/conventional-branch.md for more details.
 
 ### Versioning
 
-- **Basics**: Read @.claude/shared/docs/semver.md for more details.
+- **Basics**: Read @~/.claude/shared/docs/semver.md for more details.
 - **Versioning Strategy**: Use semantic versioning (SemVer) for all new releases.
 - **Version Management**: Use the `version` command to manage the version of the project.
 - **Version File**: The version is stored in the `version.txt` file.

@@ -4,7 +4,6 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
-      - id: check-yaml
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
       - id: check-added-large-files
@@ -17,28 +16,33 @@ repos:
       - id: mixed-line-ending
         args: [--fix=lf]
       - id: no-commit-to-branch
-      # Python Specific Hooks
-      #- id: check-ast
-      #- id: check-builtin-literals
-      #- id: check-docstring-first
-      #- id: debug-statements
-      #- id: destroyed-symlinks
-      #- id: double-quote-string-fixer
-      #- id: name-tests-test
-      #- id: requirements-txt-fixer
-      # args: [--{pytest,pytest-test-first,django,unittest}]
-      # file-type Specific Hooks
-      #- id: check-toml
-      #- id: check-vcs-permalinks
-      #- id: check-xml
       - id: check-yaml
-      ## JSON Specific Hooks
+        ## JSON Specific Hooks
       - id: check-json
       - id: pretty-format-json
-        args: [--autofix, --indent, --no-ensure-ascii, --no-sort-keys]
+        args: [--autofix, --indent, "2", --no-ensure-ascii, --no-sort-keys]
+        ## Python Specific Hooks
+        ## - id: check-ast
+        ## - id: check-builtin-literals
+        ## - id: check-docstring-first
+        ## - id: debug-statements
+        ## - id: destroyed-symlinks
+        ## - id: double-quote-string-fixer
+        ## - id: name-tests-test
+        ## - id: requirements-txt-fixer
+        ##   args: [--{pytest,pytest-test-first,django,unittest}]
+        ## file-type Specific Hooks
+        ## - id: check-toml
+        ## - id: check-vcs-permalinks
+        ## - id: check-xml
   - repo: https://github.com/DavidAnson/markdownlint-cli2
     rev: v0.18.1
     hooks:
       - id: markdownlint-cli2
-        args: [.markdownlint-cli2.yaml]
-  # Consider visiting https://blog.nshephard.dev/posts/pre-commit-hooks/index.html for more hooks
+        args: [config/readme.markdownlint-cli2.yaml]
+      - id: markdownlint-cli2
+        args: [config/claude.markdownlint-cli2.yaml]
+      - id: markdownlint-cli2
+        args: [config/other.markdownlint-cli2.yaml]
+
+# Consider visiting <https://blog.nshephard.dev/posts/pre-commit-hooks/index.html> for more hooks

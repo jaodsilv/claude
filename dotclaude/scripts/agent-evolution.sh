@@ -45,27 +45,27 @@ readDocs() {
 pickBestAgent() {
     local agent1="$1"
     local agent2="$2"
-    
+
     echo "Comparing $agent1 vs $agent2..."
-    
+
     # Use the custom pick-best-agent slash command
     result=$(claude -p "/pick-best-agent <agent-names>[$agent1, $agent2]</agent-names>" 2>&1)
-    
+
     if [ $? -ne 0 ]; then
         echo "Error comparing $agent1 and $agent2: $result" >&2
         return 1
     fi
-    
+
     # Extract winner from result - assuming the command returns the winner name
     # This may need adjustment based on the actual output format of your custom command
     winner=$(echo "$result" | grep -oE "(agent-creator|agent-comparer|document-learner)(-2)?" | head -1)
-    
+
     if [ -z "$winner" ]; then
         echo "Error: Could not determine winner from comparison output" >&2
         echo "Output was: $result" >&2
         return 1
     fi
-    
+
     echo "$winner"
     return 0
 }
@@ -96,7 +96,7 @@ renameFiles() {
     for rename in "${renames[@]}"; do
         local from=$(echo "$rename" | cut -d: -f1)
         local to=$(echo "$rename" | cut -d: -f2)
-        
+
         if [ -f "$AGENTS_DIR/$from.md" ]; then
             echo "Renaming $from.md to $to.md"
             claude --dangerously-skip-permissions -p "Rename the sub-agent in $AGENTS_DIR/$from.md to $AGENTS_DIR/$to.md. Remember to update the name in the YAML frontmatter."
@@ -116,10 +116,10 @@ renameGuidelines() {
 createBackup() {
     local timestamp=$(date +"%Y%m%d_%H%M%S")
     local backup_dir="backup_${timestamp}"
-    
+
     echo "Creating backup in $backup_dir..."
     mkdir -p "$backup_dir"
-    
+
     # Backup original agents
     local agents=("agent-creator" "agent-comparer" "document-learner")
     for agent in "${agents[@]}"; do
@@ -130,7 +130,7 @@ createBackup() {
             echo "Warning: $agent.md not found, skipping backup"
         fi
     done
-    
+
     # Backup original guidelines
     if [ -f "$INSTRUCTIONS_DIR/agent-creation-guidelines.md" ]; then
         echo "Backing up agent-creation-guidelines.md"
@@ -138,73 +138,73 @@ createBackup() {
     else
         echo "Warning: agent-creation-guidelines.md not found, skipping backup"
     fi
-    
+
     echo "Backup completed in $backup_dir"
 }
 
 # Main evolution loop
 main() {
     echo "Starting agent evolution process..."
-    
+
     # Create backup before starting evolution
     createBackup
-    
+
     local iteration=0
     local max_iterations=10  # Safety limit
-    
+
     while [ $iteration -lt $max_iterations ]; do
         iteration=$((iteration + 1))
         echo "=== Iteration $iteration ==="
-        
+
         # Create new versions of agents
         if ! createAgentCreator; then
             echo "Error creating agent-creator, stopping evolution"
             exit 1
         fi
-        
+
         if ! createAgentLearner; then
             echo "Error creating document-learner, stopping evolution"
             exit 1
         fi
-        
+
         if ! readDocs; then
             echo "Error updating documentation, stopping evolution"
             exit 1
         fi
-        
+
         if ! createAgentComparer; then
             echo "Error creating agent-comparer, stopping evolution"
             exit 1
         fi
-        
+
         # Compare agents and determine winners
         topCreator=$(pickBestAgent "agent-creator-2" "agent-creator")
         if [ $? -ne 0 ]; then
             echo "Error comparing agent creators, stopping evolution"
             exit 1
         fi
-        
+
         topComparer=$(pickBestAgent "agent-comparer-2" "agent-comparer")
         if [ $? -ne 0 ]; then
             echo "Error comparing agent comparers, stopping evolution"
             exit 1
         fi
-        
+
         topLearner=$(pickBestAgent "document-learner-2" "document-learner")
         if [ $? -ne 0 ]; then
             echo "Error comparing agent learners, stopping evolution"
             exit 1
         fi
-        
+
         echo "Winners: Creator=$topCreator, Comparer=$topComparer, Learner=$topLearner"
-        
+
         # Check if evolution has converged (no improvements)
         if [[ "$topCreator" == "agent-creator" ]] && [[ "$topComparer" == "agent-comparer" ]] && [[ "$topLearner" == "document-learner" ]]; then
             echo "Evolution converged - no improvements found"
             break
         fi
-        
-        
+
+
         # Clean up and promote new versions
         echo "Promoting new versions..."
         if [[ "$topCreator" == "agent-creator-2" ]]; then
@@ -223,15 +223,15 @@ main() {
             deleteGuidelines
             renameGuidelines
         fi
-        
+
         echo "Iteration $iteration complete"
         echo ""
     done
-    
+
     if [ $iteration -eq $max_iterations ]; then
         echo "Maximum iterations reached, stopping evolution"
     fi
-    
+
     echo "Agent evolution process completed after $iteration iterations"
 }
 
