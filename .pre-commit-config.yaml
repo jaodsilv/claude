@@ -20,7 +20,7 @@ repos:
         ## JSON Specific Hooks
       - id: check-json
       - id: pretty-format-json
-        args: [--autofix, --indent, --no-ensure-ascii, --no-sort-keys]
+        args: [--autofix, --indent, "2", --no-ensure-ascii, --no-sort-keys]
         ## Python Specific Hooks
         ## - id: check-ast
         ## - id: check-builtin-literals
