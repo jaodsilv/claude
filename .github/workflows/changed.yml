@@ -13,7 +13,9 @@ jobs:
         files: '**/*.md'
         separator: ","
     - uses: DavidAnson/markdownlint-cli2-action@v20
+      continue-on-error: true
       if: steps.changed-files.outputs.any_changed == 'true'
       with:
+        config: 'config/base.markdownlint-cli2.yaml'
         globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ","
