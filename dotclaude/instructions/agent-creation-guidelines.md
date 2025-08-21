@@ -2,15 +2,20 @@
 
 ## Executive Summary
 
-Claude Code sub-agents are specialized AI assistants designed to operate in separate context windows with focused responsibilities, custom system prompts, and targeted tool access. This guide provides comprehensive best practices for creating high-quality, efficient agents that transform development workflows through intelligent task delegation and specialized expertise.
+Claude Code sub-agents are specialized AI assistants designed to operate in separate context windows with focused
+responsibilities, custom system prompts, and targeted tool access. This guide provides comprehensive best practices for
+creating high-quality, efficient agents that transform development workflows through intelligent task delegation and
+specialized expertise.
 
 ## Core Concepts
 
 ### 1. Agent Architecture Fundamentals
 
-**Agent Definition**: Specialized AI assistants stored as Markdown files with YAML frontmatter configuration that operate independently with specific purposes and tool permissions.
+**Agent Definition**: Specialized AI assistants stored as Markdown files with YAML frontmatter configuration that
+operate independently with specific purposes and tool permissions.
 
 **Key Characteristics**:
+
 1. **Separate Context Windows** - Each agent maintains independent conversation context, preventing context pollution during task switching
 2. **Specialized System Prompts** - Custom instructions tailored to specific domain expertise
 3. **Targeted Tool Access** - Granular permissions controlling which tools agents can access
@@ -20,18 +25,21 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 2. Agent Weight Classifications
 
 **Lightweight Agents** (Under 3k tokens):
+
 - Simple, frequent tasks
 - Minimal configuration
 - Fast initialization
 - Ideal for repetitive operations
 
 **Medium-weight Agents** (10-15k tokens):
+
 - Balanced complexity
 - Moderate specialization
 - Standard development tasks
 - Good general-purpose agents
 
 **Heavy Agents** (25k+ tokens):
+
 - Complex analysis and reasoning
 - Deep domain expertise
 - Comprehensive system prompts
@@ -40,18 +48,21 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 3. Model Selection Strategy
 
 **Haiku Pairing**:
+
 - Simple, frequent tasks
 - Lightweight agents
 - Cost-effective for routine operations
 - Quick response times
 
 **Sonnet Pairing**:
+
 - Balanced, moderate complexity tasks
 - Medium-weight agents
 - Most common pairing
 - Good performance-to-cost ratio
 
 **Opus Pairing**:
+
 - Complex analysis and deep reasoning
 - Heavy agents requiring sophisticated understanding
 - High-value, complex decision-making tasks
@@ -62,16 +73,19 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 1. Agent Design Principles
 
 **Single Responsibility Principle**:
+
 - Design focused sub-agents with single, clear responsibilities
 - Avoid multi-purpose agents that dilute effectiveness
 - Create specialized expertise areas
 
 **Minimal Initial Configuration**:
+
 - Start with lightweight configuration
 - Gradually expand capabilities based on testing
 - Prioritize efficiency over comprehensive capability
 
 **Clear Purpose Definition**:
+
 - Write detailed, specific descriptions
 - Include context about when the agent should be invoked
 - Use natural language that clearly communicates the agent's role
@@ -79,6 +93,7 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 2. System Prompt Engineering
 
 **Structure Requirements**:
+
 1. **Role Definition** - Clear statement of the agent's primary function
 2. **Expertise Areas** - Specific domains of knowledge and capability
 3. **Operational Guidelines** - How the agent should approach tasks
@@ -87,6 +102,7 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 6. **Example Scenarios** - Concrete examples of typical tasks and responses
 
 **Prompt Engineering Techniques**:
+
 1. **Specificity Over Generality** - Provide precise instructions rather than broad guidelines
 2. **Include Concrete Examples** - Show desired behavior through specific examples
 3. **Define Success Criteria** - Clearly state what constitutes successful task completion
@@ -96,11 +112,13 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 3. Tool Selection and Optimization
 
 **Permission Strategy**:
+
 1. **Principle of Least Privilege** - Grant only necessary tool access
 2. **Task-Specific Tools** - Match tool permissions to agent's primary functions
 3. **Security Considerations** - Restrict potentially dangerous tools for specialized agents
 
 **Common Tool Configurations**:
+
 - **Code Review Agents**: Read, Grep, Glob (analysis-focused)
 - **Development Agents**: Read, Write, Edit, Bash (implementation-focused)
 - **Documentation Agents**: Read, Write, WebFetch (content creation-focused)
@@ -109,6 +127,7 @@ Claude Code sub-agents are specialized AI assistants designed to operate in sepa
 ### 4. Configuration File Structure
 
 **YAML Frontmatter Requirements**:
+
 ```yaml
 ---
 name: agent-name-kebab-case
@@ -119,6 +138,7 @@ model: sonnet  # Optional: haiku, sonnet, opus
 ```
 
 **System Prompt Structure**:
+
 ```markdown
 # Agent Role Title
 
@@ -161,6 +181,7 @@ You are [specific role description], specialized in [domain expertise].
 ## Practical Implementation Examples
 
 ### 1. Code Review Agent
+
 ```yaml
 ---
 name: code-reviewer
@@ -212,6 +233,7 @@ You are a senior software engineer specializing in comprehensive code reviews wi
 ```
 
 ### 2. API Documentation Agent
+
 ```yaml
 ---
 name: api-documentation-writer
@@ -264,6 +286,7 @@ You are an expert technical writer specializing in creating clear, comprehensive
 ```
 
 ### 3. Database Migration Expert
+
 ```yaml
 ---
 name: data-migration-expert
@@ -318,32 +341,37 @@ You are a database expert specializing in schema migrations, data transformation
 
 ### 1. Agent Creation Process
 
-**Step 1: Define Agent Purpose**
+#### Step 1: Define Agent Purpose
+
 1. Identify specific problem domain or task type
 2. Define clear boundaries and responsibilities
 3. Determine required expertise level
 4. Assess appropriate agent weight classification
 
-**Step 2: Choose Model and Tools**
+#### Step 2: Choose Model and Tools
+
 1. Select appropriate model based on complexity requirements
 2. Determine minimal necessary tool set
 3. Consider security implications of tool access
 4. Plan for future tool expansion if needed
 
-**Step 3: Engineer System Prompt**
+#### Step 3: Engineer System Prompt
+
 1. Write clear role definition
 2. List specific responsibilities and expertise areas
 3. Define operational guidelines and quality standards
 4. Include concrete examples and scenarios
 5. Specify output formats and expectations
 
-**Step 4: Create Configuration File**
+#### Step 4: Create Configuration File
+
 1. Choose appropriate file location (project vs user-level)
 2. Write YAML frontmatter with required fields
 3. Implement comprehensive system prompt
 4. Save in appropriate `.claude/agents/` directory
 
-**Step 5: Test and Iterate**
+#### Step 5: Test and Iterate
+
 1. Test agent with typical use cases
 2. Verify tool access and permissions work correctly
 3. Refine system prompt based on performance
@@ -352,12 +380,14 @@ You are a database expert specializing in schema migrations, data transformation
 ### 2. File Organization Structure
 
 **Project-Level Agents** (`.claude/agents/`):
+
 - Project-specific agents
 - Shared team resources
 - Version controlled with project
 - Highest priority in agent selection
 
 **User-Level Agents** (`~/.claude/agents/`):
+
 - Personal agent library
 - Reusable across projects
 - Individual developer preferences
@@ -366,12 +396,14 @@ You are a database expert specializing in schema migrations, data transformation
 ### 3. Agent Invocation Methods
 
 **Automatic Delegation**:
+
 - Claude analyzes task context
 - Matches requirements to agent descriptions
 - Automatically selects and invokes appropriate agent
 - Transparent to user unless explicitly mentioned
 
 **Explicit Invocation**:
+
 - Mention agent name directly in request
 - Override automatic selection
 - Force specific agent for particular task
@@ -380,34 +412,42 @@ You are a database expert specializing in schema migrations, data transformation
 ## Common Pitfalls and How to Avoid Them
 
 ### 1. Over-Generalization
+
 **Problem**: Creating agents that try to handle too many different types of tasks
 **Solution**: Follow single responsibility principle; create multiple focused agents instead of one general-purpose agent
 
 ### 2. Insufficient System Prompts
+
 **Problem**: Vague or generic system prompts that don't provide specific guidance
 **Solution**: Include concrete examples, specific quality standards, and detailed operational guidelines
 
 ### 3. Tool Over-Provisioning
+
 **Problem**: Granting all tools to every agent for convenience
 **Solution**: Apply principle of least privilege; grant only necessary tools for agent's specific function
 
 ### 4. Poor Model Selection
+
 **Problem**: Using expensive models for simple tasks or underpowered models for complex tasks
 **Solution**: Match model capability to task complexity; start with appropriate weight classification
 
 ### 5. Lack of Testing
+
 **Problem**: Deploying agents without thorough testing across typical use cases
 **Solution**: Create test scenarios and validate agent behavior before production use
 
 ### 6. Inconsistent Naming
+
 **Problem**: Using unclear or inconsistent agent names that make selection difficult
 **Solution**: Use kebab-case naming with clear, descriptive identifiers
 
 ### 7. Missing Rollback Plans
+
 **Problem**: Creating agents that make irreversible changes without safety mechanisms
 **Solution**: Include validation steps and rollback procedures in agent design
 
 ### 8. Context Pollution
+
 **Problem**: Agents that maintain too much state or interfere with main conversation context
 **Solution**: Design agents to be stateless and focused on specific task completion
 
@@ -416,18 +456,21 @@ You are a database expert specializing in schema migrations, data transformation
 ### 1. Agent Quality Metrics
 
 **Effectiveness Measures**:
+
 - Task completion rate
 - Accuracy of outputs
 - Adherence to specified formats
 - User satisfaction with results
 
 **Efficiency Measures**:
+
 - Token usage optimization
 - Response time performance
 - Tool usage efficiency
 - Context management effectiveness
 
 **Reliability Measures**:
+
 - Consistent behavior across similar tasks
 - Error handling robustness
 - Edge case management
@@ -436,6 +479,7 @@ You are a database expert specializing in schema migrations, data transformation
 ### 2. Validation Checklist
 
 **Pre-Deployment Validation**:
+
 1. **Configuration Syntax**: YAML frontmatter validates correctly
 2. **Tool Access**: All specified tools are available and necessary
 3. **System Prompt Quality**: Clear, specific, actionable instructions
@@ -443,6 +487,7 @@ You are a database expert specializing in schema migrations, data transformation
 5. **Error Handling**: Edge cases and failure modes addressed
 
 **Post-Deployment Monitoring**:
+
 1. **Performance Tracking**: Monitor response times and token usage
 2. **Quality Assessment**: Regular review of agent outputs
 3. **User Feedback**: Collect and incorporate user experience feedback
@@ -451,18 +496,21 @@ You are a database expert specializing in schema migrations, data transformation
 ### 3. Testing Strategies
 
 **Unit Testing**:
+
 - Test individual agent responses to specific inputs
 - Validate tool usage patterns
 - Verify output format compliance
 - Check error handling behavior
 
 **Integration Testing**:
+
 - Test agent interaction with project context
 - Validate tool permissions and access
 - Check agent selection logic
 - Verify context isolation
 
 **User Acceptance Testing**:
+
 - Real-world task completion validation
 - User workflow integration testing
 - Performance under typical load
@@ -473,12 +521,14 @@ You are a database expert specializing in schema migrations, data transformation
 ### 1. Agent Composition Patterns
 
 **Workflow Chains**:
+
 - Design agents to work together in sequences
 - Output of one agent becomes input for next
 - Maintain clear interfaces between agents
 - Enable complex multi-step processes
 
 **Hierarchical Delegation**:
+
 - Create coordinator agents that delegate to specialists
 - Implement decision trees for agent selection
 - Enable complex task decomposition
@@ -487,12 +537,14 @@ You are a database expert specializing in schema migrations, data transformation
 ### 2. Dynamic Configuration
 
 **Context-Aware Tool Selection**:
+
 - Modify tool access based on project context
 - Implement conditional tool availability
 - Enable environment-specific configurations
 - Support different security postures
 
 **Adaptive System Prompts**:
+
 - Include project-specific instructions
 - Reference external configuration files
 - Enable customization without agent duplication
@@ -501,12 +553,14 @@ You are a database expert specializing in schema migrations, data transformation
 ### 3. Community Integration
 
 **Agent Sharing**:
+
 - Design agents for community sharing
 - Include comprehensive documentation
 - Provide usage examples and test cases
 - Enable easy customization and extension
 
 **Collaborative Development**:
+
 - Version control agent configurations
 - Enable team collaboration on agent development
 - Support agent libraries and collections
@@ -515,22 +569,26 @@ You are a database expert specializing in schema migrations, data transformation
 ## Additional Resources
 
 ### 1. Official Documentation
+
 - [Claude Code Sub-agents Documentation](https://docs.anthropic.com/en/docs/claude-code/sub-agents)
 - Anthropic API Documentation
 - Model capability specifications
 
 ### 2. Community Resources
+
 - [ClaudeLog Agent Engineering](https://claudelog.com/mechanics/agent-engineering/)
 - [ClaudeLog Custom Agents](https://claudelog.com/mechanics/custom-agents/)
 - Community agent libraries and examples
 
 ### 3. Best Practice References
+
 - Software engineering principles for AI systems
 - Prompt engineering methodologies
 - AI safety and security considerations
 - Performance optimization techniques
 
 ### 4. Development Tools
+
 - YAML validation tools
 - Markdown formatting guidelines
 - Testing frameworks for AI agents
@@ -538,4 +596,6 @@ You are a database expert specializing in schema migrations, data transformation
 
 ---
 
-This comprehensive guide provides the foundation for creating high-quality Claude Code agents that enhance development workflows through specialized expertise and intelligent task delegation. Follow these guidelines to build effective, efficient, and reliable agents that transform how you approach complex development challenges.
+This comprehensive guide provides the foundation for creating high-quality Claude Code agents that enhance development
+workflows through specialized expertise and intelligent task delegation. Follow these guidelines to build effective,
+efficient, and reliable agents that transform how you approach complex development challenges.

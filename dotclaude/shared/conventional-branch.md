@@ -4,13 +4,19 @@
 
 ## Summary
 
-Conventional Branch refers to a structured and standardized naming convention for Git branches which aims to make branch more readable and actionable. We've suggested some branch prefixes you might want to use but you can also specify your own naming convention. A consistent naming convention makes it easier to identify branches by type.
+Conventional Branch refers to a structured and standardized naming convention for Git branches which aims to make branch
+more readable and actionable. We've suggested some branch prefixes you might want to use but you can also specify your
+own naming convention. A consistent naming convention makes it easier to identify branches by type.
 
 ### Key Points
 
-1. **Purpose-driven Branch Names**: Each branch name clearly indicates its purpose, making it easy for all developers to understand what the branch is for.
-2. **Integration with CI/CD**: By using consistent branch names, it can help automated systems (like Continuous Integration/Continuous Deployment pipelines) to trigger specific actions based on the branch type (e.g., auto-deployment from release branches).
-3. **Team Collaboration**: It encourages collaboration within teams by making branch purpose explicit, reducing misunderstandings and making it easier for team members to switch between tasks without confusion.
+1. **Purpose-driven Branch Names**: Each branch name clearly indicates its purpose, making it easy for all developers to
+   understand what the branch is for.
+2. **Integration with CI/CD**: By using consistent branch names, it can help automated systems (like Continuous
+   Integration/Continuous Deployment pipelines) to trigger specific actions based on the branch type (e.g.,
+   auto-deployment from release branches).
+3. **Team Collaboration**: It encourages collaboration within teams by making branch purpose explicit, reducing
+   misunderstandings and making it easier for team members to switch between tasks without confusion.
 
 ## Specification
 
@@ -20,7 +26,7 @@ The branch specification by describing with `feature/`, `bugfix/`, `hotfix/`, `r
 
 ---
 
-```
+```markdown
 <type>/<description>
 ```
 
@@ -35,10 +41,15 @@ The branch specification by describing with `feature/`, `bugfix/`, `hotfix/`, `r
 
 ### Basic Rules
 
-1. **Use Lowercase Alphanumerics, Hyphens, and Dots**: Always use lowercase letters (`a-z`), numbers (`0-9`), and hyphens(`-`) to separate words. Avoid special characters, underscores, or spaces. For release branches, dots (`.`) may be used in the description to represent version numbers (e.g., `release/v1.2.0`).
-2. **No Consecutive, Leading, or Trailing Hyphens or Dots**: Ensure that hyphens and dots do not appear consecutively (e.g., `feature/new--login`, `release/v1.-2.0`), nor at the start or end of the description (e.g., `feature/-new-login`, `release/v1.2.0.`).
+1. **Use Lowercase Alphanumerics, Hyphens, and Dots**: Always use lowercase letters (`a-z`), numbers (`0-9`), and
+   hyphens(`-`) to separate words. Avoid special characters, underscores, or spaces. For release branches, dots (`.`)
+   may be used in the description to represent version numbers (e.g., `release/v1.2.0`).
+2. **No Consecutive, Leading, or Trailing Hyphens or Dots**: Ensure that hyphens and dots do not appear consecutively
+   (e.g., `feature/new--login`, `release/v1.-2.0`), nor at the start or end of the description (e.g.,
+   `feature/-new-login`, `release/v1.2.0.`).
 3. **Keep It Clear and Concise**: The branch name should be descriptive yet concise, clearly indicating the purpose of the work.
-4. **Include Ticket Numbers**: If applicable, include the ticket number from your project management tool to make tracking easier. For example, for a ticket `issue-123`, the branch name could be `feature/issue-123-new-login`.
+4. **Include Ticket Numbers**: If applicable, include the ticket number from your project management tool to make
+   tracking easier. For example, for a ticket `issue-123`, the branch name could be `feature/issue-123-new-login`.
 
 ## Conclusion
 

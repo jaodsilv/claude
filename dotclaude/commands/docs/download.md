@@ -1,4 +1,5 @@
 ---
+
 allowed-tools: Read, Task, TodoWrite, Write, LS, Grep, Glob, Edit
 description: Downloads a document from a URL or a list of URLs
 argument-hint: output-path: <output-folder> file-existing-mode: <file-existing-mode> url: <url> filename: <output-filename>
@@ -20,11 +21,12 @@ Follow the instructions described in the numbered list below:
 1. Parse arguments considering it as a yaml object and assign its values to variables of the same names
 2. Organize the urls: Group the urls by domain and assign them to the variable `$urls-by-domain`
 3. <foreach $domain, $urls in $urls-by-domain>
-  1. Fill the template in the <batch-download-template> block from the section "Template Prompt for sub-agent Task tool" replacing the placeholders:
-    - {{urls}} with the values of the variables `$urls` or `[(url: $url, filename: $filename, notes: $notes)]`
-    - {{output-path}} with the value of the variable `$output-path`
-    - {{file-existing-mode}} with the value of the variable `$file-existing-mode`
-  2. Launch an async Task with the Task tool using the filled template as a prompt to the sub-agent <subagent>@agent-docs:batch-downloader (subagent_type: "docs:batch-downloader")</subagent>
+    1. Fill the template in the <batch-download-template> block from the section "Template Prompt for sub-agent Task tool" replacing the placeholders:
+        - {{urls}} with the values of the variables `$urls` or `[(url: $url, filename: $filename, notes: $notes)]`
+        - {{output-path}} with the value of the variable `$output-path`
+        - {{file-existing-mode}} with the value of the variable `$file-existing-mode`
+    2. Launch an async Task with the Task tool using the filled template as a prompt to the sub-agent
+       <subagent>@agent-docs:batch-downloader (subagent_type: "docs:batch-downloader")</subagent>
 4. </foreach>
 5. Wait for all Tasks to complete
 
