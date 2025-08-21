@@ -39,10 +39,6 @@ repos:
     rev: v0.18.1
     hooks:
       - id: markdownlint-cli2
-        args: [config/readme.markdownlint-cli2.yaml]
-      - id: markdownlint-cli2
-        args: [config/claude.markdownlint-cli2.yaml]
-      - id: markdownlint-cli2
-        args: [config/other.markdownlint-cli2.yaml]
+        args: [--config, config/base.markdownlint-cli2.yaml]
 
 # Consider visiting <https://blog.nshephard.dev/posts/pre-commit-hooks/index.html> for more hooks

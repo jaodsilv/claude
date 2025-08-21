@@ -6,6 +6,7 @@ config:
     line_length: 140
     code_blocks: false
     tables: false
+    headings: false
   no-inline-html: false
   html:
     allowed_elements:
@@ -18,6 +19,11 @@ config:
       - thead
       - tfoot
       - colgroup
+  heading-style:
+    style: atx
+  first-line-h1: false
+
+frontMatter: ^\[[^\]]\]\([^\)]*\)
 
 # Globs
 

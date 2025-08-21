@@ -5,9 +5,13 @@ config:
     line_length: 140
     code_blocks: false
     tables: false
+    headings: false
   no-inline-html: false
+  heading-style:
+    style: atx
+  first-line-h1: false
 
-frontMatter: ^((---\n[^]*?^---)(\n|$)|(\[!\[[-\w\. ]+\]\([^\)]+\)\]\([^\)]+\)\n)+|)
+frontMatter: ^(---\n(((?!---).)*\n)*---\n|(\[!\[[-\w\. ]+\]\([^\)]+\)\]\([^\)]+\)\n)+|\[[^\]]\]\([^\)]*\)|)
 
 fix: false
 
