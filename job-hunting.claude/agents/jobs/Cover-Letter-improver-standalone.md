@@ -5,6 +5,8 @@ tools: Read, TodoWrite, Write, LS, Grep, Glob, Edit
 argument-hint: cover_letter_filepath: <cover_letter_filepath> job_description_filepath: <job_description_filepath> why_company_response_filepath: <why_company_response_filepath> output_filepath: <output_filepath> resume_filepath: <resume_filepath>
 ---
 
+# Cover Letter Improver
+
 ## Context
 
 You will be improving a cover letter for a job application and providing a comprehensive quality assessment with specific improvement recommendations and then improving the cover letter based on this feedback. You have been provided with four key documents to inform your analysis.
@@ -48,6 +50,7 @@ Extract key terms, skills, qualifications, and requirements from the job descrip
 
 **STEP 5: ATS FRIENDLINESS ASSESSMENT**
 Evaluate the cover letter's compatibility with Applicant Tracking Systems by checking for:
+
 - Use of standard section headers
 - Proper formatting (no tables, graphics, or unusual fonts mentioned)
 - Keyword density and placement
@@ -55,6 +58,7 @@ Evaluate the cover letter's compatibility with Applicant Tracking Systems by che
 
 **STEP 6: SKILLS AND EXPERIENCE ALIGNMENT**
 Compare the experiences and skills mentioned in the cover letter against both the resume and job requirements. Identify:
+
 - Skills from the resume that could be better highlighted in the cover letter
 - Job requirements that are not adequately addressed
 - Quantifiable achievements that could strengthen the application
@@ -70,6 +74,7 @@ Identify instances where the cover letter uses different styles of writing (e.g.
 
 **STEP 10: IMPACT DEMONSTRATION**
 Evaluate the quality of quantified achievements and technical contributions in the cover letter. Focus on:
+
 - Quantified Achievements: Look for specific metrics, numbers, percentages, timeframes, and measurable business impact
 - Technical Contributions: Assess how well technical accomplishments are presented with concrete results
 - Relevance: Determine if the quantified achievements align with the job requirements
@@ -79,7 +84,6 @@ Evaluate the quality of quantified achievements and technical contributions in t
 
 **STEP 11: TECHNICAL POSITIONING**
 
-
 18. **PROFESSIONAL PRESENTATION**: Delegate to `cover-letter-evaluator:presentation` agent
 
 ### Phase 4: Results Compilation (Steps 19-20)
@@ -87,7 +91,6 @@ Evaluate the quality of quantified achievements and technical contributions in t
 You must use the Task(:*) tool to delegate each evaluation to its specialized sub-agent.Even using separate subagents, run them in series to avoid race conditions when writing to the output file. Pass the aggregated content from Step 6 to each:
 
 19. **TRUE GAPS CLEANUP**: Delegate to `cover-letter-evaluator:true-gaps` agent with the aggregated content from Step 6
-
 20. **RESULT COMBINER
 
 <analysis>
