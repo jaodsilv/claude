@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Check if file exists and handle according to overwrite mode",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Download document from https://claudelog.com/mechanics/you-are-the-main-thread/",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Convert downloaded content to markdown format",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Verify conversion quality",
+    "status": "pending",
+    "id": "4"
+  }
+]

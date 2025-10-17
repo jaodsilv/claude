@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Copy projects directory from worktree to main folder",
+    "status": "in_progress",
+    "id": "1"
+  },
+  {
+    "content": "Copy PromptEngineering/tmp directory from worktree to main folder",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Copy tmp directory from worktree to main folder",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Verify all files are restored in main folder",
+    "status": "pending",
+    "id": "4"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "content": "Read resume file",
+    "status": "completed",
+    "activeForm": "Reading resume file"
+  },
+  {
+    "content": "Clean up false assertions in cover letter",
+    "status": "completed",
+    "activeForm": "Cleaning up false assertions in cover letter"
+  },
+  {
+    "content": "Read job description file",
+    "status": "completed",
+    "activeForm": "Reading job description file"
+  },
+  {
+    "content": "Read why company response file",
+    "status": "completed",
+    "activeForm": "Reading why company response file"
+  },
+  {
+    "content": "Read cover letter file",
+    "status": "completed",
+    "activeForm": "Reading cover letter file"
+  },
+  {
+    "content": "Aggregate all content",
+    "status": "completed",
+    "activeForm": "Aggregating all content"
+  },
+  {
+    "content": "Run overlap analysis",
+    "status": "completed",
+    "activeForm": "Running overlap analysis"
+  },
+  {
+    "content": "Run keywords coverage analysis",
+    "status": "completed",
+    "activeForm": "Running keywords coverage analysis"
+  },
+  {
+    "content": "Run ATS friendliness assessment",
+    "status": "completed",
+    "activeForm": "Running ATS friendliness assessment"
+  },
+  {
+    "content": "Run skills alignment analysis",
+    "status": "completed",
+    "activeForm": "Running skills alignment analysis"
+  },
+  {
+    "content": "Run terminology analysis",
+    "status": "completed",
+    "activeForm": "Running terminology analysis"
+  },
+  {
+    "content": "Run culture alignment analysis",
+    "status": "completed",
+    "activeForm": "Running culture alignment analysis"
+  },
+  {
+    "content": "Run communication style analysis",
+    "status": "completed",
+    "activeForm": "Running communication style analysis"
+  },
+  {
+    "content": "Run relevance analysis",
+    "status": "completed",
+    "activeForm": "Running relevance analysis"
+  },
+  {
+    "content": "Run impact demonstration analysis",
+    "status": "completed",
+    "activeForm": "Running impact demonstration analysis"
+  },
+  {
+    "content": "Run personalization analysis",
+    "status": "completed",
+    "activeForm": "Running personalization analysis"
+  },
+  {
+    "content": "Run technical positioning analysis",
+    "status": "in_progress",
+    "activeForm": "Running technical positioning analysis"
+  },
+  {
+    "content": "Run presentation analysis",
+    "status": "pending",
+    "activeForm": "Running presentation analysis"
+  },
+  {
+    "content": "Clean up true gaps",
+    "status": "pending",
+    "activeForm": "Cleaning up true gaps"
+  },
+  {
+    "content": "Compile final results",
+    "status": "pending",
+    "activeForm": "Compiling final results"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Install Ruby development headers to fix pre-commit hooks",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Update pre-commit configuration for better compatibility",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Test pre-commit hooks after fixes",
+    "status": "in_progress",
+    "id": "3"
+  }
+]

@@ -1,0 +1,60 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, d:\src\worktrees\LifeHacking\system-prompts\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Applying permission update: Adding 3 allow rule(s) to destination 'localSettings': ["Read(//home/joaod/.claude/agents/**)","Read(//home/joaod/.claude/commands/**)","Read(//home/joaod/.claude/**)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760291443295-fk1k04.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\a4eca1bc-418a-46da-9769-ad9fbfb3e93f-agent-a4eca1bc-418a-46da-9769-ad9fbfb3e93f.json.tmp.5560.1760291443487
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\a4eca1bc-418a-46da-9769-ad9fbfb3e93f-agent-a4eca1bc-418a-46da-9769-ad9fbfb3e93f.json.tmp.5560.1760291443487 to D:\joaod\.claude\todos\a4eca1bc-418a-46da-9769-ad9fbfb3e93f-agent-a4eca1bc-418a-46da-9769-ad9fbfb3e93f.json
+[DEBUG] File D:\joaod\.claude\todos\a4eca1bc-418a-46da-9769-ad9fbfb3e93f-agent-a4eca1bc-418a-46da-9769-ad9fbfb3e93f.json written atomically
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=d:\joaod\.cursor\extensions\anthropic.claude-code-2.0.14-universal\resources\claude-code\vendor\ripgrep\x64-win32\rg.exe)
+[DEBUG] Shell snapshot created successfully (357 bytes)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=d:\src\worktrees\LifeHacking\system-prompts\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.5560.1760291448092
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.5560.1760291448092 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.5560.1760291448177
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.5560.1760291448177 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[ERROR] "AxiosError: AxiosError: Request failed with status code 401\n    at iM (file:///d:/joaod/.cursor/extensions/anthropic.claude-code-2.0.14-universal/resources/claude-code/cli.js:24:1136)\n    at IncomingMessage.<anonymous> (file:///d:/joaod/.cursor/extensions/anthropic.claude-code-2.0.14-universal/resources/claude-code/cli.js:29:9845)\n    at IncomingMessage.emit (node:events:520:35)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1701:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at A81.request (file:///d:/joaod/.cursor/extensions/anthropic.claude-code-2.0.14-universal/resources/claude-code/cli.js:31:2129)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async rLA (file:///d:/joaod/.cursor/extensions/anthropic.claude-code-2.0.14-universal/resources/claude-code/cli.js:280:34283)"
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.5560.1760291448492
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.5560.1760291448492 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Failed to fetch Grove notice config: AxiosError: Request failed with status code 401
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.5560.1760291448655
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.5560.1760291448655 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760291443295-fk1k04.sh

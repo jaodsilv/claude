@@ -9,6 +9,57 @@
 My custom base config for my personal projects, including a very basic `CLAUDE.md` (named `CLAUDE.base.md`, the `CLAUDE.md` here is
 actually the `CLAUDE.md` of this repo), sub agents, custom slash commands and workflows
 
+## Repository Structure
+
+This repository is organized into specialized Claude Code configuration directories:
+
+### dotclaude/
+
+General-purpose Claude Code configurations mounted as `~/.claude`.
+
+### job-hunting.claude/
+
+Job hunting specific configurations including:
+
+1. Cover letter evaluation agents
+2. Resume tailoring tools
+3. Job search automation commands
+4. Interview preparation workflows
+
+### personal-projects.claude/
+
+Placeholder for personal project configurations.
+
+### learning.claude/
+
+Placeholder for learning project configurations.
+
+### external-resources/
+
+Git submodules containing community resources:
+
+1. super-claude
+2. awesome-claude-prompts
+3. awesome-claude-code-agents
+4. awesome-claude-code-subagents
+5. awesome-claude-code
+6. dynamic-sub-agents
+
+## Motivation for Restructuring
+
+The monolithic `dotclaude/` directory was causing:
+
+1. Slow Claude Code startup
+2. Missing slash commands in some sessions
+3. Missing agents in some sessions
+
+Splitting into specialized directories:
+
+1. Improves startup performance
+2. Reduces context loading
+3. Makes configurations more maintainable
+4. Allows for workflow-specific customization
+
 <!-- TODO: Add instructions for Windows and MacOS -->
 ## How I suggest you to use this
 

@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Clear current GH_TOKEN environment variable",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Refresh GitHub CLI authentication with project scope",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Create GitHub project board for the repository",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Add existing issues to the project board",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  }
+]

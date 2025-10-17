@@ -1,0 +1,240 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557181267
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 83843 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557181267 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557181403
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 83843 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557181403 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\personal-web-scrapers\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760557184300-6obotx.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0-agent-48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0.json.tmp.45596.1760557184381
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0-agent-48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0.json.tmp.45596.1760557184381 to D:\joaod\.claude\todos\48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0-agent-48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0.json
+[DEBUG] File D:\joaod\.claude\todos\48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0-agent-48d1dd29-c7ed-4f9b-b210-f5c0e93a82d0.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557189152
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 84306 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557189152 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557189506
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 84201 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557189506 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557189615
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 84201 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557189615 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557189679
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 84657 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557189679 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760557189868
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 84762 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760557189868 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760559279515
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 86314 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760559279515 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Applying permission update: Setting mode to 'plan'
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 8de81f62-9cd3-42b4-acab-2d7d01abbb62, tracking 0 files
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bbN2g6r3MccHahL2Mj"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unexpected identifier "API"
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at Y (B:/~BUN/root/claude.exe:11:15050)
+    at PgG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bd8kX4PfTVRwyMkJso"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bdH6pMBqLkWBY7HPv7"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bdKK2GffsK2JbRNsK4"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bdKSi2fjwFRZMBW5qs"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bdKVBjZxEKv9mq9zX9"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bdKTwpLc3dBXNfEhYW"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "test -d \"D:/src/LifeHackingScripts/python/web_scrapers\""
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567546774
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96572 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567546774 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] FileHistory: [Rewind] Rewinding to snapshot for 8de81f62-9cd3-42b4-acab-2d7d01abbb62
+[DEBUG] FileHistory: [Rewind] Finished rewinding to 8de81f62-9cd3-42b4-acab-2d7d01abbb62
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567555266
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96467 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567555266 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567556215
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96467 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567556215 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567556303
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96467 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567556303 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567556516
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96572 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567556516 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567753286
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 101031 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567753286 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760557184300-6obotx.sh
+[DEBUG] FileHistory: Making snapshot for message b7eb9fb3-27f2-4d29-a616-8cb1e0d699cb
+[DEBUG] FileHistory: Added snapshot for b7eb9fb3-27f2-4d29-a616-8cb1e0d699cb, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567756236
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 101114 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567756236 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.45596.1760567756370
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 101570 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.45596.1760567756370 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically

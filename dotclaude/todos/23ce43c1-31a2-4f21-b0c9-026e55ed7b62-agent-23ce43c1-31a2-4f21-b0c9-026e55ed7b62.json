@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create minimal .claude/agents directory with one basic agent",
+    "status": "pending",
+    "id": "1"
+  },
+  {
+    "content": "Create minimal .claude/commands directory with one basic command",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Add basic development commands to CLAUDE.md",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Update README.md with minimal setup instructions",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Commit basic structure",
+    "status": "pending",
+    "id": "5"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Parse parameters and set up variables for batch download",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Check if output directory exists and create if needed",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Download document from https://claudelog.com/mechanics/you-are-the-main-thread/",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Convert downloaded document to markdown format",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Verify conversion quality",
+    "status": "pending",
+    "id": "5"
+  }
+]

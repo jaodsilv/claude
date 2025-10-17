@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Update Summary section to emphasize AI/ML infrastructure focus",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Restructure Skills section with ML & Data Infrastructure category",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Enhance Microsoft experience bullets for ML relevance",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Reorder Professional Development for AI/ML emphasis",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Update Education coursework order",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Reorder Professional Interests for AI focus",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Update main.tex configuration",
+    "status": "completed",
+    "id": "7"
+  }
+]

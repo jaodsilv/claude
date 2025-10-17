@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check if target directory exists and create if needed",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Check if target file exists and handle according to overwrite mode",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Download document from https://claudelog.com/mechanics/you-are-the-main-thread/",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Convert downloaded content to markdown format",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Verify the conversion was successful",
+    "status": "pending",
+    "id": "5"
+  }
+]

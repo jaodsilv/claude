@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Parse the download arguments and organize URLs by domain",
+    "status": "completed",
+    "id": "parse-download-args"
+  },
+  {
+    "content": "Group URLs by domain for batch downloading",
+    "status": "completed",
+    "id": "group-by-domain"
+  },
+  {
+    "content": "Launch batch downloader tasks for each domain group",
+    "status": "in_progress",
+    "id": "launch-batch-downloaders"
+  },
+  {
+    "content": "Wait for all download tasks to complete",
+    "status": "pending",
+    "id": "wait-completion"
+  }
+]

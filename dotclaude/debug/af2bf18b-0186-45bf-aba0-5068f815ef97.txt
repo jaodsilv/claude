@@ -1,0 +1,1172 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\ats-research\.claude\skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760660278072
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105515 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760660278072 to D:\joaod\.claude.json
+[DEBUG] Failed to write file atomically: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660278072' -> 'D:\joaod\.claude.json'
+[ERROR] Error: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660278072' -> 'D:\joaod\.claude.json'
+    at renameSync (unknown)
+    at renameSync (B:/~BUN/root/claude.exe:12:990)
+    at GE (B:/~BUN/root/claude.exe:3535:783)
+    at IAW (B:/~BUN/root/claude.exe:3512:14383)
+    at CZ (B:/~BUN/root/claude.exe:3512:13349)
+    at <anonymous> (B:/~BUN/root/claude.exe:3535:10528)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Cleaning up temp file: D:\joaod\.claude.json.tmp.26616.1760660278072
+[DEBUG] Falling back to non-atomic write for D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written successfully with non-atomic fallback
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760660282220
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105515 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760660282220 to D:\joaod\.claude.json
+[DEBUG] Failed to write file atomically: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660282220' -> 'D:\joaod\.claude.json'
+[ERROR] Error: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660282220' -> 'D:\joaod\.claude.json'
+    at renameSync (unknown)
+    at renameSync (B:/~BUN/root/claude.exe:12:990)
+    at GE (B:/~BUN/root/claude.exe:3535:783)
+    at IAW (B:/~BUN/root/claude.exe:3512:14383)
+    at CZ (B:/~BUN/root/claude.exe:3512:13349)
+    at <anonymous> (B:/~BUN/root/claude.exe:3535:10528)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Cleaning up temp file: D:\joaod\.claude.json.tmp.26616.1760660282220
+[DEBUG] Falling back to non-atomic write for D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written successfully with non-atomic fallback
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+[DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760660292570-abwwhm.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760660304339
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760660304339 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760660312615
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105515 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760660312615 to D:\joaod\.claude.json
+[DEBUG] Failed to write file atomically: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660312615' -> 'D:\joaod\.claude.json'
+[ERROR] Error: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.26616.1760660312615' -> 'D:\joaod\.claude.json'
+    at renameSync (unknown)
+    at renameSync (B:/~BUN/root/claude.exe:12:990)
+    at GE (B:/~BUN/root/claude.exe:3535:783)
+    at IAW (B:/~BUN/root/claude.exe:3512:14383)
+    at CZ (B:/~BUN/root/claude.exe:3512:13349)
+    at KtY (B:/~BUN/root/claude.exe:457:11811)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Cleaning up temp file: D:\joaod\.claude.json.tmp.26616.1760660312615
+[DEBUG] Falling back to non-atomic write for D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written successfully with non-atomic fallback
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760660318005
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105565 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760660318005 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760661574783
+[DEBUG] Temp file written successfully, size: 49 bytes
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760661574783 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661576241
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661576241 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661576506
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661576506 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661576591
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661576591 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661576651
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661576651 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661576884
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661576884 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760661577135
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760661577135 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.20
+[DEBUG] Version 2.0.20 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.20
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for ea8a86d8-6e8a-4ed8-863a-f3741fe1f2b0, tracking 0 files
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unrecognized token '`'
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at W (B:/~BUN/root/claude.exe:11:15050)
+    at QuG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662133770
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1198 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662133770 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662146850
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1202 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662146850 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "git init:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760662223199
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105826 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760662223199 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760662223406
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 107517 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760662223406 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.21
+[ERROR] Error: Error: Lock file is already being held
+    at <anonymous> (B:/~BUN/root/claude.exe:65:11670)
+    at F (B:/~BUN/root/claude.exe:64:5145)
+    at <anonymous> (node:fs:243:13)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message cc26b9d3-567d-44ac-a50f-3cf14549f245
+[DEBUG] FileHistory: Added snapshot for cc26b9d3-567d-44ac-a50f-3cf14549f245, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unrecognized token '`'
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at W (B:/~BUN/root/claude.exe:11:15050)
+    at QuG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662270296
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1204 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760662270296 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//d/src/tmp/ATS/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760662437608
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 127 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760662437608 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Read(//d/src/tmp/ATS/**)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "D:\\src\\tmp\\ATS"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["D:\\src\\tmp\\ATS"]
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668397799
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1206 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668397799 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:3535:2062)
+[DEBUG] Writing to temp file: D:\src\ats-research\.gitignore.tmp.26616.1760668405084
+[DEBUG] Temp file written successfully, size: 215 bytes
+[DEBUG] Renaming D:\src\ats-research\.gitignore.tmp.26616.1760668405084 to D:\src\ats-research\.gitignore
+[DEBUG] File D:\src\ats-research\.gitignore written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668438034
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1208 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668438034 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\ats-research\README.md.tmp.26616.1760668455912
+[DEBUG] Temp file written successfully, size: 3262 bytes
+[DEBUG] Renaming D:\src\ats-research\README.md.tmp.26616.1760668455912 to D:\src\ats-research\README.md
+[DEBUG] File D:\src\ats-research\README.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668477787
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1210 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668477787 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\ats-research\LICENSE.tmp.26616.1760668487656
+[DEBUG] Temp file written successfully, size: 1083 bytes
+[DEBUG] Renaming D:\src\ats-research\LICENSE.tmp.26616.1760668487656 to D:\src\ats-research\LICENSE
+[DEBUG] File D:\src\ats-research\LICENSE written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668511362
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1212 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760668511362 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "mmdc:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675038597
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675038597 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(mmdc:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760675109829
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1214 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760675109829 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: []
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "git add:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675588001
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 174 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675588001 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(git add:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "git commit:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "git push:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675777742
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 200 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675777742 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(git push:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760675833658
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1216 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760675833658 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "gh repo view:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675956532
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 230 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760675956532 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(gh repo view:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "gh api:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760676018067
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 254 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\ats-research\.claude\settings.local.json.tmp.26616.1760676018067 to D:\src\ats-research\.claude\settings.local.json
+[DEBUG] File D:\src\ats-research\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(gh api:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760676101181
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json.tmp.26616.1760676101181 to D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json
+[DEBUG] File D:\joaod\.claude\todos\af2bf18b-0186-45bf-aba0-5068f815ef97-agent-af2bf18b-0186-45bf-aba0-5068f815ef97.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676119251
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 116714 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676119251 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676119553
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 116714 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676119553 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676119779
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 116878 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676119779 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760660292570-abwwhm.sh
+[DEBUG] FileHistory: Making snapshot for message 18426f0f-0306-4993-9e8e-ec576bcf4edc
+[DEBUG] FileHistory: Added snapshot for 18426f0f-0306-4993-9e8e-ec576bcf4edc, tracking 0 files
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/exit</command-name>
+            <command-message>exit</command-message>
+            <...
+[DEBUG] UserCommandMessage rendering: "exit" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676307722
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 116964 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676307722 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676307825
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 117047 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676307825 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.26616.1760676308069
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 117509 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.26616.1760676308069 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically

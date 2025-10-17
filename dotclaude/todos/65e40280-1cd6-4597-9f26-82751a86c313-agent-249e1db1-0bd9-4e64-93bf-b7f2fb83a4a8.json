@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Set up logging in @tmp/log.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Examine current InterviewPrep/track-progress-command.md file",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Launch Converter Sub Agent for the file",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Launch Reviewer Sub Agent for converted file",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Launch Review Response Sub Agent if needed",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Re-review if needed",
+    "status": "pending",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Update checklist to mark file as completed",
+    "status": "pending",
+    "priority": "low",
+    "id": "7"
+  }
+]

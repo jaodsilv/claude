@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Execute /docs:download command to fetch 66 documentation URLs",
+    "status": "in_progress",
+    "id": "1"
+  },
+  {
+    "content": "Verify all downloads completed successfully",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Check organization of downloaded files in .claude/shared/downloads/refreshable-sources/",
+    "status": "pending",
+    "id": "3"
+  }
+]

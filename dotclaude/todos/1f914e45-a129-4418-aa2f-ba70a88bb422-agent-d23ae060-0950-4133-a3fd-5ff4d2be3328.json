@@ -1,0 +1,77 @@
+[
+  {
+    "content": "Read and analyze priority files to understand templating needs",
+    "status": "completed",
+    "activeForm": "Reading and analyzing priority files"
+  },
+  {
+    "content": "Create Templates directory with before/after examples",
+    "status": "completed",
+    "activeForm": "Creating Templates directory"
+  },
+  {
+    "content": "Template folder_corruption_cleaner.bat (7 occurrences)",
+    "status": "completed",
+    "activeForm": "Templating folder_corruption_cleaner.bat"
+  },
+  {
+    "content": "Template script_usage_guide.bat (extensive examples)",
+    "status": "pending",
+    "activeForm": "Templating script_usage_guide.bat"
+  },
+  {
+    "content": "Template python_path_fixer.bat (multiple hardcoded paths)",
+    "status": "pending",
+    "activeForm": "Templating python_path_fixer.bat"
+  },
+  {
+    "content": "Template profile_repair_script.bat (SID + username)",
+    "status": "completed",
+    "activeForm": "Templating profile_repair_script.bat"
+  },
+  {
+    "content": "Template nuclear_account_recovery.bat (default values)",
+    "status": "pending",
+    "activeForm": "Templating nuclear_account_recovery.bat"
+  },
+  {
+    "content": "Template profile_move.bat (computer name + SID)",
+    "status": "completed",
+    "activeForm": "Templating profile_move.bat"
+  },
+  {
+    "content": "Template manual_profile_move.bat (computer name)",
+    "status": "pending",
+    "activeForm": "Templating manual_profile_move.bat"
+  },
+  {
+    "content": "Template safe_mode_emergency_fix.bat (SID)",
+    "status": "pending",
+    "activeForm": "Templating safe_mode_emergency_fix.bat"
+  },
+  {
+    "content": "Template registry_cycle_breaker.bat (SID)",
+    "status": "pending",
+    "activeForm": "Templating registry_cycle_breaker.bat"
+  },
+  {
+    "content": "Template current_status_analyzer.bat (SID)",
+    "status": "pending",
+    "activeForm": "Templating current_status_analyzer.bat"
+  },
+  {
+    "content": "Template aggressive_permission_fix.bat (SID)",
+    "status": "pending",
+    "activeForm": "Templating aggressive_permission_fix.bat"
+  },
+  {
+    "content": "Template remaining files with joaod username references",
+    "status": "pending",
+    "activeForm": "Templating remaining files"
+  },
+  {
+    "content": "Create comprehensive templating report",
+    "status": "in_progress",
+    "activeForm": "Creating templating report"
+  }
+]

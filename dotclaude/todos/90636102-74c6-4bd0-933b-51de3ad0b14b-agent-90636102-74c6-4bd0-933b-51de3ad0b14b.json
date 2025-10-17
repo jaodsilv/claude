@@ -1,0 +1,18 @@
+[
+  {
+    "content": "Check git status and staged changes",
+    "status": "completed"
+  },
+  {
+    "content": "Review git diff to understand changes",
+    "status": "completed"
+  },
+  {
+    "content": "Check recent commit messages for style",
+    "status": "completed"
+  },
+  {
+    "content": "Create commit with appropriate message",
+    "status": "in_progress"
+  }
+]

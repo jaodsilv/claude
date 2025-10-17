@@ -1,0 +1,56 @@
+[
+  {
+    "content": "Set up the multi-agent standardization system",
+    "status": "completed",
+    "priority": "high",
+    "id": "setup-system"
+  },
+  {
+    "content": "Identify all unprocessed files from checklist",
+    "status": "completed",
+    "priority": "high",
+    "id": "identify-files"
+  },
+  {
+    "content": "Launch Manager agents for first batch of files (max 3 concurrent)",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "launch-managers"
+  },
+  {
+    "content": "Monitor Manager completion and launch new ones as slots open",
+    "status": "pending",
+    "priority": "medium",
+    "id": "monitor-progress"
+  },
+  {
+    "content": "Launch checklist updater agents as Managers complete",
+    "status": "pending",
+    "priority": "medium",
+    "id": "update-checklist"
+  },
+  {
+    "content": "Verify all files have been processed successfully",
+    "status": "pending",
+    "priority": "low",
+    "id": "final-verification"
+  },
+  {
+    "content": "Manager for autodetection-standardization-proposal.md",
+    "status": "pending",
+    "priority": "high",
+    "id": "manager-1"
+  },
+  {
+    "content": "Manager for global-command-standards.md",
+    "status": "pending",
+    "priority": "high",
+    "id": "manager-2"
+  },
+  {
+    "content": "Manager for template-validation-proposal.md",
+    "status": "pending",
+    "priority": "high",
+    "id": "manager-3"
+  }
+]

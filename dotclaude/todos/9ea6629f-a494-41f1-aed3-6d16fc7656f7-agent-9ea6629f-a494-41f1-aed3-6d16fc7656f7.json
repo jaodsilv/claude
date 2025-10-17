@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Create command-creator agent YAML file with proper structure",
+    "status": "pending",
+    "id": "1"
+  },
+  {
+    "content": "Implement system prompt for command creation following agent-first design",
+    "status": "pending",
+    "id": "2"
+  },
+  {
+    "content": "Add tool configuration and validation for the agent",
+    "status": "pending",
+    "id": "3"
+  }
+]

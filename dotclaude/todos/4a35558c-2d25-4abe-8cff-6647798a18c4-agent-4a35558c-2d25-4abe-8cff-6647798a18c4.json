@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Explore current board implementation and structure",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Design Kanban view component structure",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Implement Kanban board layout",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Add view toggle between list and Kanban",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Test the new Kanban functionality",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  }
+]

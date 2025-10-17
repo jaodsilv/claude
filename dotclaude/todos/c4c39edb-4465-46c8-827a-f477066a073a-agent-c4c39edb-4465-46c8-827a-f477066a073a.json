@@ -1,0 +1,82 @@
+[
+  {
+    "content": "Read all input files (resume, job description, why company response, cover letter)",
+    "status": "completed",
+    "activeForm": "Reading all input files"
+  },
+  {
+    "content": "Aggregate content into XML structure",
+    "status": "completed",
+    "activeForm": "Aggregating content into XML structure"
+  },
+  {
+    "content": "Run overlap analysis evaluation",
+    "status": "completed",
+    "activeForm": "Running overlap analysis evaluation"
+  },
+  {
+    "content": "Run keywords coverage evaluation",
+    "status": "completed",
+    "activeForm": "Running keywords coverage evaluation"
+  },
+  {
+    "content": "Run ATS friendliness evaluation",
+    "status": "completed",
+    "activeForm": "Running ATS friendliness evaluation"
+  },
+  {
+    "content": "Run skills alignment evaluation",
+    "status": "completed",
+    "activeForm": "Running skills alignment evaluation"
+  },
+  {
+    "content": "Run terminology analysis evaluation",
+    "status": "completed",
+    "activeForm": "Running terminology analysis evaluation"
+  },
+  {
+    "content": "Run company culture evaluation",
+    "status": "completed",
+    "activeForm": "Running company culture evaluation"
+  },
+  {
+    "content": "Run communication style evaluation",
+    "status": "completed",
+    "activeForm": "Running communication style evaluation"
+  },
+  {
+    "content": "Run relevance evaluation",
+    "status": "completed",
+    "activeForm": "Running relevance evaluation"
+  },
+  {
+    "content": "Run impact demonstration evaluation",
+    "status": "completed",
+    "activeForm": "Running impact demonstration evaluation"
+  },
+  {
+    "content": "Run personalization evaluation",
+    "status": "completed",
+    "activeForm": "Running personalization evaluation"
+  },
+  {
+    "content": "Run technical positioning evaluation",
+    "status": "in_progress",
+    "activeForm": "Running technical positioning evaluation"
+  },
+  {
+    "content": "Run professional presentation evaluation",
+    "status": "pending",
+    "activeForm": "Running professional presentation evaluation"
+  },
+  {
+    "content": "Compile all results with result-combiner",
+    "status": "pending",
+    "activeForm": "Compiling all results"
+  },
+  {
+    "content": "Write final evaluation to output file",
+    "status": "pending",
+    "activeForm": "Writing final evaluation to output file"
+  }
+]

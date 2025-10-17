@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Parse the download arguments from the slash command",
+    "status": "completed",
+    "id": "parse-download-args"
+  },
+  {
+    "content": "Launch the docs:batch-downloader agent with the parsed URLs",
+    "status": "completed",
+    "id": "launch-batch-downloader"
+  },
+  {
+    "content": "Verify that all downloads completed successfully",
+    "status": "in_progress",
+    "id": "verify-downloads"
+  }
+]

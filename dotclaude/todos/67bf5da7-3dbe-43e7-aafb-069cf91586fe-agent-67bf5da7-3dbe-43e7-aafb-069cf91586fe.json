@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create system_prompts.py with converter and verifier system prompts",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create prompts.py with planning and execution prompt templates",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Refactor convert.py to import and use the new prompt constants",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Test the refactored code to ensure functionality remains intact",
+    "status": "completed",
+    "id": "4"
+  }
+]
