@@ -7,5 +7,30 @@
     "name": "João da Silva",
     "url": "https://github.com/jaodsilv"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "tdd-pro",
+      "description": "Professional TDD workflow with multi-agent coordination, conventional commits, and branch management",
+      "source": ".claude-plugin/plugins/tdd-pro",
+      "category": "development-workflow",
+      "version": "1.0.0",
+      "keywords": ["tdd", "testing", "workflow", "automation", "conventional-commits", "git"]
+    },
+    {
+      "name": "docs-automation",
+      "description": "Automated documentation download, conversion, and verification with multi-agent coordination",
+      "source": ".claude-plugin/plugins/docs-automation",
+      "category": "documentation",
+      "version": "1.0.0",
+      "keywords": ["documentation", "download", "conversion", "automation"]
+    },
+    {
+      "name": "job-hunting-pro",
+      "description": "Comprehensive job hunting automation: cover letter evaluation, improvement, interview prep, and company research",
+      "source": ".claude-plugin/plugins/job-hunting-pro",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": ["job-hunting", "career", "cover-letter", "interview", "ats"]
+    }
+  ]
 }
