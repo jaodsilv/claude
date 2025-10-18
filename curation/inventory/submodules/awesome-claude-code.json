@@ -1,0 +1,200 @@
+{
+  "source": "awesome-claude-code",
+  "source_type": "submodule",
+  "discovered_at": "2025-01-18",
+  "repository": "https://github.com/hesreallyhim/awesome-claude-code",
+  "total_items": 50,
+  "summary": "Curated collection of slash commands, CLAUDE.md files, and resources for Claude Code",
+  "items": [
+    {
+      "name": "commit",
+      "type": "command",
+      "path": "resources/slash-commands/commit/commit.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Creates conventional commits with emoji and pre-commit checks",
+      "keywords": ["git", "commits", "conventional", "emoji"]
+    },
+    {
+      "name": "create-pr",
+      "type": "command",
+      "path": "resources/slash-commands/create-pr/create-pr.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Automated pull request creation workflow",
+      "keywords": ["pr", "github", "workflow", "automation"]
+    },
+    {
+      "name": "create-pull-request",
+      "type": "command",
+      "path": "resources/slash-commands/create-pull-request/create-pull-request.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Pull request generation with templates",
+      "keywords": ["pull-request", "github", "template"]
+    },
+    {
+      "name": "pr-review",
+      "type": "command",
+      "path": "resources/slash-commands/pr-review/pr-review.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Automated PR review and feedback",
+      "keywords": ["review", "pr", "feedback", "quality"]
+    },
+    {
+      "name": "fix-github-issue",
+      "type": "command",
+      "path": "resources/slash-commands/fix-github-issue/fix-github-issue.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Automated GitHub issue resolution workflow",
+      "keywords": ["github", "issues", "automation", "workflow"]
+    },
+    {
+      "name": "create-worktrees",
+      "type": "command",
+      "path": "resources/slash-commands/create-worktrees/create-worktrees.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Git worktree management automation",
+      "keywords": ["git", "worktree", "branches", "workflow"]
+    },
+    {
+      "name": "context-prime",
+      "type": "command",
+      "path": "resources/slash-commands/context-prime/context-prime.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Context loading and priming for projects",
+      "keywords": ["context", "priming", "memory", "project"]
+    },
+    {
+      "name": "testing-plan-integration",
+      "type": "command",
+      "path": "resources/slash-commands/testing_plan_integration/testing_plan_integration.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Integrated testing plan creation and execution",
+      "keywords": ["testing", "qa", "integration", "planning"]
+    },
+    {
+      "name": "release",
+      "type": "command",
+      "path": "resources/slash-commands/release/release.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Release management and versioning",
+      "keywords": ["release", "versioning", "deployment", "changelog"]
+    },
+    {
+      "name": "add-to-changelog",
+      "type": "command",
+      "path": "resources/slash-commands/add-to-changelog/add-to-changelog.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Automated changelog entry generation",
+      "keywords": ["changelog", "documentation", "versioning"]
+    },
+    {
+      "name": "update-docs",
+      "type": "command",
+      "path": "resources/slash-commands/update-docs/update-docs.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Documentation update automation",
+      "keywords": ["documentation", "updates", "maintenance"]
+    },
+    {
+      "name": "clean",
+      "type": "command",
+      "path": "resources/slash-commands/clean/clean.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Code cleanup and formatting automation",
+      "keywords": ["cleanup", "formatting", "maintenance"]
+    },
+    {
+      "name": "todo",
+      "type": "command",
+      "path": "resources/slash-commands/todo/todo.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Task and TODO management",
+      "keywords": ["todo", "tasks", "management", "tracking"]
+    },
+    {
+      "name": "create-prd",
+      "type": "command",
+      "path": "resources/slash-commands/create-prd/create-prd.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Product Requirements Document generation",
+      "keywords": ["prd", "requirements", "documentation", "product"]
+    },
+    {
+      "name": "create-prp",
+      "type": "command",
+      "path": "resources/slash-commands/create-prp/create-prp.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Product Roadmap Planning document generation",
+      "keywords": ["roadmap", "planning", "product", "documentation"]
+    },
+    {
+      "name": "create-jtbd",
+      "type": "command",
+      "path": "resources/slash-commands/create-jtbd/create-jtbd.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Jobs-To-Be-Done framework documentation",
+      "keywords": ["jtbd", "product", "framework", "documentation"]
+    },
+    {
+      "name": "load-llms-txt",
+      "type": "command",
+      "path": "resources/slash-commands/load-llms-txt/load-llms-txt.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Load LLM context from llms.txt files",
+      "keywords": ["llm", "context", "loading", "llms-txt"]
+    },
+    {
+      "name": "initref",
+      "type": "command",
+      "path": "resources/slash-commands/initref/initref.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Initialize project references and context",
+      "keywords": ["initialization", "references", "setup"]
+    },
+    {
+      "name": "husky",
+      "type": "command",
+      "path": "resources/slash-commands/husky/husky.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Git hooks management with Husky",
+      "keywords": ["husky", "git-hooks", "automation", "pre-commit"]
+    },
+    {
+      "name": "act",
+      "type": "command",
+      "path": "resources/slash-commands/act/act.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Local GitHub Actions testing with act",
+      "keywords": ["github-actions", "testing", "ci-cd", "local"]
+    },
+    {
+      "name": "update-branch-name",
+      "type": "command",
+      "path": "resources/slash-commands/update-branch-name/update-branch-name.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Branch naming convention enforcement",
+      "keywords": ["git", "branch", "naming", "conventions"]
+    }
+  ],
+  "notes": "Repository includes 25+ CLAUDE.md files for various projects, Python automation scripts, and comprehensive workflows. This inventory focuses on the slash commands which are the most reusable components."
+}
