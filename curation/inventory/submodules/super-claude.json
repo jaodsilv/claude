@@ -12,7 +12,13 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Comprehensive code analysis across quality, security, performance, and architecture",
-      "keywords": ["analysis", "quality", "security", "performance", "architecture"]
+      "keywords": [
+        "analysis",
+        "quality",
+        "security",
+        "performance",
+        "architecture"
+      ]
     },
     {
       "name": "build",
@@ -21,7 +27,12 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Build, compile, and package projects with error handling",
-      "keywords": ["build", "compile", "package", "optimization"]
+      "keywords": [
+        "build",
+        "compile",
+        "package",
+        "optimization"
+      ]
     },
     {
       "name": "cleanup",
@@ -30,7 +41,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Clean up code and remove unused dependencies",
-      "keywords": ["cleanup", "refactor", "optimization"]
+      "keywords": [
+        "cleanup",
+        "refactor",
+        "optimization"
+      ]
     },
     {
       "name": "design",
@@ -39,7 +54,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "System and architecture design assistance",
-      "keywords": ["design", "architecture", "planning"]
+      "keywords": [
+        "design",
+        "architecture",
+        "planning"
+      ]
     },
     {
       "name": "document",
@@ -48,7 +67,11 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Generate and maintain documentation",
-      "keywords": ["documentation", "docs", "generation"]
+      "keywords": [
+        "documentation",
+        "docs",
+        "generation"
+      ]
     },
     {
       "name": "estimate",
@@ -57,7 +80,11 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Estimate task complexity and time requirements",
-      "keywords": ["estimation", "planning", "project-management"]
+      "keywords": [
+        "estimation",
+        "planning",
+        "project-management"
+      ]
     },
     {
       "name": "explain",
@@ -66,7 +93,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Explain code functionality and patterns",
-      "keywords": ["explain", "documentation", "understanding"]
+      "keywords": [
+        "explain",
+        "documentation",
+        "understanding"
+      ]
     },
     {
       "name": "git",
@@ -75,7 +106,11 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Git workflow and version control assistance",
-      "keywords": ["git", "version-control", "commits"]
+      "keywords": [
+        "git",
+        "version-control",
+        "commits"
+      ]
     },
     {
       "name": "implement",
@@ -84,7 +119,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Feature implementation guidance",
-      "keywords": ["implementation", "features", "coding"]
+      "keywords": [
+        "implementation",
+        "features",
+        "coding"
+      ]
     },
     {
       "name": "improve",
@@ -93,7 +132,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Code improvement and refactoring suggestions",
-      "keywords": ["improvement", "refactor", "quality"]
+      "keywords": [
+        "improvement",
+        "refactor",
+        "quality"
+      ]
     },
     {
       "name": "index",
@@ -102,7 +145,11 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Index and organize project resources",
-      "keywords": ["index", "organization", "search"]
+      "keywords": [
+        "index",
+        "organization",
+        "search"
+      ]
     },
     {
       "name": "load",
@@ -111,7 +158,11 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Load context and project information",
-      "keywords": ["context", "loading", "memory"]
+      "keywords": [
+        "context",
+        "loading",
+        "memory"
+      ]
     },
     {
       "name": "spawn",
@@ -120,7 +171,11 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "Spawn specialized agents for tasks",
-      "keywords": ["agents", "spawning", "multi-agent"]
+      "keywords": [
+        "agents",
+        "spawning",
+        "multi-agent"
+      ]
     },
     {
       "name": "task",
@@ -129,7 +184,11 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Task management and tracking",
-      "keywords": ["tasks", "management", "todo"]
+      "keywords": [
+        "tasks",
+        "management",
+        "todo"
+      ]
     },
     {
       "name": "test",
@@ -138,7 +197,11 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Execute tests and generate test reports",
-      "keywords": ["testing", "qa", "coverage"]
+      "keywords": [
+        "testing",
+        "qa",
+        "coverage"
+      ]
     },
     {
       "name": "troubleshoot",
@@ -147,7 +210,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Debug and troubleshoot issues",
-      "keywords": ["debugging", "troubleshooting", "errors"]
+      "keywords": [
+        "debugging",
+        "troubleshooting",
+        "errors"
+      ]
     },
     {
       "name": "workflow",
@@ -156,7 +223,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Workflow automation and management",
-      "keywords": ["workflow", "automation", "process"]
+      "keywords": [
+        "workflow",
+        "automation",
+        "process"
+      ]
     },
     {
       "name": "orchestrator",
@@ -165,7 +236,11 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "Agent orchestration and coordination system",
-      "keywords": ["orchestration", "agents", "coordination"]
+      "keywords": [
+        "orchestration",
+        "agents",
+        "coordination"
+      ]
     },
     {
       "name": "personas",
@@ -174,7 +249,11 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "AI specialist personas for different domains",
-      "keywords": ["personas", "specialists", "roles"]
+      "keywords": [
+        "personas",
+        "specialists",
+        "roles"
+      ]
     },
     {
       "name": "principles",
@@ -183,7 +262,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Core development principles and best practices",
-      "keywords": ["principles", "best-practices", "guidelines"]
+      "keywords": [
+        "principles",
+        "best-practices",
+        "guidelines"
+      ]
     },
     {
       "name": "rules",
@@ -192,7 +275,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Development rules and conventions",
-      "keywords": ["rules", "conventions", "standards"]
+      "keywords": [
+        "rules",
+        "conventions",
+        "standards"
+      ]
     },
     {
       "name": "modes",
@@ -201,7 +288,11 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "Operation modes for different contexts",
-      "keywords": ["modes", "context", "operation"]
+      "keywords": [
+        "modes",
+        "context",
+        "operation"
+      ]
     },
     {
       "name": "mcp",
@@ -210,7 +301,11 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "MCP server integration documentation",
-      "keywords": ["mcp", "integration", "servers"]
+      "keywords": [
+        "mcp",
+        "integration",
+        "servers"
+      ]
     },
     {
       "name": "installer",
@@ -219,7 +314,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Python-based installation suite for SuperClaude",
-      "keywords": ["installer", "setup", "automation", "python"]
+      "keywords": [
+        "installer",
+        "setup",
+        "automation",
+        "python"
+      ]
     }
   ]
 }

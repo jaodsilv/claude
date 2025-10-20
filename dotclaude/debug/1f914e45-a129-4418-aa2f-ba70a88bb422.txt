@@ -664,7 +664,7 @@
     "destination": "session"
   }
 ]
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:1324:194)
     at useMemo (B:/~BUN/root/claude.exe:75:25928)
     at Hz (B:/~BUN/root/claude.exe:1324:88)
