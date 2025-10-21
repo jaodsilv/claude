@@ -814,7 +814,7 @@
 [DEBUG] FileHistory: Added snapshot for ac3078b8-9b86-4380-be54-8e51a3e6cd2a, tracking 0 files
 [DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1017,7 +1017,7 @@
 [DEBUG] FileHistory: Added snapshot for 77f0ab7a-1b9f-4b82-a2ea-414f69ecbf6a, tracking 0 files
 [DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1073,7 +1073,7 @@
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
 [DEBUG] Found 0 hook commands to execute
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1084,7 +1084,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1095,7 +1095,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1116,7 +1116,7 @@
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
 [DEBUG] Found 0 hook commands to execute
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1127,7 +1127,7 @@
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -1138,7 +1138,7 @@
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -2155,7 +2155,7 @@
     "destination": "session"
   }
 ]
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2183,7 +2183,7 @@
 [DEBUG] Temp file written successfully, size: 280 bytes
 [DEBUG] Renaming D:\src\latex-resume-templates\.gitignore.tmp.28612.1760547651421 to D:\src\latex-resume-templates\.gitignore
 [DEBUG] File D:\src\latex-resume-templates\.gitignore written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2223,7 +2223,7 @@
 [DEBUG] Temp file written successfully, size: 2827 bytes
 [DEBUG] Renaming D:\src\latex-resume-templates\README.md.tmp.28612.1760551370561 to D:\src\latex-resume-templates\README.md
 [DEBUG] File D:\src\latex-resume-templates\README.md written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2267,7 +2267,7 @@
     "destination": "session"
   }
 ]
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2285,7 +2285,7 @@
 [DEBUG] Temp file written successfully, size: 1083 bytes
 [DEBUG] Renaming D:\src\latex-resume-templates\LICENSE.tmp.28612.1760551397805 to D:\src\latex-resume-templates\LICENSE
 [DEBUG] File D:\src\latex-resume-templates\LICENSE written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2394,7 +2394,7 @@
 [DEBUG] Checking for native installer update to version 2.0.17
 [DEBUG] Version 2.0.17 already installed, updating symlink
 [DEBUG] Successfully updated to version 2.0.17
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -2827,7 +2827,7 @@
 [DEBUG] Temp file written successfully, size: 320 bytes
 [DEBUG] Renaming D:\src\job-applications\.gitignore.tmp.28612.1760551924701 to D:\src\job-applications\.gitignore
 [DEBUG] File D:\src\job-applications\.gitignore written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -3320,7 +3320,7 @@
 [DEBUG] Applied original permissions to temp file
 [DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760552888339 to D:\joaod\.claude.json
 [DEBUG] File D:\joaod\.claude.json written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -3331,7 +3331,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -3342,7 +3342,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -3353,7 +3353,7 @@
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -3364,7 +3364,7 @@
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -3375,7 +3375,7 @@
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -3386,7 +3386,7 @@
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -3397,7 +3397,7 @@
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4003,7 +4003,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Applied original permissions to temp file
 [DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760554326179 to D:\joaod\.claude.json
 [DEBUG] File D:\joaod\.claude.json written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4014,7 +4014,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4025,7 +4025,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at <anonymous> (B:/~BUN/root/claude.exe:2077:1716)
     at map (native:1:11)
@@ -4036,7 +4036,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at a3 (B:/~BUN/root/claude.exe:2077:448)
     at Gp5 (B:/~BUN/root/claude.exe:2096:17168)
     at Sw (B:/~BUN/root/claude.exe:75:19416)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4047,7 +4047,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4058,7 +4058,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4069,7 +4069,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4080,7 +4080,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4091,7 +4091,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4102,7 +4102,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4171,7 +4171,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Applied original permissions to temp file
 [DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760554388244 to D:\joaod\.claude.json
 [DEBUG] File D:\joaod\.claude.json written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4182,7 +4182,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4193,7 +4193,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at <anonymous> (B:/~BUN/root/claude.exe:2077:1716)
     at map (native:1:11)
@@ -4204,7 +4204,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at a3 (B:/~BUN/root/claude.exe:2077:448)
     at Gp5 (B:/~BUN/root/claude.exe:2096:17168)
     at Sw (B:/~BUN/root/claude.exe:75:19416)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4215,7 +4215,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4226,7 +4226,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4237,7 +4237,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at F9 (B:/~BUN/root/claude.exe:77:38357)
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -4248,7 +4248,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4259,7 +4259,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -4270,7 +4270,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
     at i9 (B:/~BUN/root/claude.exe:75:4842)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:781:4218)
     at useMemo (B:/~BUN/root/claude.exe:75:25929)
     at rH (B:/~BUN/root/claude.exe:781:4114)
@@ -5964,7 +5964,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
 [DEBUG] Found 0 hook commands to execute
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -5979,7 +5979,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
 [DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -6240,7 +6240,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
 [DEBUG] Found 0 hook commands to execute
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -6261,7 +6261,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
 [DEBUG] Found 0 hook commands to execute
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -8120,7 +8120,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760579579727 to D:\joaod\.claude.json
 [DEBUG] File D:\joaod\.claude.json written atomically
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -8131,7 +8131,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -8215,7 +8215,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
        ...
 [DEBUG] UserCommandMessage rendering: "compact" (args: "none")
 [DEBUG] isSkillFormat: false, prefix: "/"
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)
@@ -8226,7 +8226,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at Mh (B:/~BUN/root/claude.exe:77:38285)
     at IU (B:/~BUN/root/claude.exe:77:38139)
     at zq (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)
@@ -8249,7 +8249,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
        ...
 [DEBUG] UserCommandMessage rendering: "compact" (args: "none")
 [DEBUG] isSkillFormat: false, prefix: "/"
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)
@@ -8260,7 +8260,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
     at Mh (B:/~BUN/root/claude.exe:77:38285)
     at IU (B:/~BUN/root/claude.exe:77:38139)
     at zq (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)
@@ -8330,7 +8330,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
        ...
 [DEBUG] UserCommandMessage rendering: "compact" (args: "none")
 [DEBUG] isSkillFormat: false, prefix: "/"
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)
@@ -9695,7 +9695,7 @@ rg: .\claude\.venv\lib64: Não é possível o acesso ao arquivo pelo sistema. (o
 [DEBUG] Hooks: checkForNewResponses returning 0 responses
 [DEBUG] Slash commands included in SlashCommand tool:
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at MI (B:/~BUN/root/claude.exe:1088:4417)
     at map (native:1:11)
     at GH (B:/~BUN/root/claude.exe:1088:4134)

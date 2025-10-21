@@ -100,25 +100,25 @@ def normalize_punctuation(name: str) -> str:
     """Normalize punctuation and spacing in company name."""
     # Replace common separators with spaces
     name = re.sub(r'[&+,%-]', ' ', name)
-    
+
     # Handle dots between words
     name = re.sub(r'(\w)\.(\w{2})', lambda m: m.group(1) + ' ' + m.group(2), name)
     name = re.sub(r'(\w{2})\.(\w)', lambda m: m.group(1) + ' ' + m.group(2), name)
     name = re.sub(r'(\w)\.(\w)', lambda m: m.group(1) + m.group(2), name)
-    
+
     # Remove remaining punctuation
     name = re.sub(r'[^\w ]', '', name)
-    
+
     # Normalize spaces
     name = re.sub(r'\s+', ' ', name)
     return name.strip()
 
 def handle_big_corporations(name: str) -> str:
     """Handle special cases for big corporations."""
-    big_corp_first_names = ['MICROSOFT', 'GOOGLE', 'META', 'CISCO', 'ORACLE', 'IBM', 
-                           'INTEL', 'NVIDIA', 'AMD', 'QUALCOMM', 'NINTENDO', 'SONY', 
+    big_corp_first_names = ['MICROSOFT', 'GOOGLE', 'META', 'CISCO', 'ORACLE', 'IBM',
+                           'INTEL', 'NVIDIA', 'AMD', 'QUALCOMM', 'NINTENDO', 'SONY',
                            'APPLE PAYMENTS', 'PROVIDENCE']
-    
+
     if any(bool(re.match(f"^{corp}\\W", name)) for corp in big_corp_first_names):
         return re.sub(r"^(\w+)\W.*", lambda m: m.group(1), name)
     return name
@@ -156,10 +156,10 @@ def remove_common_words(name: str) -> str:
 def normalize_company_name(name: str) -> str:
     """
     Normalize company name by removing entity types, punctuation, and standardizing formats.
-    
+
     Args:
         name (str): Company name to normalize
-        
+
     Returns:
         str: Normalized company name
     """
@@ -168,7 +168,7 @@ def normalize_company_name(name: str) -> str:
 
     # Convert to uppercase
     name = name.upper()
-    
+
     # Apply transformations in order
     name = normalize_punctuation(name)  # First normalize punctuation so D/B/A becomes DBA
     name = remove_dba(name)  # Then remove DBA and variants
@@ -178,7 +178,7 @@ def normalize_company_name(name: str) -> str:
     name = remove_entity_types(name)
     name = handle_big_corporations(name)
     name = handle_amazon_cases(name)
-    
+
     # Final cleanup
     name = re.sub(r'\s+', ' ', name)
     return name.strip()

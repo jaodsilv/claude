@@ -100,4 +100,3 @@ SIEMENS LARGE DRIVES                                                            
 VISA TECH OPERATIONS                                                                                      1416      11   99.2% "31-33", "52", "62"                                                                                 |
 VISA U S A                                                                                                 928      12   98.7% "52", "62"                                                                                          |
 MY VISA SVCS                                                                                                 3       0  100.0% "54"                                                                                                |
-

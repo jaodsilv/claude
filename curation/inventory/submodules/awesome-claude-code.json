@@ -13,7 +13,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Creates conventional commits with emoji and pre-commit checks",
-      "keywords": ["git", "commits", "conventional", "emoji"]
+      "keywords": [
+        "git",
+        "commits",
+        "conventional",
+        "emoji"
+      ]
     },
     {
       "name": "create-pr",
@@ -22,7 +27,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Automated pull request creation workflow",
-      "keywords": ["pr", "github", "workflow", "automation"]
+      "keywords": [
+        "pr",
+        "github",
+        "workflow",
+        "automation"
+      ]
     },
     {
       "name": "create-pull-request",
@@ -31,7 +41,11 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Pull request generation with templates",
-      "keywords": ["pull-request", "github", "template"]
+      "keywords": [
+        "pull-request",
+        "github",
+        "template"
+      ]
     },
     {
       "name": "pr-review",
@@ -40,7 +54,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Automated PR review and feedback",
-      "keywords": ["review", "pr", "feedback", "quality"]
+      "keywords": [
+        "review",
+        "pr",
+        "feedback",
+        "quality"
+      ]
     },
     {
       "name": "fix-github-issue",
@@ -49,7 +68,12 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Automated GitHub issue resolution workflow",
-      "keywords": ["github", "issues", "automation", "workflow"]
+      "keywords": [
+        "github",
+        "issues",
+        "automation",
+        "workflow"
+      ]
     },
     {
       "name": "create-worktrees",
@@ -58,7 +82,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Git worktree management automation",
-      "keywords": ["git", "worktree", "branches", "workflow"]
+      "keywords": [
+        "git",
+        "worktree",
+        "branches",
+        "workflow"
+      ]
     },
     {
       "name": "context-prime",
@@ -67,7 +96,12 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Context loading and priming for projects",
-      "keywords": ["context", "priming", "memory", "project"]
+      "keywords": [
+        "context",
+        "priming",
+        "memory",
+        "project"
+      ]
     },
     {
       "name": "testing-plan-integration",
@@ -76,7 +110,12 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Integrated testing plan creation and execution",
-      "keywords": ["testing", "qa", "integration", "planning"]
+      "keywords": [
+        "testing",
+        "qa",
+        "integration",
+        "planning"
+      ]
     },
     {
       "name": "release",
@@ -85,7 +124,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Release management and versioning",
-      "keywords": ["release", "versioning", "deployment", "changelog"]
+      "keywords": [
+        "release",
+        "versioning",
+        "deployment",
+        "changelog"
+      ]
     },
     {
       "name": "add-to-changelog",
@@ -94,7 +138,11 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Automated changelog entry generation",
-      "keywords": ["changelog", "documentation", "versioning"]
+      "keywords": [
+        "changelog",
+        "documentation",
+        "versioning"
+      ]
     },
     {
       "name": "update-docs",
@@ -103,7 +151,11 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Documentation update automation",
-      "keywords": ["documentation", "updates", "maintenance"]
+      "keywords": [
+        "documentation",
+        "updates",
+        "maintenance"
+      ]
     },
     {
       "name": "clean",
@@ -112,7 +164,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Code cleanup and formatting automation",
-      "keywords": ["cleanup", "formatting", "maintenance"]
+      "keywords": [
+        "cleanup",
+        "formatting",
+        "maintenance"
+      ]
     },
     {
       "name": "todo",
@@ -121,7 +177,12 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Task and TODO management",
-      "keywords": ["todo", "tasks", "management", "tracking"]
+      "keywords": [
+        "todo",
+        "tasks",
+        "management",
+        "tracking"
+      ]
     },
     {
       "name": "create-prd",
@@ -130,7 +191,12 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Product Requirements Document generation",
-      "keywords": ["prd", "requirements", "documentation", "product"]
+      "keywords": [
+        "prd",
+        "requirements",
+        "documentation",
+        "product"
+      ]
     },
     {
       "name": "create-prp",
@@ -139,7 +205,12 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Product Roadmap Planning document generation",
-      "keywords": ["roadmap", "planning", "product", "documentation"]
+      "keywords": [
+        "roadmap",
+        "planning",
+        "product",
+        "documentation"
+      ]
     },
     {
       "name": "create-jtbd",
@@ -148,7 +219,12 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Jobs-To-Be-Done framework documentation",
-      "keywords": ["jtbd", "product", "framework", "documentation"]
+      "keywords": [
+        "jtbd",
+        "product",
+        "framework",
+        "documentation"
+      ]
     },
     {
       "name": "load-llms-txt",
@@ -157,7 +233,12 @@
       "category": "Productivity",
       "quality_score": 5,
       "description": "Load LLM context from llms.txt files",
-      "keywords": ["llm", "context", "loading", "llms-txt"]
+      "keywords": [
+        "llm",
+        "context",
+        "loading",
+        "llms-txt"
+      ]
     },
     {
       "name": "initref",
@@ -166,7 +247,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Initialize project references and context",
-      "keywords": ["initialization", "references", "setup"]
+      "keywords": [
+        "initialization",
+        "references",
+        "setup"
+      ]
     },
     {
       "name": "husky",
@@ -175,7 +260,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Git hooks management with Husky",
-      "keywords": ["husky", "git-hooks", "automation", "pre-commit"]
+      "keywords": [
+        "husky",
+        "git-hooks",
+        "automation",
+        "pre-commit"
+      ]
     },
     {
       "name": "act",
@@ -184,7 +274,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Local GitHub Actions testing with act",
-      "keywords": ["github-actions", "testing", "ci-cd", "local"]
+      "keywords": [
+        "github-actions",
+        "testing",
+        "ci-cd",
+        "local"
+      ]
     },
     {
       "name": "update-branch-name",
@@ -193,7 +288,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Branch naming convention enforcement",
-      "keywords": ["git", "branch", "naming", "conventions"]
+      "keywords": [
+        "git",
+        "branch",
+        "naming",
+        "conventions"
+      ]
     }
   ],
   "notes": "Repository includes 25+ CLAUDE.md files for various projects, Python automation scripts, and comprehensive workflows. This inventory focuses on the slash commands which are the most reusable components."

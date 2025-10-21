@@ -84,13 +84,13 @@ class Company:
 
     def visit(self):
         self.visited = True
-    
+
     def isvisited(self):
         return self.visited
 
     def are_same_company(self, other):
         return isinstance(other, Company) and self.are_names_equivalent(other.name)
-    
+
     def are_names_equivalent(self, other_name: str):
         reg = r"\W"
         if self.name == other_name:
@@ -108,7 +108,7 @@ class Company:
 #[^A-Z\d\n\t\*]
 # DBA     AAA     DBA       AAA
     # [^-\w\t ,\./&\+@\(\)\[#'!^:%$]
-    # ACRONYMS: DBA, LLC, 
+    # ACRONYMS: DBA, LLC,
     def normalize_str(name: str):
         regs = [(r"^(?:(?:.*\W)?FACEBOOK|^Meta)(?:\W.*)?$", r"META"),
                 (r"^(.*\W)?(ALPHABET|GOOGLE)(\W.*)?$", r"GOOGLE"),
@@ -131,7 +131,7 @@ class Company:
                 (r"(^|\W)D\W?I\W?S\W?T(\W|$)", r"\1DIST\2"),
                 (r"(^|\W)C\W?T\W?R\W?L(\W|$)", r"\1CTRL\2"),
                 (r"(^|\W)L\W?A\W?B\W?S(\W|$)", r"\1LABS\2"),
-                (r"(^|\W)M\W?E\W?D\W?S(\W|$)", r"\1MEDS\2"), 
+                (r"(^|\W)M\W?E\W?D\W?S(\W|$)", r"\1MEDS\2"),
 
                 (r"(^|\W)L\W?L\W?C(\W|$)", r"\1\2"),
                 (r"(^|\W)I\W?N\W?C(\W|$)", r"\1\2"),
@@ -211,7 +211,7 @@ class Company:
                 (r"(^|\W)LABORATORIES(\W|$)", r"\1LABS\2"),
                 (r"(^|\W)MEDICINES(\W|$)", r"\1MEDS\2"),
                 (r"(^|\W)SOFTWARE(\W|$)", r"\1SOFT\2"),
-                            
+
                 (r"(^|\W)SCIENCE(\W|$)", r"\1SCI\2"),
                 (r"(^|\W)DOCTORS(\W|$)", r"\1DRS\2"),
                 (r"(^|\W)PREFESSIONAL((?:S)?)(\W|$)", r"\1PRO\2\3"),
@@ -226,12 +226,12 @@ class Company:
                 (r"(^|\W)SOUTHEAST(\W|$)", r"\1SE\2"),
                 (r"(^|\W)(?:DRIVE|DOCTOR|DOC)(\W|$)", r"\1DR\2"),
                 (r"(^|\W)STREET(\W|$)", r"\1ST\2"),
-                            
+
                 (r"(^|\W)NORTH(\W|$)", r"\1N\2"),
                 (r"(^|\W)SOUTH(\W|$)", r"\1S\2"),
                 (r"(^|\W)WEST(\W|$)", r"\1W\2"),
                 (r"(^|\W)EAST(\W|$)", r"\1E\2"),
-                            
+
                 (r"(\W)\1+", r"\1"),
                 (r"  +", " ")]
         name = name.replace("&", " AND ").replace("$", "S").replace("[", "")
@@ -252,8 +252,8 @@ def group_companies(companies):
             if aggregated.are_same_company(company2.name):
                 company2.visit()
                 aggregated += company2
-            # do nothing if they are not the same company    
-            
+            # do nothing if they are not the same company
+
         yield aggregated
 
 def top_approvers(companies, top=100, reverse=False):
@@ -365,7 +365,7 @@ def top_companies3(filenames):
 
 def top_small_words():
     file = r"D:\Downloads\Job Offers\General\H1BSponsors2022To2024.tsv"
-    
+
     counter = Counter(read_line_by_line_dict(file))
 
     top = counter.most_common(100)
