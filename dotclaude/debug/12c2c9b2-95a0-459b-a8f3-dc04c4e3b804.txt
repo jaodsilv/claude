@@ -561,7 +561,7 @@
 [DEBUG] Temp file written successfully, size: 216 bytes
 [DEBUG] Renaming D:\src\sticker-album-generator\.gitignore.tmp.23628.1760668445611 to D:\src\sticker-album-generator\.gitignore
 [DEBUG] File D:\src\sticker-album-generator\.gitignore written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:1324:194)
     at useMemo (B:/~BUN/root/claude.exe:75:25928)
     at Hz (B:/~BUN/root/claude.exe:1324:88)
@@ -575,7 +575,7 @@
 [DEBUG] Getting matching hook commands for PostToolUse with query: Write
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:1324:194)
     at useMemo (B:/~BUN/root/claude.exe:75:25928)
     at Hz (B:/~BUN/root/claude.exe:1324:88)
@@ -661,7 +661,7 @@
 [DEBUG] Temp file written successfully, size: 1070 bytes
 [DEBUG] Renaming D:\src\sticker-album-generator\LICENSE.tmp.23628.1760668521772 to D:\src\sticker-album-generator\LICENSE
 [DEBUG] File D:\src\sticker-album-generator\LICENSE written atomically
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:1324:194)
     at useMemo (B:/~BUN/root/claude.exe:75:25928)
     at Hz (B:/~BUN/root/claude.exe:1324:88)
@@ -675,7 +675,7 @@
 [DEBUG] Getting matching hook commands for PostToolUse with query: Write
 [DEBUG] Found 0 hook matchers in settings
 [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at <anonymous> (B:/~BUN/root/claude.exe:1324:194)
     at useMemo (B:/~BUN/root/claude.exe:75:25928)
     at Hz (B:/~BUN/root/claude.exe:1324:88)

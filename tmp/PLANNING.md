@@ -120,7 +120,7 @@ ranked_job_descriptions:
 
 1. Parse Job description
 2. Comapre Parse Resume
-2. Compare 
+2. Compare
 2. Generate traditional Cover Letter to a job posting
 3. Send the Cover Letter
 
