@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Download Anthropic docs - general section (quickstart, sdk, cli-reference)",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Download workflow documentation (common-workflows, you-are-the-main-thread)",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Download sub-agents documentation (3 of 4 sources - one URL returned 404)",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Download slash commands, hooks, settings, github-actions, and mcp documentation",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Verify all files were created successfully and report completion",
+    "status": "completed",
+    "id": "5"
+  }
+]

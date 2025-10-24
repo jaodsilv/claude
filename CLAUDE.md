@@ -45,6 +45,49 @@ This is a personal configuration repository for Claude Code custom base configs,
 - `docs` - Shared documents for Claude Code.
 - `downloads` - Shared downloads for Claude Code.
 
+## Specialized Claude Configurations
+
+This repository now uses specialized .claude directories for different workflows:
+
+### dotclaude/
+
+**Mount Location**: `~/.claude`
+**Purpose**: General-purpose Claude Code configurations
+**Contents**: General agents, commands, shared resources, instructions, scripts
+
+### job-hunting.claude/
+
+**Purpose**: Job hunting workflow configurations
+**Contents**:
+
+1. Job hunting agents (cover letter evaluators, etc.)
+2. Job hunting slash commands (`/jobs:*`)
+3. Job hunting shared resources
+
+**Related Repos**:
+
+1. job-hunting-automation (Python tools)
+2. job-applications (private materials)
+3. latex-templates (resume templates)
+
+### personal-projects.claude/
+
+**Purpose**: Personal project configurations (placeholder)
+**Status**: To be populated as needed
+
+### learning.claude/
+
+**Purpose**: Learning and educational project configurations (placeholder)
+**Status**: To be populated as needed
+
+## Migration Notes
+
+Content previously in `dotclaude/` has been split:
+
+1. General configs remain in `dotclaude/`
+2. Job hunting specific configs moved to `job-hunting.claude/`
+3. Future specialized configs will use similar pattern
+
 ## Application Purpose
 
 This repository is a personal configuration repository for Claude Code custom base configs, sub agents, custom slash commands and workflows.

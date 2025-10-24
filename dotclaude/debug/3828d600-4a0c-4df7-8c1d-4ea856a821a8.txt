@@ -1,0 +1,275 @@
+[DEBUG] Executing hooks for SessionStart:clear
+[DEBUG] Getting matching hook commands for SessionStart with query: clear
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for f7b250dc-38ef-48fb-b65b-0cca58bcbcbc, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760486601359
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 48910 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760486601359 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760486601438
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 48994 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760486601438 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\.claude\settings.local.json.tmp.17696.1760486918459
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 207 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\.claude\settings.local.json.tmp.17696.1760486918459 to D:\src\worktrees\LifeHacking\system-prompts\.claude\settings.local.json
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\.claude\settings.local.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] FileHistory: Making snapshot for message 4e2e4649-0404-41b8-b772-45eacb87ad36
+[DEBUG] FileHistory: Added snapshot for 4e2e4649-0404-41b8-b772-45eacb87ad36, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760486918983
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 49222 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760486918983 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760486919073
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 49313 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760486919073 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 9153c2c6-60fa-46ab-9f21-280b866b7623
+[DEBUG] FileHistory: Added snapshot for 9153c2c6-60fa-46ab-9f21-280b866b7623, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Executing hooks for PreToolUse:Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Bash
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487101042
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50241 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487101042 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487101131
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50560 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487101131 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 76a1401e-daf4-477f-a915-7b5dfd3ad97b
+[DEBUG] FileHistory: Added snapshot for 76a1401e-daf4-477f-a915-7b5dfd3ad97b, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] FileHistory: Tracked file modification for D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\waferwire-akash-microsoft.yaml
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\waferwire-akash-microsoft.yaml.tmp.17696.1760487209177
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2034 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\waferwire-akash-microsoft.yaml.tmp.17696.1760487209177 to D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\waferwire-akash-microsoft.yaml
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\waferwire-akash-microsoft.yaml written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487219100
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50560 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487219100 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487220677
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50560 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487220677 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487220768
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50669 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487220768 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message b263be9c-7925-4a70-a307-6bf52a276e70
+[DEBUG] FileHistory: Added snapshot for b263be9c-7925-4a70-a307-6bf52a276e70, tracking 1 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] FileHistory: Tracked file modification for D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760487375862
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1203 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760487375862 to D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487389391
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50836 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487389391 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487390630
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 50836 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487390630 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760487391686
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 51149 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760487391686 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

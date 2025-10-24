@@ -1,0 +1,60 @@
+# Job Applications
+
+**PRIVATE REPOSITORY** - Personal job application materials, research, and tracking.
+
+## Overview
+
+This repository contains all personal job application materials including filled resumes, cover letters, company research, and application tracking. All PDFs are gitignored to prevent accidental commits of compiled documents.
+
+## Repository Structure
+
+```
+job-applications/
+├── resumes/              # Filled resume variants for specific applications
+│   └── nubank-pcd/      # Nubank PCD position application
+├── cover-letters/        # Company-specific cover letters
+│   ├── anthropic/       # Anthropic application materials
+│   └── costco/          # Costco application materials
+├── research/             # Industry research and company analysis
+├── skills-analysis/      # Skills extraction and analysis results
+└── tracking/             # Application tracking spreadsheets/docs
+```
+
+## Important Notes
+
+1. **PDFs NOT committed**: All `.pdf` files are gitignored. Only source `.tex` files are tracked.
+2. **Private repository**: This repository contains personal application materials and should remain private.
+3. **Sensitive data**: API keys, credentials, and personal data are excluded via .gitignore.
+
+## Related Repositories
+
+1. **latex-templates** (public): LaTeX templates for resumes and cover letters
+2. **job-hunting-automation** (public): Python automation tools for job searching
+
+## Usage
+
+### Resumes and Cover Letters
+
+1. Use templates from `latex-templates` repository
+2. Fill with personal information for specific applications
+3. Store filled `.tex` files here
+4. Compile locally (PDFs are not committed)
+
+### Research
+
+Track company research, industry analysis, and recruiter interactions in the `research/` directory.
+
+### Skills Analysis
+
+Store skills extraction results and resume optimization analysis in `skills-analysis/`.
+
+### Application Tracking
+
+Maintain application status, deadlines, and follow-ups in the `tracking/` directory.
+
+## Security
+
+1. Never commit `.env` files or credentials
+2. Never commit compiled PDFs (already gitignored)
+3. Review commits before pushing to ensure no sensitive data
+4. Keep this repository private at all times

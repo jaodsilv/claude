@@ -1,0 +1,69 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: false, type: boolean
+[DEBUG] ENABLE_SKILLS check failed, returning empty
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.18836.1760600803215
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.18836.1760600803215 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.18836.1760600803326
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.18836.1760600803326 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at __ (B:/~BUN/root/claude.exe:66:408)
+    at MDY (B:/~BUN/root/claude.exe:3482:3506)
+    at Ud (B:/~BUN/root/claude.exe:3482:4812)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760600805174-p4ap8m.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\9f34c536-53d9-445e-8ac4-d225609212c7-agent-9f34c536-53d9-445e-8ac4-d225609212c7.json.tmp.18836.1760600805232
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\9f34c536-53d9-445e-8ac4-d225609212c7-agent-9f34c536-53d9-445e-8ac4-d225609212c7.json.tmp.18836.1760600805232 to D:\joaod\.claude\todos\9f34c536-53d9-445e-8ac4-d225609212c7-agent-9f34c536-53d9-445e-8ac4-d225609212c7.json
+[DEBUG] File D:\joaod\.claude\todos\9f34c536-53d9-445e-8ac4-d225609212c7-agent-9f34c536-53d9-445e-8ac4-d225609212c7.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 5246 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at __ (B:/~BUN/root/claude.exe:66:408)
+    at MDY (B:/~BUN/root/claude.exe:3482:3498)
+    at Ud (B:/~BUN/root/claude.exe:3482:4812)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.18836.1760600809179
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.18836.1760600809179 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

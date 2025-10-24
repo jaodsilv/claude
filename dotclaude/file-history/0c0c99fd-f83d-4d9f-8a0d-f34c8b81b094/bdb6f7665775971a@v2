@@ -1,0 +1,514 @@
+# Interview Preparation - Implementation Tasks
+
+**Repository**: https://github.com/jaodsilv/interview-prep (to be created)
+**Status**: Repository needs to be created and initialized
+**Visibility**: PRIVATE
+
+## Overview
+
+This repository will contain technical interview preparation materials including cheat sheets, system design diagrams, algorithm visualizations, API design guides, database references, and company-specific interview guides.
+
+## Source Locations
+
+1. **Primary Source**: `D:/src/tmp/Coding Interview/` (~54 image files + 1 PDF)
+2. **Secondary Source**: `D:/src/WEB/` (Uber interview guide + related files)
+
+## Tasks to Complete
+
+### 1. Repository Creation on GitHub
+
+```bash
+"C:\Program Files\GitHub CLI\gh.exe" repo create jaodsilv/interview-prep --private --description "Technical interview preparation materials: cheat sheets, system design diagrams, and company-specific guides"
+```
+
+### 2. Repository Initialization
+
+Initialize the local repository structure with organized directories:
+
+```bash
+cd D:/src
+mkdir -p interview-prep
+cd interview-prep
+git init
+git branch -M main
+
+# Create organized directory structure
+mkdir -p cheat-sheets
+mkdir -p system-design
+mkdir -p api-design
+mkdir -p databases
+mkdir -p algorithms
+mkdir -p company-guides
+mkdir -p certificates
+mkdir -p study-plans
+```
+
+### 3. Content Transfer and Organization
+
+Transfer content from both source locations and organize by topic:
+
+```bash
+# First, examine files to categorize them properly
+cd "D:/src/tmp/Coding Interview"
+ls -la
+
+# Transfer files to appropriate directories based on naming
+# (This step should be done carefully, examining each file)
+
+# Copy all to interview-prep temporarily
+cd D:/src/interview-prep
+cp -r "../tmp/Coding Interview/"* ./temp/
+
+# Manually organize files into appropriate directories
+# Examples:
+# - *api* files → api-design/
+# - *database* files → databases/
+# - *system* files → system-design/
+# - *algorithm* files → algorithms/
+# - *.pdf → certificates/
+
+# Transfer WEB content
+cp "../WEB/Uber Careers _ Backend Engineering Interview Guide.md" ./company-guides/uber-backend-guide.md
+cp ../WEB/times.* ./company-guides/
+
+# Clean up temporary directory
+rm -rf temp/
+```
+
+**Important**: Files should be manually categorized during transfer based on content:
+- API architectural styles → api-design/
+- CAP theorem, microservices → system-design/
+- Database types, decision trees → databases/
+- Bloom filter, algorithms → algorithms/
+- Coding cheat sheets → cheat-sheets/
+- Company guides → company-guides/
+- Certificates → certificates/
+
+### 4. Create .gitignore
+
+Create appropriate `.gitignore` file:
+
+```gitignore
+# Personal notes and annotations
+notes/
+personal/
+annotations/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/
+.snapshots/
+
+# Study progress tracking (if added later)
+progress.json
+study-log.md
+```
+
+### 5. Create README.md
+
+Document the interview preparation repository:
+
+```markdown
+# Technical Interview Preparation
+
+Private repository containing curated technical interview preparation materials including cheat sheets, system design diagrams, algorithm visualizations, and company-specific interview guides.
+
+## Overview
+
+This repository organizes interview preparation resources by technical topic for efficient study and quick reference during interview preparation.
+
+## Repository Structure
+
+\```
+interview-prep/
+├── cheat-sheets/           # Technical cheat sheets and quick references
+├── system-design/          # System design patterns and architectures
+├── api-design/             # API design best practices and patterns
+├── databases/              # Database selection and design guides
+├── algorithms/             # Algorithm visualizations and complexity guides
+├── company-guides/         # Company-specific interview guides
+├── certificates/           # Completion certificates and achievements
+└── study-plans/            # Structured study plans and schedules
+\```
+
+## Contents
+
+### Cheat Sheets (`cheat-sheets/`)
+- Coding interview fundamentals
+- Algorithm complexity references
+- Common patterns and techniques
+- Language-specific syntax guides
+
+### System Design (`system-design/`)
+- CAP theorem visualizations
+- Microservices architecture patterns
+- Load balancer algorithms
+- Caching strategies and CDN workflows
+- System scalability patterns
+- Distributed systems concepts
+
+### API Design (`api-design/`)
+- REST API best practices
+- GraphQL guides and patterns
+- API architectural styles comparison
+- API versioning strategies
+- Authentication and authorization patterns
+
+### Databases (`databases/`)
+- Database type comparisons (SQL, NoSQL, NewSQL)
+- Database decision trees
+- Selection criteria and use cases
+- Performance optimization guides
+- CAP theorem applications to databases
+
+### Algorithms (`algorithms/`)
+- Bloom filter visualizations
+- Geo-hash and spatial algorithms
+- Sorting algorithm comparisons
+- Search algorithm visualizations
+- Time and space complexity guides
+
+### Company Guides (`company-guides/`)
+- Uber Backend Engineering Interview Guide
+- Company-specific preparation materials
+- Interview format documentation
+- Company culture and expectations
+
+### Certificates (`certificates/`)
+- Python Coding Practice Technical Interviews
+- Course completions
+- Achievement records
+
+## Usage
+
+### Study Workflow
+
+1. **Topic Review**: Browse by directory for focused study
+   \```bash
+   cd system-design
+   # Review all system design materials
+   \```
+
+2. **Quick Reference**: Use cheat sheets during preparation
+   \```bash
+   cd cheat-sheets
+   # Reference specific cheat sheets before practice
+   \```
+
+3. **Practice Application**: Apply concepts from visual guides
+   - Study diagrams
+   - Code implementations
+   - Practice problems
+
+4. **Company Prep**: Review company-specific guides before interviews
+   \```bash
+   cd company-guides
+   # Read company interview guide
+   \```
+
+### Study Plan Template
+
+Create personalized study plans in `study-plans/`:
+
+\```markdown
+# Week 1: System Design Fundamentals
+- [ ] Day 1: CAP theorem and distributed systems
+- [ ] Day 2: Load balancing algorithms
+- [ ] Day 3: Caching strategies
+- [ ] Day 4: CDN workflows
+- [ ] Day 5: Microservices patterns
+- [ ] Weekend: Review and practice problems
+
+# Week 2: Database Design
+...
+\```
+
+## Study Recommendations
+
+### Beginner Path
+1. Start with coding fundamentals (cheat-sheets/)
+2. Learn algorithm basics (algorithms/)
+3. Practice with simple problems
+4. Review complexity analysis
+
+### Intermediate Path
+1. System design patterns (system-design/)
+2. Database selection criteria (databases/)
+3. API design principles (api-design/)
+4. Practice medium-level problems
+
+### Advanced Path
+1. Distributed systems concepts
+2. Scalability patterns
+3. Company-specific preparation
+4. Mock interviews and practice
+
+## Integration with Other Repositories
+
+### Related Repositories
+1. **job-applications** (private): Track interview schedules
+2. **ats-research** (private): Resume optimization for interviews
+3. **job-hunting-automation** (public): Track application status
+
+## File Organization Tips
+
+1. **Rename files** with descriptive names:
+   - `img001.png` → `cap-theorem-diagram.png`
+   - `file.webp` → `rest-api-best-practices.webp`
+
+2. **Add metadata** in filename or companion .md:
+   - Source, date acquired, topic
+   - Example: `system-design/scaling-patterns-2024.png`
+
+3. **Create index files** for each directory:
+   - `cheat-sheets/INDEX.md` listing all sheets
+   - Links to files with descriptions
+
+## Future Enhancements
+
+1. **Study Planner**:
+   - Claude Code agent to generate personalized study schedules
+   - Progress tracking system
+
+2. **Material Organizer**:
+   - Auto-categorization of new materials
+   - Duplicate detection
+
+3. **Concept Extractor**:
+   - Extract key concepts from images using OCR
+   - Generate quick reference summaries
+
+4. **Integration**:
+   - Link to job-applications for interview tracking
+   - Sync with calendar for study reminders
+
+## Contributing
+
+This is a personal collection. Materials are curated from various sources for personal interview preparation.
+
+## License
+
+MIT License - See LICENSE file
+
+## Disclaimer
+
+⚠️ **Copyright Notice**: Materials in this repository are collected from various sources for personal educational use. Original sources retain their respective copyrights. Not for redistribution or commercial use.
+
+## Confidentiality
+
+⚠️ **PRIVATE REPOSITORY** - Contains personal learning materials and company-specific interview information
+```
+
+### 6. Create INDEX.md Files for Organization
+
+Create index files in each subdirectory to catalog materials:
+
+**Example: cheat-sheets/INDEX.md**
+```markdown
+# Cheat Sheets Index
+
+1. **Coding Interview Fundamentals**
+   - File: coding-interview-basics.png
+   - Topics: Common patterns, complexity analysis
+
+2. **Algorithm Complexity**
+   - File: algorithm-complexity-chart.png
+   - Topics: Big O notation, time/space complexity
+
+(Continue for all files...)
+```
+
+Repeat similar index files for:
+- system-design/INDEX.md
+- api-design/INDEX.md
+- databases/INDEX.md
+- algorithms/INDEX.md
+
+### 7. Add LICENSE
+
+Add MIT License file with copyright disclaimer:
+
+```
+MIT License
+
+Copyright (c) 2025 João Marco Maciel da Silva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+DISCLAIMER: Materials in this repository are collected from various sources
+for personal educational use. Original sources retain their respective
+copyrights. Not for redistribution or commercial use.
+```
+
+### 8. Create Sample Study Plan
+
+Create initial study plan template in `study-plans/`:
+
+**study-plans/TEMPLATE.md**
+```markdown
+# Interview Preparation Study Plan Template
+
+## Study Period
+- Start Date: YYYY-MM-DD
+- Target Interview Date: YYYY-MM-DD
+- Duration: X weeks
+
+## Weekly Schedule
+
+### Week 1: [Topic]
+- [ ] Day 1: [Subtopic]
+- [ ] Day 2: [Subtopic]
+- [ ] Day 3: [Subtopic]
+- [ ] Day 4: [Subtopic]
+- [ ] Day 5: [Subtopic]
+- [ ] Weekend: Review and practice
+
+### Week 2: [Topic]
+...
+
+## Daily Study Time
+- Morning: X hours (theory)
+- Afternoon: X hours (practice)
+- Evening: X hours (review)
+
+## Progress Tracking
+- [ ] Week 1 completed
+- [ ] Week 2 completed
+...
+
+## Notes
+- Challenges encountered
+- Concepts to review
+- Resources to add
+```
+
+### 9. Initial Commit and Push
+
+```bash
+git add .
+git commit -m "feat: initialize interview preparation repository
+
+- Add technical interview cheat sheets (~54 images)
+- Add system design diagrams and patterns
+  - CAP theorem, microservices, load balancers
+  - Caching strategies, CDN workflows
+- Add API design references
+  - REST API best practices
+  - GraphQL guides
+  - Architectural styles comparison
+- Add database selection guides
+  - Database types and comparisons
+  - Decision trees for database selection
+- Add algorithm visualizations
+  - Bloom filters, geo-hash
+  - Complexity analysis
+- Add company-specific interview guides
+  - Uber Backend Engineering guide
+- Add completion certificates
+- Organize materials by technical topic
+- Add comprehensive README with study recommendations
+- Add index files for each category
+- Add study plan templates
+- Add MIT LICENSE with copyright disclaimer"
+
+git remote add origin https://github.com/jaodsilv/interview-prep.git
+git push -u origin main
+```
+
+## Verification Steps
+
+1. Verify all ~54 image files transferred correctly
+2. Verify all 3 WEB files transferred
+3. Verify files organized into appropriate topic directories
+4. Verify README accurately describes content
+5. Verify index files created for major directories
+6. Test git push succeeds
+7. Visit GitHub to confirm repository is private
+8. Confirm files are visible and organized on GitHub
+
+## Notes
+
+- **Confidentiality**: PRIVATE repository - contains personal learning materials
+- **Copyright**: Materials collected from various sources for personal educational use
+- **Organization**: Files should be renamed and organized during transfer for better discoverability
+- **Study Plans**: Create personalized study schedules in study-plans/ directory
+
+## Success Criteria
+
+- [ ] Repository created on GitHub (PRIVATE)
+- [ ] Repository initialized locally with organized structure
+- [ ] All content transferred from tmp/Coding Interview/
+- [ ] All content transferred from WEB/
+- [ ] Files organized by technical topic
+- [ ] .gitignore created and appropriate
+- [ ] README.md comprehensive with usage instructions
+- [ ] Index files created for each category
+- [ ] Study plan template created
+- [ ] LICENSE file added (MIT with disclaimer)
+- [ ] Initial commit created
+- [ ] Pushed to GitHub successfully
+- [ ] Repository confirmed private on GitHub
+- [ ] Files organized and visible on GitHub
+
+## Future Enhancements (Optional)
+
+1. **Auto-Organization**:
+   - Claude Code agent to categorize new materials automatically
+   - OCR to extract text from images
+
+2. **Study Tools**:
+   - Progress tracking system
+   - Spaced repetition scheduler
+   - Quiz generator from materials
+
+3. **Integration**:
+   - Link to job-applications for interview scheduling
+   - Sync with calendar for study reminders
+   - Export study plans to task managers
+
+4. **Search**:
+   - Full-text search across materials
+   - Tag-based filtering
+   - Concept index
+
+## Cleanup After Migration
+
+After successful push to GitHub:
+
+```bash
+# Archive the source folders
+cd D:/src
+mv "tmp/Coding Interview" "tmp/Coding Interview.migrated"
+mv WEB WEB.migrated
+
+# Or delete if confident in migration
+# rm -rf "tmp/Coding Interview"
+# rm -rf WEB
+```

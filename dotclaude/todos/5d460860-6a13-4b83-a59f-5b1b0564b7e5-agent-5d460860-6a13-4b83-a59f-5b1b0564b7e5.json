@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Parse the /docs:download arguments and organize URLs by domain",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Launch batch downloader for docs.anthropic.com URLs",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Launch batch downloader for claudelog.com URLs",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Launch batch downloader for htdocs.dev URLs",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Wait for all download tasks to complete",
+    "status": "pending",
+    "id": "5"
+  }
+]

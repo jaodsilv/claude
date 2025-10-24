@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze conversation history and context for Uber Brazil opportunity",
+    "status": "completed",
+    "activeForm": "Analyzing conversation history and context for Uber Brazil opportunity"
+  },
+  {
+    "content": "Evaluate job position fit against candidate's resume and skills",
+    "status": "completed",
+    "activeForm": "Evaluating job position fit against candidate's resume and skills"
+  },
+  {
+    "content": "Calculate timing strategy for response to Mariana's latest message",
+    "status": "completed",
+    "activeForm": "Calculating timing strategy for response to Mariana's latest message"
+  },
+  {
+    "content": "Draft professional response acknowledging interview preparation phase",
+    "status": "in_progress",
+    "activeForm": "Drafting professional response acknowledging interview preparation phase"
+  },
+  {
+    "content": "Update conversation history file with response draft",
+    "status": "pending",
+    "activeForm": "Updating conversation history file with response draft"
+  }
+]

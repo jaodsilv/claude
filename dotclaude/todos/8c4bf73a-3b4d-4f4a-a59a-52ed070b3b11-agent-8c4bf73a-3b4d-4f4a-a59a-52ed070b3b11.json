@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Initialize main process and agent tracking system",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "main-01"
+  },
+  {
+    "content": "Identify remaining unchecked files from checklist",
+    "status": "pending",
+    "priority": "high",
+    "id": "main-02"
+  },
+  {
+    "content": "Launch Manager Sub Agents for unchecked files",
+    "status": "pending",
+    "priority": "high",
+    "id": "main-03"
+  },
+  {
+    "content": "Monitor sub-agent progress and handle callbacks",
+    "status": "pending",
+    "priority": "medium",
+    "id": "main-04"
+  },
+  {
+    "content": "Update checklist when sub-agents complete",
+    "status": "pending",
+    "priority": "medium",
+    "id": "main-05"
+  }
+]

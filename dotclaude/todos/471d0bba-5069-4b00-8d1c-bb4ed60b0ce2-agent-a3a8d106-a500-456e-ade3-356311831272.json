@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check if output directory exists and create if needed",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Handle file existing mode (overwrite) for sub-agents/revolutionizing-ai-development-with-sub-agents.md",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Download document from https://htdocs.dev/posts/revolutionizing-ai-development-how-claude-codes-sub-agents-transform-task-management/",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Convert downloaded content to markdown format",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Verify the conversion quality",
+    "status": "pending",
+    "id": "5"
+  }
+]

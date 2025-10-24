@@ -1,0 +1,326 @@
+# Personal Web Scrapers - Implementation Tasks
+
+**Repository**: https://github.com/jaodsilv/personal-web-scrapers
+**Status**: Repository created on GitHub, needs initialization and content transfer
+**Visibility**: PUBLIC
+
+## Overview
+
+This repository will contain personal web scraping tools, primarily for game wikis (Coral Island, etc.) and other personal data extraction needs.
+
+## Source Locations
+
+1. **Primary Source**: `D:/src/LifeHackingScripts/python/web_scrapers/`
+2. **Additional Utilities**: `D:/src/LifeHackingScripts/Shortcuts/regex-to-copy-paste.txt`
+
+## Tasks to Complete
+
+### 1. Repository Initialization
+
+Initialize the local repository structure:
+
+```bash
+cd D:/src
+mkdir -p personal-web-scrapers
+cd personal-web-scrapers
+git init
+git branch -M main
+```
+
+### 2. Content Transfer
+
+Transfer web scraper content:
+
+```bash
+# Copy web scrapers
+cp -r ./LifeHackingScripts/python/web_scrapers/* ./
+
+# Create utilities directory and copy regex utilities
+mkdir -p utilities
+cp ./LifeHackingScripts/Shortcuts/regex-to-copy-paste.txt ./utilities/
+```
+
+### 3. Create .gitignore
+
+Create Python-focused `.gitignore`:
+
+```gitignore
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Environment variables
+.env
+.env.local
+
+# Scraped data - DO NOT COMMIT
+data/
+downloads/
+scraped_data/
+output/
+*.json
+*.csv
+*.html
+images/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Snapshots
+.snapshots/
+
+# Requirements
+# Note: requirements.txt SHOULD be committed
+# requirements.txt is excluded from gitignore
+```
+
+### 4. Create requirements.txt
+
+Consolidate all Python dependencies:
+
+```bash
+# Check for existing requirements files
+find . -name "requirements.txt"
+
+# If multiple exist, consolidate them into root requirements.txt
+```
+
+Example `requirements.txt`:
+```
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+# Add other dependencies found in scrapers
+```
+
+### 5. Create README.md
+
+Document the scraper collection:
+
+```markdown
+# Personal Web Scrapers
+
+Collection of web scraping tools for personal data extraction, primarily focused on game wikis and information gathering.
+
+## Overview
+
+This repository contains Python-based web scrapers for:
+1. **Coral Island Wiki**: Scrapers for game data (vegetables, fruits, animal products, etc.)
+2. **Fandom Wiki**: Generic Fandom wiki scraping utilities
+3. **Utilities**: Helper scripts and regex patterns
+
+## Repository Structure
+
+\```
+personal-web-scrapers/
+├── coral_island_wiki_scraper/      # Official wiki scraper
+├── coral_island_fandom_wiki_scraper/  # Fandom wiki scraper
+├── image_downloader/               # Image downloading utility
+├── utilities/                      # Regex patterns and helpers
+├── base_scraper.py                # Base scraper class
+├── requirements.txt               # Python dependencies
+└── README.md
+\```
+
+## Scrapers
+
+### Coral Island Wiki Scraper
+**Files**: `coral_island_wiki_scraper/wiki_scraper.py`
+
+Scrapes data from the Coral Island official wiki including:
+- Vegetables data
+- Fruits data
+- Flowers data
+- Animal products
+- Barn and coop products
+
+**Output**: JSON files with structured game data
+
+### Coral Island Fandom Wiki Scraper
+**Files**: `coral_island_fandom_wiki_scraper/coral_island_scraper.py`
+
+Alternative scraper for Fandom wiki version of Coral Island data.
+
+### Image Downloader
+**Files**: `image_downloader/image_downloader.py`
+
+Utility for downloading images from URLs in batch.
+
+### Base Scraper
+**File**: `base_scraper.py`
+
+Base class for building new scrapers with common functionality:
+- Rate limiting
+- Request retry logic
+- User agent rotation
+- Error handling
+
+## Installation
+
+1. Clone the repository
+2. Create virtual environment:
+   \```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   \```
+3. Install dependencies:
+   \```bash
+   pip install -r requirements.txt
+   \```
+
+## Usage
+
+### Running Coral Island Wiki Scraper
+
+\```bash
+cd coral_island_wiki_scraper
+python wiki_scraper.py
+\```
+
+Output files will be created in the same directory (`.json` files).
+
+### Building Custom Scrapers
+
+Extend the `base_scraper.py` class:
+
+\```python
+from base_scraper import BaseScraper
+
+class MyCustomScraper(BaseScraper):
+    def scrape(self, url):
+        # Your scraping logic here
+        pass
+\```
+
+## Important Notes
+
+1. **Rate Limiting**: All scrapers include rate limiting to respect website policies
+2. **robots.txt**: Always check and respect robots.txt rules
+3. **Data Storage**: Scraped data (JSON, CSV, HTML) is gitignored
+4. **Personal Use**: These scrapers are for personal data gathering only
+
+## Utilities
+
+### Regex Patterns
+**File**: `utilities/regex-to-copy-paste.txt`
+
+Collection of useful regex patterns for data extraction and parsing.
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Contributing
+
+This is a personal scraper collection. Feel free to fork and adapt for your own use.
+
+## Disclaimer
+
+These scrapers are intended for personal use and data gathering. Always respect:
+- Website terms of service
+- robots.txt directives
+- Rate limiting and server load
+- Copyright and data usage policies
+```
+
+### 6. Add LICENSE
+
+Add MIT License file with current year (2025) and your name.
+
+### 7. Verify Scraper Structure
+
+Check the actual structure of transferred files and adjust README if needed:
+
+```bash
+ls -R
+```
+
+Verify:
+- All scraper files transferred correctly
+- JSON data files are excluded (gitignored)
+- Requirements files exist
+- No sensitive data included
+
+### 8. Initial Commit and Push
+
+```bash
+git add .
+git commit -m "feat: initialize personal web scraper collection
+
+- Add Coral Island wiki scrapers (official and fandom)
+- Add base scraper framework
+- Add image downloader utility
+- Add regex utilities collection
+- Add comprehensive README with usage instructions
+- Add requirements.txt for dependencies
+- Add .gitignore to exclude scraped data
+- Add MIT LICENSE"
+
+git remote add origin https://github.com/jaodsilv/personal-web-scrapers.git
+git push -u origin main
+```
+
+## Verification Steps
+
+1. Verify all scraper files transferred
+2. Verify no scraped data (.json, .csv) is included
+3. Verify requirements.txt includes all dependencies
+4. Verify README accurately describes scrapers
+5. Test git push succeeds
+6. Visit GitHub to confirm repository structure
+
+## Notes
+
+- **Data Exclusion**: Ensure all `.json`, `.csv`, and scraped HTML files are gitignored
+- **Dependencies**: Consolidate requirements from multiple scrapers
+- **Rate Limiting**: Document rate limiting approach in README
+- **Legal**: Add disclaimer about terms of service respect
+
+## Success Criteria
+
+- [ ] Repository initialized locally
+- [ ] All scraper code transferred
+- [ ] Utilities transferred
+- [ ] .gitignore excludes all scraped data
+- [ ] requirements.txt complete
+- [ ] README.md comprehensive
+- [ ] LICENSE file added (MIT)
+- [ ] No sensitive or scraped data included
+- [ ] Initial commit created
+- [ ] Pushed to GitHub successfully
+- [ ] Repository structure clear on GitHub
+
+## Future Enhancements (Optional)
+
+- Add CLI interface for scrapers
+- Create scraper configuration files
+- Add data schema documentation
+- Include example output (small samples)
+- Add scraper testing framework

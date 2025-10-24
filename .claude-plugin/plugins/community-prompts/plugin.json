@@ -1,0 +1,43 @@
+{
+  "name": "community-prompts",
+  "version": "1.0.0",
+  "description": "Curated AI and prompt engineering tools from the Claude Code community, including unique prompt transformation, agent evolution, and 100+ example prompts",
+  "author": {
+    "name": "João da Silva",
+    "url": "https://github.com/jaodsilv"
+  },
+  "category": "ai-prompts",
+  "keywords": [
+    "prompts",
+    "ai",
+    "llm",
+    "agents",
+    "multi-agent",
+    "orchestration",
+    "prompt-engineering",
+    "community-curated"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jaodsilv/claude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaodsilv/claude.git"
+  },
+  "agents": [
+    "dotclaude/agents/prompt-to-pipeline-architect.md",
+    "external-resources/awesome-claude-code-subagents/categories/05-data-ai/prompt-engineer.md",
+    "external-resources/awesome-claude-code-subagents/categories/05-data-ai/llm-architect.md"
+  ],
+  "commands": [
+    "external-resources/super-claude/SuperClaude/Commands/spawn.md"
+  ],
+  "scripts": [
+    "dotclaude/scripts/agent-evolution.sh"
+  ],
+  "docs": [
+    "external-resources/super-claude/SuperClaude/Core/ORCHESTRATOR.md",
+    "external-resources/super-claude/SuperClaude/Core/PERSONAS.md",
+    "external-resources/awesome-claude-prompts/README.md"
+  ],
+  "notes": "Features jaodsilv's unique prompt-to-pipeline-architect for transforming single prompts into multi-agent workflows, plus agent-evolution script and 100+ community prompt examples."
+}

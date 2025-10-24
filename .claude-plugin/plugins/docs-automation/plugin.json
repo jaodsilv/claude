@@ -1,0 +1,33 @@
+{
+  "name": "docs-automation",
+  "version": "1.0.0",
+  "description": "Automated documentation download, conversion, and verification with multi-agent coordination",
+  "author": {
+    "name": "João da Silva",
+    "url": "https://github.com/jaodsilv"
+  },
+  "category": "documentation",
+  "keywords": [
+    "documentation",
+    "download",
+    "conversion",
+    "verification",
+    "automation",
+    "agents"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jaodsilv/claude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaodsilv/claude.git"
+  },
+  "agents": [
+    "dotclaude/agents/docs/downloader.md",
+    "dotclaude/agents/docs/converter.md",
+    "dotclaude/agents/docs/conversion-verifier.md",
+    "dotclaude/agents/docs/batch-downloader.md"
+  ],
+  "commands": [
+    "dotclaude/commands/docs/download.md"
+  ]
+}

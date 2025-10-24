@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Read and analyze the cover letter draft",
+    "status": "completed",
+    "activeForm": "Reading and analyzing the cover letter draft"
+  },
+  {
+    "content": "Read and analyze the job description",
+    "status": "completed",
+    "activeForm": "Reading and analyzing the job description"
+  },
+  {
+    "content": "Read and analyze the why company response",
+    "status": "completed",
+    "activeForm": "Reading and analyzing the why company response"
+  },
+  {
+    "content": "Read and analyze the resume",
+    "status": "completed",
+    "activeForm": "Reading and analyzing the resume"
+  },
+  {
+    "content": "Evaluate cover letter against job requirements",
+    "status": "completed",
+    "activeForm": "Evaluating cover letter against job requirements"
+  },
+  {
+    "content": "Provide specific improvement recommendations",
+    "status": "completed",
+    "activeForm": "Providing specific improvement recommendations"
+  },
+  {
+    "content": "Write detailed evaluation to output file",
+    "status": "in_progress",
+    "activeForm": "Writing detailed evaluation to output file"
+  }
+]
