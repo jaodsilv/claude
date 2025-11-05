@@ -1,0 +1,47 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17600.1760486364789
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 45873 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17600.1760486364789 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760486368793-ywhs6y.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\0b904a2f-1418-4506-898d-b1ee21aab338-agent-0b904a2f-1418-4506-898d-b1ee21aab338.json.tmp.17600.1760486368877
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\0b904a2f-1418-4506-898d-b1ee21aab338-agent-0b904a2f-1418-4506-898d-b1ee21aab338.json.tmp.17600.1760486368877 to D:\joaod\.claude\todos\0b904a2f-1418-4506-898d-b1ee21aab338-agent-0b904a2f-1418-4506-898d-b1ee21aab338.json
+[DEBUG] File D:\joaod\.claude\todos\0b904a2f-1418-4506-898d-b1ee21aab338-agent-0b904a2f-1418-4506-898d-b1ee21aab338.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 4552 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json
+[DEBUG] Detected change to D:\src\.claude\settings.local.json

@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Create new git worktree with conventional branch naming",
+    "status": "completed"
+  },
+  {
+    "content": "Stage and commit system prompt files to new branch",
+    "status": "in_progress"
+  },
+  {
+    "content": "Verify worktree setup and file organization",
+    "status": "pending"
+  }
+]

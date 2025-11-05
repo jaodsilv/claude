@@ -1,0 +1,96 @@
+context:
+  - I have completed the assessment on 2025-10-08T14:24:00-07:00 Wednesday
+  - I've scheduled the call to 2025-10-14 morning
+  - The call went well. Unfortunately the position was closed. But, since I've already passed this stage, she said she was going to look for other teams that might be interested in my profile. She called me again on the same day for a new position with the data transparency team.
+  - Gail requested by phone that I should send my availability for the next days
+  - |
+    Full availability for the next days (PDT timezone):
+    - **Wednesday 2025-10-15**: From 14:00 to 19:00
+    - **Thursday 2025-10-16 and Friday 2025-10-17**: From 10:00 to 12:00 and from 14:00 to 19:00
+    - **Monday 2025-10-20 and Tuesday 2025-10-21**: From 9:15 to 10:30 and from 14:00 to 19:00
+    - **Wednesday 2025-10-22**: From 10:00 to 12:00 and from 14:00 to 19:00
+  - Note: When responding with availability, adjust to better fit professional standards for availability email responses - do not present the full availability
+job_descriptions:
+  - link: https://careers.thetradedesk.com/jobs/4834108007/senior-software-engineer-data-transparency
+    content: |
+      # Job Description for Senior Software Engineer — Data Transparency (REQ-8287):
+
+      Posted: September 04, 2025
+      Locations: Bellevue, Denver, San Jose
+      Salary Range: $124,900—$228,900 USD
+
+      The Trade Desk's Data Platform team is responsible for enabling the business to create powerful and efficient insights from data. This role involves working cross-functionally with data engineers, data analysts, solution architects, and business intelligence to design and implement optimized datasets that accelerate innovation.
+
+      Key Responsibilities:
+      - Shaping the vision and execution of data lifecycle management — from curated internal datasets to powering production features or privacy-centric exports for external partners
+      - Building solutions that enable data transparency throughout the org through establishing processing that improve overall metadata and data lineage
+      - Designing and owning core, foundational datasets that reduce redundant and costly downstream transformations across the data ecosystem
+      - Collaborating closely with Legal, Security, and Governance teams to ensure responsible and compliant usage of data
+      - Helping define and uphold standards for data quality, observability, and lineage to increase trust and traceability
+
+      Key Requirements:
+      - Strong communicator able to identify and build robust datasets that provide value to multiple functions
+      - Passion for making large scale systematic improvements
+      - Expert in building and tuning large scale data pipelines in Spark
+      - Experience building complex data pipelines in Airflow is a plus
+      - Sustained track record of leading engineers with wide range of experience
+      - Experience building always-on systems, working across variety of technologies and service layers
+      - Product-focused mindset with ability to contribute to discovering what will delight clients
+      - Understanding of engineering fundamentals and ability to work from first principles
+
+      Company handles over 1 trillion queries per day at unprecedented scale. Culture based on trust, ownership, empathy, and collaboration.
+platform: email
+process_status: application response
+conversation_history:
+  - timestamp: 2025-10-01T18:07:00-07:00 Wednesday
+    from: Gail Schoning
+    subject: The Trade Desk- Next Steps Take Home Challenge
+    body: |
+      Hi João Marco,
+
+      Thank you for applying to the Senior Software Engineer- Authentication & Identity role at The Trade Desk!  Congratulations on making it to the next stage, you're invited to take the Industry Coding Framework Challenge which will test your skills across a broad range of fundamentals advancing through four progressive levels.  It's an interesting and engaging challenge which unlocks different levels as you work through the problem.
+
+      The test lasts a maximum of 90 minutes and the link will expire after two weeks.  This exercise is available in Python 3, C#, Go, Java, Kotlin, PHP, Ruby, C++, JavaScript and Typescript. Once you submit your test, it will be manually evaluated by our engineering team.
+
+      You should be receiving an e-mail with this challenge shortly.  Please use the link in the e-mail from CodeSignal and let me know if you don't receive the link.  If successful, the next stage in the process will be to have a call with me to go over more about the role, your background and any questions you may have.
+
+      To ensure you're set up for success, I'd like to share a few best practices for the most successful candidates:
+      Leverage the practice feature offered by CodeSignal to get familiar with the interface
+
+      Brush up on basics and ensure you're comfortable with operations such as sorting, string manipulation and building basic classes
+
+      Keep optimization, clean code and debugging in mind as you work through the activities
+
+      Our reviewers will be evaluating plagiarism flags from CodeSignal's automation, your ability to understand the requirements and code quality – including, but not limited to code reuse, use of efficient data structures & object oriented principles, and overall implementation efficiency
+
+      Time Management – this is a progressive test and you have 90 minutes to complete, so use your time wisely
+
+
+      Please let me know if you have any questions at this point and wishing you the best of luck with the challenge.  We're rooting for you!
+
+
+      Gail Schoning | Senior Technical Sourcer
+
+      gail.schoning@thetradedesk.com
+
+      Bellevue, WA 98004
+      Facebook  |  LinkedIn  |  TheTradeDesk.com
+  - timestamp: 2025-10-09T16:15:00-07:00 Thursday
+    from: Gail Schoning
+    subject: The Trade Desk- Phone Call Request
+    body: |
+      Hi João Marco,
+
+      I was able to get your take home challenge reviewed by our team and would like to set up a phone call to go over these results.
+
+      Please feel free to use the link to my calendar to find the time that best suits your schedule (PST):
+      Book time with Gail Schoning
+
+      Looking forward to speaking with you!
+
+      Gail Schoning | Senior Technical Sourcer
+
+      gail.schoning@thetradedesk.com
+
+      Bellevue, WA 98004
+      Facebook  |  LinkedIn  |  TheTradeDesk.com

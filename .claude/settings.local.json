@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(find:*)",
+      "WebFetch(domain:claudelog.com)",
+      "WebFetch(domain:claudelog.com)",
+      "WebFetch(domain:htdocs.dev)",
+      "WebFetch(domain:docs.claude.ai)",
+      "WebFetch(domain:claude.ai)",
+      "WebFetch(domain:shchegrikovich.substack.com)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(tree:*)",
+      "Bash(test:*)",
+      "Bash(git mv:*)",
+      "Bash(mv:*)",
+      "Bash(rmdir:*)",
+      "Bash(awk:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  },
+  "disabledMcpjsonServers": [
+    "todo"
+  ]
+}

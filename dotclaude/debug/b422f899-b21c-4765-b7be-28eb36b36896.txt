@@ -1,0 +1,1662 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\interview-prep\.claude\skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Summarizing all 2 messages (~6957 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760660306089
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105515 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760660306089 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760660306488
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105515 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760660306488 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+[DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760660318661-4a9d4f.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760660319037
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760660319037 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760660321571
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105565 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760660321571 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760661655457
+[DEBUG] Temp file written successfully, size: 49 bytes
+[DEBUG] Renaming D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760661655457 to D:\src\interview-prep\.claude\settings.local.json
+[DEBUG] File D:\src\interview-prep\.claude\settings.local.json written atomically
+[ERROR] Failed to save config with lock: Error: Lock file is already being held
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760661657161
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760661657161 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760661657682
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760661657682 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760661657747
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760661657747 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760661657821
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105546 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760661657821 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760661658041
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105651 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760661658041 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.20
+[DEBUG] Version 2.0.20 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.20
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 52b2d78e-0f26-43e8-9628-f1b2b60548ca, tracking 0 files
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unrecognized token '`'
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at W (B:/~BUN/root/claude.exe:11:15050)
+    at QuG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760668461003
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1301 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760668461003 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760668474553
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1305 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760668474553 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "git init:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760675062584
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 111537 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760675062584 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.11624.1760675062687
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 113228 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.11624.1760675062687 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Making snapshot for message 4b9d4ae2-5f21-481f-afd7-53880afe3e44
+[DEBUG] FileHistory: Added snapshot for 4b9d4ae2-5f21-481f-afd7-53880afe3e44, tracking 0 files
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unrecognized token '`'
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at W (B:/~BUN/root/claude.exe:11:15050)
+    at QuG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Bash",
+        "ruleContent": "mkdir:*"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675153711
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 116 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675153711 to D:\src\interview-prep\.claude\settings.local.json
+[DEBUG] File D:\src\interview-prep\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(mkdir:*)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760675181162
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1307 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760675181162 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//d/src/WEB/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addRules",
+    "rules": [
+      {
+        "toolName": "Read",
+        "ruleContent": "//d/src/tmp/Coding Interview/**"
+      }
+    ],
+    "behavior": "allow",
+    "destination": "localSettings"
+  }
+]
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675610664
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 146 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675610664 to D:\src\interview-prep\.claude\settings.local.json
+[DEBUG] File D:\src\interview-prep\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Read(//d/src/WEB/**)"]
+[DEBUG] Persisting permission update: addRules to source 'localSettings'
+[DEBUG] Persisting 1 allow rule(s) to localSettings
+[DEBUG] Writing to temp file: D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675613836
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 193 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\interview-prep\.claude\settings.local.json.tmp.11624.1760675613836 to D:\src\interview-prep\.claude\settings.local.json
+[DEBUG] File D:\src\interview-prep\.claude\settings.local.json written atomically
+[DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Read(//d/src/tmp/Coding Interview/**)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "D:\\src\\tmp\\Coding Interview"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["D:\\src\\tmp\\Coding Interview"]
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: Could not load the "sharp" module using the win32-x64 runtime
+Possible solutions:
+- Ensure optional dependencies can be installed:
+    npm install --include=optional sharp
+- Ensure your package manager supports multi-platform installation:
+    See https://sharp.pixelplumbing.com/install#cross-platform
+- Add platform-specific dependencies:
+    npm install --os=win32 --cpu=x64 sharp
+- Consult the installation documentation:
+    See https://sharp.pixelplumbing.com/install
+    at <anonymous> (B:/~BUN/root/claude.exe:197:35968)
+    at <anonymous> (B:/~BUN/root/claude.exe:11:356)
+    at <anonymous> (B:/~BUN/root/claude.exe:198:78)
+    at <anonymous> (B:/~BUN/root/claude.exe:11:356)
+    at <anonymous> (B:/~BUN/root/claude.exe:198:79741)
+    at <anonymous> (B:/~BUN/root/claude.exe:11:356)
+    at <anonymous> (B:/~BUN/root/claude.exe:198:80279)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+[ERROR] ResolveMessage: Cannot find module './image-processor.node' from 'B:\~BUN\root\claude.exe'
+[ERROR] TypeError: TypeError: (W.default||W) is not a function. (In '(W.default||W)(G)', '(W.default||W)' is an instance of Object)
+    at q18 (B:/~BUN/root/claude.exe:3351:3630)
+    at async V18 (B:/~BUN/root/claude.exe:3351:2059)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+    at some (native:1:11)
+    at every (native:1:11)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] TypeError: TypeError: (Y.default||Y) is not a function. (In '(Y.default||Y)(Z)', '(Y.default||Y)' is an instance of Object)
+    at cr (B:/~BUN/root/claude.exe:198:80302)
+    at async w18 (B:/~BUN/root/claude.exe:3351:4038)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+    at some (native:1:11)
+    at every (native:1:11)
+[ERROR] ResolveMessage: Cannot find module './image-processor.node' from 'B:\~BUN\root\claude.exe'
+[ERROR] TypeError: TypeError: (W.default||W) is not a function. (In '(W.default||W)(G)', '(W.default||W)' is an instance of Object)
+    at q18 (B:/~BUN/root/claude.exe:3351:3630)
+    at async V18 (B:/~BUN/root/claude.exe:3351:2059)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+    at some (native:1:11)
+    at every (native:1:11)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] TypeError: TypeError: (Y.default||Y) is not a function. (In '(Y.default||Y)(Z)', '(Y.default||Y)' is an instance of Object)
+    at cr (B:/~BUN/root/claude.exe:198:80302)
+    at async w18 (B:/~BUN/root/claude.exe:3351:4038)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at QL (B:/~BUN/root/claude.exe:3511:6711)
+    at A$1 (B:/~BUN/root/claude.exe:868:10314)
+    at XmG (B:/~BUN/root/claude.exe:868:11087)
+    at Bw9 (B:/~BUN/root/claude.exe:868:11592)
+[ERROR] ResolveMessage: Cannot find module './image-processor.node' from 'B:\~BUN\root\claude.exe'
+[ERROR] TypeError: TypeError: (W.default||W) is not a function. (In '(W.default||W)(G)', '(W.default||W)' is an instance of Object)
+    at q18 (B:/~BUN/root/claude.exe:3351:3630)
+    at async V18 (B:/~BUN/root/claude.exe:3351:2059)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at QL (B:/~BUN/root/claude.exe:3511:6711)
+    at A$1 (B:/~BUN/root/claude.exe:868:10314)
+    at XmG (B:/~BUN/root/claude.exe:868:11087)
+    at Bw9 (B:/~BUN/root/claude.exe:868:11592)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] TypeError: TypeError: (Y.default||Y) is not a function. (In '(Y.default||Y)(Z)', '(Y.default||Y)' is an instance of Object)
+    at cr (B:/~BUN/root/claude.exe:198:80302)
+    at async w18 (B:/~BUN/root/claude.exe:3351:4038)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at QL (B:/~BUN/root/claude.exe:3511:6711)
+    at A$1 (B:/~BUN/root/claude.exe:868:10314)
+    at XmG (B:/~BUN/root/claude.exe:868:11087)
+    at Bw9 (B:/~BUN/root/claude.exe:868:11592)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] TypeError: TypeError: (Y.default||Y) is not a function. (In '(Y.default||Y)(Z)', '(Y.default||Y)' is an instance of Object)
+    at cr (B:/~BUN/root/claude.exe:198:80302)
+    at async w18 (B:/~BUN/root/claude.exe:3351:4038)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at QL (B:/~BUN/root/claude.exe:3511:6711)
+    at A$1 (B:/~BUN/root/claude.exe:868:10314)
+    at XmG (B:/~BUN/root/claude.exe:868:11087)
+    at Bw9 (B:/~BUN/root/claude.exe:868:11592)
+[ERROR] ResolveMessage: Cannot find module './image-processor.node' from 'B:\~BUN\root\claude.exe'
+[ERROR] TypeError: TypeError: (W.default||W) is not a function. (In '(W.default||W)(G)', '(W.default||W)' is an instance of Object)
+    at q18 (B:/~BUN/root/claude.exe:3351:3630)
+    at async V18 (B:/~BUN/root/claude.exe:3351:2059)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at QL (B:/~BUN/root/claude.exe:3511:6711)
+    at A$1 (B:/~BUN/root/claude.exe:868:10314)
+    at XmG (B:/~BUN/root/claude.exe:868:11087)
+    at Bw9 (B:/~BUN/root/claude.exe:868:11592)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Permission suggestions for Bash: [
+  {
+    "type": "addDirectories",
+    "directories": [
+      "D:\\src\\WEB"
+    ],
+    "destination": "session"
+  },
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Applying permission update: Adding 1 directory with destination 'session': ["D:\\src\\WEB"]
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: EISDIR: illegal operation on a directory, read
+    at readFileSync (unknown)
+    at aUW (B:/~BUN/root/claude.exe:3528:980)
+    at call (B:/~BUN/root/claude.exe:3360:898)
+    at PD (B:/~BUN/root/claude.exe:672:1117)
+    at PD (B:/~BUN/root/claude.exe:672:1183)
+    at <anonymous> (B:/~BUN/root/claude.exe:1177:1330)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: []
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676383997
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1309 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676383997 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:3535:2062)
+[DEBUG] Writing to temp file: D:\src\interview-prep\.gitignore.tmp.11624.1760676393019
+[DEBUG] Temp file written successfully, size: 255 bytes
+[DEBUG] Renaming D:\src\interview-prep\.gitignore.tmp.11624.1760676393019 to D:\src\interview-prep\.gitignore
+[DEBUG] File D:\src\interview-prep\.gitignore written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676419848
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1311 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676419848 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\README.md.tmp.11624.1760676458475
+[DEBUG] Temp file written successfully, size: 5544 bytes
+[DEBUG] Renaming D:\src\interview-prep\README.md.tmp.11624.1760676458475 to D:\src\interview-prep\README.md
+[DEBUG] File D:\src\interview-prep\README.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676507514
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 1313 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json.tmp.11624.1760676507514 to D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json
+[DEBUG] File D:\joaod\.claude\todos\b422f899-b21c-4765-b7be-28eb36b36896-agent-b422f899-b21c-4765-b7be-28eb36b36896.json written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Task
+[DEBUG] Getting matching hook commands for PreToolUse with query: Task
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Task" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\cheat-sheets\INDEX.md.tmp.11624.1760676624701
+[DEBUG] Temp file written successfully, size: 2445 bytes
+[DEBUG] Renaming D:\src\interview-prep\cheat-sheets\INDEX.md.tmp.11624.1760676624701 to D:\src\interview-prep\cheat-sheets\INDEX.md
+[DEBUG] File D:\src\interview-prep\cheat-sheets\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\system-design\INDEX.md.tmp.11624.1760676626455
+[DEBUG] Temp file written successfully, size: 2090 bytes
+[DEBUG] Renaming D:\src\interview-prep\system-design\INDEX.md.tmp.11624.1760676626455 to D:\src\interview-prep\system-design\INDEX.md
+[DEBUG] File D:\src\interview-prep\system-design\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\api-design\INDEX.md.tmp.11624.1760676628067
+[DEBUG] Temp file written successfully, size: 2412 bytes
+[DEBUG] Renaming D:\src\interview-prep\api-design\INDEX.md.tmp.11624.1760676628067 to D:\src\interview-prep\api-design\INDEX.md
+[DEBUG] File D:\src\interview-prep\api-design\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\databases\INDEX.md.tmp.11624.1760676629412
+[DEBUG] Temp file written successfully, size: 1642 bytes
+[DEBUG] Renaming D:\src\interview-prep\databases\INDEX.md.tmp.11624.1760676629412 to D:\src\interview-prep\databases\INDEX.md
+[DEBUG] File D:\src\interview-prep\databases\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\algorithms\INDEX.md.tmp.11624.1760676630728
+[DEBUG] Temp file written successfully, size: 859 bytes
+[DEBUG] Renaming D:\src\interview-prep\algorithms\INDEX.md.tmp.11624.1760676630728 to D:\src\interview-prep\algorithms\INDEX.md
+[DEBUG] File D:\src\interview-prep\algorithms\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\company-guides\INDEX.md.tmp.11624.1760676632053
+[DEBUG] Temp file written successfully, size: 528 bytes
+[DEBUG] Renaming D:\src\interview-prep\company-guides\INDEX.md.tmp.11624.1760676632053 to D:\src\interview-prep\company-guides\INDEX.md
+[DEBUG] File D:\src\interview-prep\company-guides\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Write
+[DEBUG] Getting matching hook commands for PreToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\src\interview-prep\certificates\INDEX.md.tmp.11624.1760676633365
+[DEBUG] Temp file written successfully, size: 475 bytes
+[DEBUG] Renaming D:\src\interview-prep\certificates\INDEX.md.tmp.11624.1760676633365 to D:\src\interview-prep\certificates\INDEX.md
+[DEBUG] File D:\src\interview-prep\certificates\INDEX.md written atomically
+[DEBUG] Getting matching hook commands for PostToolUse with query: Write
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.21
+[DEBUG] Version 2.0.21 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.21
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Permission suggestions for Bash: []
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

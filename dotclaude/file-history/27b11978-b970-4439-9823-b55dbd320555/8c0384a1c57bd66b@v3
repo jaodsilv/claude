@@ -1,0 +1,37 @@
+context: []
+platform: email
+process_status: application response
+conversation_history:
+  - timestamp: 2025-10-01T18:07:00-07:00 Wednesday
+    from: Gail Schoning
+    subject: The Trade Desk- Next Steps Take Home Challenge
+    body: |
+      Hi João Marco,
+
+      Thank you for applying to the Senior Software Engineer- Authentication & Identity role at The Trade Desk!  Congratulations on making it to the next stage, you're invited to take the Industry Coding Framework Challenge which will test your skills across a broad range of fundamentals advancing through four progressive levels.  It's an interesting and engaging challenge which unlocks different levels as you work through the problem.
+
+      The test lasts a maximum of 90 minutes and the link will expire after two weeks.  This exercise is available in Python 3, C#, Go, Java, Kotlin, PHP, Ruby, C++, JavaScript and Typescript. Once you submit your test, it will be manually evaluated by our engineering team.
+
+      You should be receiving an e-mail with this challenge shortly.  Please use the link in the e-mail from CodeSignal and let me know if you don't receive the link.  If successful, the next stage in the process will be to have a call with me to go over more about the role, your background and any questions you may have.
+
+      To ensure you're set up for success, I'd like to share a few best practices for the most successful candidates:
+      Leverage the practice feature offered by CodeSignal to get familiar with the interface
+
+      Brush up on basics and ensure you're comfortable with operations such as sorting, string manipulation and building basic classes
+
+      Keep optimization, clean code and debugging in mind as you work through the activities
+
+      Our reviewers will be evaluating plagiarism flags from CodeSignal's automation, your ability to understand the requirements and code quality – including, but not limited to code reuse, use of efficient data structures & object oriented principles, and overall implementation efficiency
+
+      Time Management – this is a progressive test and you have 90 minutes to complete, so use your time wisely
+
+
+      Please let me know if you have any questions at this point and wishing you the best of luck with the challenge.  We're rooting for you!
+
+
+      Gail Schoning | Senior Technical Sourcer
+
+      gail.schoning@thetradedesk.com
+
+      Bellevue, WA 98004
+      Facebook  |  LinkedIn  |  TheTradeDesk.com

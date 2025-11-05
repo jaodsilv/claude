@@ -1,0 +1,26 @@
+[
+  {
+    "content": "Convert CommandSystem/autodetection-standardization-proposal.md to new archetype standard",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Convert CommandSystem/global-command-standards.md to new archetype standard",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Convert CommandSystem/template-validation-proposal.md to new archetype standard",
+    "status": "pending",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Update checklist with completed conversions",
+    "status": "pending",
+    "priority": "medium",
+    "id": "4"
+  }
+]

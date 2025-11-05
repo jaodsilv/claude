@@ -1,0 +1,804 @@
+[DEBUG] Executing hooks for SessionStart:clear
+[DEBUG] Getting matching hook commands for SessionStart with query: clear
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for 3db6a3cd-1480-4762-a4ef-e3d8cf38a563, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760489086801
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 65695 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760489086801 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message d129c02e-5528-4a07-962e-a623f9c53e2e
+[DEBUG] FileHistory: Added snapshot for d129c02e-5528-4a07-962e-a623f9c53e2e, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Executing hooks for PreToolUse:Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Glob
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Executing hooks for PreToolUse:Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Executing hooks for PostToolUse:Read
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Tracked file modification for D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760489436067
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 3535 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760489436067 to D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760489447274
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 66000 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760489447274 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760489447602
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 66000 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760489447602 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760489447676
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 69136 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760489447676 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 242f868e-3ba3-4916-9413-450e5aab0a3b
+[DEBUG] FileHistory: Added snapshot for 242f868e-3ba3-4916-9413-450e5aab0a3b, tracking 1 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489625967
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489625967 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489626075
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489626075 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489626234
+[DEBUG] Temp file written successfully, size: 776 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489626234 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489681295
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489681295 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489681452
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489681452 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489681528
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 778 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489681528 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489688650
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489688650 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489688742
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489688742 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489688798
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 780 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489688798 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489695441
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489695441 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489696599
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489696599 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489696730
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 782 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489696730 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489719663
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760489719663 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489719903
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760489719903 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489720062
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 784 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760489720062 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Replacing all allow rules for destination 'localSettings' with 3 rule(s): ["Read(D:/joaod/.claude/agents/**)","Read(D:/joaod/.claude/commands/**)","Read(D:/joaod/.claude/**)"]
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Replacing all allow rules for destination 'localSettings' with 3 rule(s): ["Read(D:/joaod/.claude/agents/**)","Read(D:/joaod/.claude/commands/**)","Read(D:/joaod/.claude/**)"]
+[DEBUG] Detected change to D:\joaod\.claude\settings.json
+[DEBUG] Replacing all allow rules for destination 'localSettings' with 3 rule(s): ["Read(D:/joaod/.claude/agents/**)","Read(D:/joaod/.claude/commands/**)","Read(D:/joaod/.claude/**)"]
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760490661802
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 4628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml.tmp.17696.1760490661802 to D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\unknown-praveen-kumar.yaml written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760490669877
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760490669877 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760490669997
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760490669997 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760490670073
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json.tmp.17696.1760490670073 to D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json
+[DEBUG] File D:\joaod\.claude\todos\1ce047cc-e2de-4019-803a-f4f6391703d4-agent-1ce047cc-e2de-4019-803a-f4f6391703d4.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760490685482
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 69658 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760490685482 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760490685730
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 69658 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760490685730 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760490685815
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 69971 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760490685815 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 6d2013dc-38cf-4dd6-8646-d12a9f325e7f
+[DEBUG] FileHistory: Added snapshot for 6d2013dc-38cf-4dd6-8646-d12a9f325e7f, tracking 1 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760509463923
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79660 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760509463923 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760509464270
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79660 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760509464270 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760509464490
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79838 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760509464490 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 60adff54-58c5-406d-8416-ef20dba5dcef
+[DEBUG] FileHistory: Added snapshot for 60adff54-58c5-406d-8416-ef20dba5dcef, tracking 1 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
+    at yI (B:/~BUN/root/claude.exe:2077:731)
+    at map (native:1:11)
+    at a3 (B:/~BUN/root/claude.exe:2077:448)
+    at hc5 (B:/~BUN/root/claude.exe:2077:12742)
+    at Sw (B:/~BUN/root/claude.exe:75:19416)
+    at Mp (B:/~BUN/root/claude.exe:77:42816)
+    at F9 (B:/~BUN/root/claude.exe:77:38357)
+    at xv (B:/~BUN/root/claude.exe:77:38285)
+    at mw (B:/~BUN/root/claude.exe:77:38139)
+    at n$ (B:/~BUN/root/claude.exe:77:35218)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510046532
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79838 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510046532 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510047399
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79838 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510047399 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510047499
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79972 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510047499 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for PreCompact with query: manual
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "manual" (0 before deduplication)
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Stream started - received first chunk
+[DEBUG] Executing hooks for SessionStart:compact
+[DEBUG] Getting matching hook commands for SessionStart with query: compact
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "compact" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message a180f717-df48-4b62-8257-9f87679d41b4
+[DEBUG] FileHistory: Added snapshot for a180f717-df48-4b62-8257-9f87679d41b4, tracking 1 files
+[DEBUG] FileHistory: Making snapshot for message 5f598c94-dd3c-424e-af82-7e8d6adfce9b
+[DEBUG] FileHistory: Added snapshot for 5f598c94-dd3c-424e-af82-7e8d6adfce9b, tracking 1 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510387367
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79972 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510387367 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510388651
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79867 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510388651 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510388727
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79867 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510388727 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510388928
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79867 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510388928 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760510389013
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 79953 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760510389013 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Stream started - received first chunk
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511276236
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80518 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511276236 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] FileHistory: Making snapshot for message bf4e1e25-f170-4c96-8bbd-e987b419123b
+[DEBUG] FileHistory: Added snapshot for bf4e1e25-f170-4c96-8bbd-e987b419123b, tracking 1 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511276799
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80518 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511276799 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511276897
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80603 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511276897 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message ecbb7605-c3a9-4b2a-bd11-17e9811d618f
+[DEBUG] FileHistory: Added snapshot for ecbb7605-c3a9-4b2a-bd11-17e9811d618f, tracking 1 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511346354
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80603 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511346354 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511346661
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80603 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511346661 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760511346740
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 80805 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760511346740 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760482127457-nnox1h.sh
+[DEBUG] FileHistory: Making snapshot for message 02b0f7ef-8cfe-4f1b-87f2-e54f8a9aca8f
+[DEBUG] FileHistory: Added snapshot for 02b0f7ef-8cfe-4f1b-87f2-e54f8a9aca8f, tracking 1 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760552835722
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 81460 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760552835722 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760552835955
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 81543 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760552835955 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760552836277
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 81973 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760552836277 to D:\joaod\.claude.json
+[DEBUG] Failed to write file atomically: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.17696.1760552836277' -> 'D:\joaod\.claude.json'
+[ERROR] Error: Error: EPERM: operation not permitted, rename 'D:\joaod\.claude.json.tmp.17696.1760552836277' -> 'D:\joaod\.claude.json'
+    at renameSync (unknown)
+    at renameSync (B:/~BUN/root/claude.exe:12:990)
+    at YO (B:/~BUN/root/claude.exe:3473:783)
+    at Z$W (B:/~BUN/root/claude.exe:3450:14966)
+    at q2 (B:/~BUN/root/claude.exe:3464:226)
+    at Z (B:/~BUN/root/claude.exe:484:17)
+    at exit (unknown)
+    at I8 (B:/~BUN/root/claude.exe:216:970)
+    at async call (B:/~BUN/root/claude.exe:2677:32128)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Cleaning up temp file: D:\joaod\.claude.json.tmp.17696.1760552836277
+[DEBUG] Falling back to non-atomic write for D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written successfully with non-atomic fallback

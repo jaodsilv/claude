@@ -1,0 +1,82 @@
+[
+  {
+    "content": "Read all application materials (resume, job description, why company response, cover letter)",
+    "status": "completed",
+    "activeForm": "Reading application materials"
+  },
+  {
+    "content": "Aggregate content into XML structure for evaluation agents",
+    "status": "completed",
+    "activeForm": "Aggregating content into XML structure"
+  },
+  {
+    "content": "Run overlap analysis between cover letter and why company response",
+    "status": "in_progress",
+    "activeForm": "Running overlap analysis"
+  },
+  {
+    "content": "Analyze job description keywords coverage",
+    "status": "in_progress",
+    "activeForm": "Analyzing keywords coverage"
+  },
+  {
+    "content": "Assess ATS friendliness",
+    "status": "in_progress",
+    "activeForm": "Assessing ATS compatibility"
+  },
+  {
+    "content": "Evaluate skills and experience alignment",
+    "status": "in_progress",
+    "activeForm": "Evaluating skills alignment"
+  },
+  {
+    "content": "Analyze alternative naming and terminology",
+    "status": "in_progress",
+    "activeForm": "Analyzing terminology alignment"
+  },
+  {
+    "content": "Assess company culture alignment",
+    "status": "in_progress",
+    "activeForm": "Assessing culture fit"
+  },
+  {
+    "content": "Evaluate communication style",
+    "status": "in_progress",
+    "activeForm": "Evaluating communication style"
+  },
+  {
+    "content": "Assess relevance to job requirements",
+    "status": "in_progress",
+    "activeForm": "Assessing relevance"
+  },
+  {
+    "content": "Evaluate impact demonstration",
+    "status": "in_progress",
+    "activeForm": "Evaluating impact demonstration"
+  },
+  {
+    "content": "Assess personalization level",
+    "status": "in_progress",
+    "activeForm": "Assessing personalization"
+  },
+  {
+    "content": "Evaluate technical positioning",
+    "status": "in_progress",
+    "activeForm": "Evaluating technical positioning"
+  },
+  {
+    "content": "Assess professional presentation",
+    "status": "in_progress",
+    "activeForm": "Assessing presentation quality"
+  },
+  {
+    "content": "Compile all evaluation results",
+    "status": "pending",
+    "activeForm": "Compiling evaluation results"
+  },
+  {
+    "content": "Write final evaluation to output file",
+    "status": "pending",
+    "activeForm": "Writing evaluation to file"
+  }
+]

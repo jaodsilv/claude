@@ -1,0 +1,92 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: true, type: boolean
+[DEBUG] ENABLE_SKILLS check passed, loading skills...
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\.claude\skills
+[DEBUG] >>>>> getPluginSkills CALLED <<<<<
+[DEBUG] getPluginSkills: Processing 0 enabled plugins
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Cleaned up 1 old Windows executables on startup
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+[DEBUG] Summarizing last 1 of 361 messages (~0 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.23916.1760662210984
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 106250 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.23916.1760662210984 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.23916.1760662211195
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 106250 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.23916.1760662211195 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Summarizing all 8 messages (~89434 tokens)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Summarizing last 12 of 29 messages (~136117 tokens)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760662213720-ph3qc8.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json.tmp.23916.1760662213772
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json.tmp.23916.1760662213772 to D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json
+[DEBUG] File D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.23916.1760662213929
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105826 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.23916.1760662213929 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Summarizing all 11 messages (~125479 tokens)
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Summarizing last 12 of 14 messages (~144775 tokens)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Summarizing last 12 of 27 messages (~134607 tokens)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 4816 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at h_ (B:/~BUN/root/claude.exe:66:408)
+    at fDW (B:/~BUN/root/claude.exe:3511:3498)
+    at Ed (B:/~BUN/root/claude.exe:3511:4820)
+[DEBUG] Summarizing last 12 of 45 messages (~145636 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.23916.1760662218081
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105826 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.23916.1760662218081 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Skills and commands included in Skill tool:
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json.tmp.23916.1760662218345
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 727 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json.tmp.23916.1760662218345 to D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json
+[DEBUG] File D:\joaod\.claude\todos\2183be1f-67b9-45c1-b25c-e29eb9d589d0-agent-2183be1f-67b9-45c1-b25c-e29eb9d589d0.json written atomically
+[DEBUG] FileHistory: Copied backup edb65e181984475d@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup 3c756649ba7fdd78@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup fbd06e404552ec8f@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup 07d6e43187eae814@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup 5ccf40a0422e0183@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup f86627268efacae3@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup e3a7bbcd6bb1adac@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] FileHistory: Copied backup 748fbecb00c72fb3@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 2183be1f-67b9-45c1-b25c-e29eb9d589d0
+[DEBUG] Getting matching hook commands for SessionStart with query: resume
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)

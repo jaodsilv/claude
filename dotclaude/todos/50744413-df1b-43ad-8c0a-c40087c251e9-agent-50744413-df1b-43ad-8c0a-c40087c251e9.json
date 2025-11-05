@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Fetch official Claude Code sub-agents documentation",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Review agent creation guidelines from local file",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create agent-creator-2 sub-agent with proper YAML frontmatter",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Write sophisticated system prompt following best practices",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Select appropriate model (not Opus) and tools",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "Validate agent configuration against guidelines",
+    "status": "pending",
+    "id": "6"
+  }
+]

@@ -8,4 +8,15 @@
 .claude/statsig
 .claude/todos
 .claude/claude
+dotclaude/.credentials.json
+dotclaude/backups
+dotclaude/debug
+dotclaude/file-history
+dotclaude/history.jsonl
+dotclaude/ide
+dotclaude/logs
+dotclaude/projects
+dotclaude/shell-snapshots
+dotclaude/statsig
+dotclaude/todos
 .env

@@ -1,0 +1,57 @@
+context:
+  - salary expectations: Between 160k and 180k. Negotiable.
+  - My Location: I'm in Redmonda-WA, therefore very close to Bellevue, WA.
+  - I'm ok with either hybrid or onsite.
+  - I do require Visa sponsorship. I need a transfer of H1B sponsor, not going to the lottery and not getting into the new 100k fee.
+platform: email
+process_status: application response
+conversation_history:
+  - timestamp: 2025-10-01T14:04:00-07:00 Tuesday
+    from: Taylor Preston <notifications@smartrecruiters.com>
+    subject: We are so glad you are interested in the Staff Software Engineer - Backend (Hybrid/Onsite) role at Visa
+    body: |
+      Dear João Marco,
+
+      We are so glad you are interested in the Staff Software Engineer - Backend (Hybrid/Onsite) role at Visa and we look forward to getting to know you better. We will be speaking with the hiring team and wanted to ask you a few quick questions before we can put your application forward.
+
+      Please reply with your responses to the following questions at your earliest convenience:
+
+      * Are you currently local to Bellevue, WA? *
+
+      * We work in a hybrid model (3 days a week in the office). Are you able to commit to this?
+
+      * If you were to get this position, what would be your salary expectations (feel free to provide a range)?
+
+      * Upon hire, can you provide verification of your identity and legal right to work in the United States without sponsorship? *
+
+        * If you will require sponsorship immediately, or at any time in the future, please answer, 'Yes, I will require sponsorship in the future.' (This includes those who will be receiving immigration support from schools, inclusive of, but not limited to, CPT and OPT sponsorship.)
+
+        * Alternatively, if you will not require sponsorship for employment now or in the future, please answer, 'I will not require sponsorship.'
+
+          * Please note that any misrepresentation of your need for sponsorship, either now or in the future, may result in the rescission of your Visa offer should we reach that stage.
+
+      Thank you and I look forward to hearing from you.
+
+      Taylor Preston
+      Visa Talent Acquisition
+  - timestamp: 2025-10-02T09:00:00-07:00 Wednesday
+    from: me
+    to: Taylor Preston <notifications@smartrecruiters.com>
+    subject: Re: We are so glad you are interested in the Staff Software Engineer - Backend (Hybrid/Onsite) role at Visa
+    body: |
+      Hi Taylor,
+
+      Thank you for reaching out regarding the Staff Software Engineer - Backend position at Visa. I'm happy to provide answers to your questions:
+
+      * **Location**: Yes, I'm currently based in Redmond, WA, which is very close to Bellevue.
+
+      * **Hybrid Commitment**: Yes, I can absolutely commit to the hybrid model of 3 days per week in the office.
+
+      * **Salary Expectations**: My salary expectations are in the range of $160K-$180K annually, negotiable based on the full compensation package.
+
+      * **Visa Sponsorship**: Yes, I will require sponsorship in the future. Specifically, I would need an H1B transfer (I'm currently on an H1B visa). H1B transfers are cap-exempt, don't require entering the lottery, and are not subject to the new $100k fee that applies only to new H1B applications.
+
+      I'm very excited about this opportunity and look forward to the next steps in the process.
+
+      Best regards,
+      João Marco Maciel da Silva

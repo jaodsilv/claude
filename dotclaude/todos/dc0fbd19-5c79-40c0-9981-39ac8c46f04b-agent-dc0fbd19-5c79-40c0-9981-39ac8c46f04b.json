@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check current git submodules configuration",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create external-resources directory if needed",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Move submodules to external-resources directory",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Update .gitmodules file with new paths",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Verify submodules work correctly after move",
+    "status": "completed",
+    "id": "5"
+  }
+]
