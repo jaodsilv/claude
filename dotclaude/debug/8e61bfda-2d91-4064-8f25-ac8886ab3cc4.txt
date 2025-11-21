@@ -1,0 +1,96 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: false, type: boolean
+[DEBUG] ENABLE_SKILLS check failed, returning empty
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Summarizing all 2 messages (~6921 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579524528
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579524528 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579524801
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579524801 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Summarizing last 10 of 34 messages (~138636 tokens)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760579529745-zcnft0.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\8e61bfda-2d91-4064-8f25-ac8886ab3cc4-agent-8e61bfda-2d91-4064-8f25-ac8886ab3cc4.json.tmp.55304.1760579529833
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\8e61bfda-2d91-4064-8f25-ac8886ab3cc4-agent-8e61bfda-2d91-4064-8f25-ac8886ab3cc4.json.tmp.55304.1760579529833 to D:\joaod\.claude\todos\8e61bfda-2d91-4064-8f25-ac8886ab3cc4-agent-8e61bfda-2d91-4064-8f25-ac8886ab3cc4.json
+[DEBUG] File D:\joaod\.claude\todos\8e61bfda-2d91-4064-8f25-ac8886ab3cc4-agent-8e61bfda-2d91-4064-8f25-ac8886ab3cc4.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579536878
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579536878 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579537500
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103816 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579537500 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579537707
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103816 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579537707 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579537858
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104263 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579537858 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.55304.1760579538290
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104368 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.55304.1760579538290 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19

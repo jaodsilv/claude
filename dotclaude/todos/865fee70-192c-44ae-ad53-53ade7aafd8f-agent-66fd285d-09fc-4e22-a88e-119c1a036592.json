@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/quickstart and save to .claude/shared/downloads/refreshable-sources/general/quickstart.md",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/sdk and save to .claude/shared/downloads/refreshable-sources/general/sdk.md",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/cli-reference and save to .claude/shared/downloads/refreshable-sources/general/cli-reference.md",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/common-workflows and save to .claude/shared/downloads/refreshable-sources/workflows/common-workflows.md",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Download https://claudelog.com/mechanics/you-are-the-main-thread/ and save to .claude/shared/downloads/refreshable-sources/workflows/you-are-the-main-thread.md",
+    "status": "pending",
+    "id": "5"
+  }
+]

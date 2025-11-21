@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/sdk to .claude/shared/downloads/refreshable-sources/general/sdk.md",
+    "status": "in_progress",
+    "id": "download-sdk"
+  },
+  {
+    "content": "Download https://claudelog.com/mechanics/you-are-the-main-thread/ to .claude/shared/downloads/refreshable-sources/workflows/you-are-the-main-thread.md",
+    "status": "pending",
+    "id": "download-main-thread"
+  },
+  {
+    "content": "Download https://htdocs.dev/posts/revolutionizing-ai-development-how-claude-codes-sub-agents-transform-task-management/ to .claude/shared/downloads/refreshable-sources/sub-agents/revolutionizing-ai-development-with-sub-agents.md",
+    "status": "pending",
+    "id": "download-revolutionizing"
+  },
+  {
+    "content": "Download https://shchegrikovich.substack.com/p/dynamic-sub-agents-in-claude-code to .claude/shared/downloads/refreshable-sources/sub-agents/dynamic-sub-agents-in-claude-code.md",
+    "status": "pending",
+    "id": "download-dynamic-subagents"
+  },
+  {
+    "content": "Convert all downloaded files to markdown format",
+    "status": "pending",
+    "id": "convert-all"
+  },
+  {
+    "content": "Verify all conversions completed successfully",
+    "status": "pending",
+    "id": "verify-all"
+  }
+]

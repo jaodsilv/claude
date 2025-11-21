@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Create new worktree with branch for fixing markdown lint issues",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identify lint complaints in markdown files",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Fix markdown lint issues to make CI tests pass",
+    "status": "completed",
+    "id": "3"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create a new git worktree for the rename operation",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Rename .claude directory to dotclaude in the worktree",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create a clean .claude directory structure",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Update CLAUDE.md references from .claude to dotclaude",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Commit the changes in the worktree",
+    "status": "pending",
+    "id": "5"
+  }
+]

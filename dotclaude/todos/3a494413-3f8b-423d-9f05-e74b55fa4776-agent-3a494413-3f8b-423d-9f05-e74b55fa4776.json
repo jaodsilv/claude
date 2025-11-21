@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Create new directory structure (job-hunting.claude/, personal-projects.claude/, learning.claude/)",
+    "status": "completed",
+    "activeForm": "Creating new directory structure"
+  },
+  {
+    "content": "Identify and migrate job hunting content from dotclaude/ to job-hunting.claude/",
+    "status": "completed",
+    "activeForm": "Identifying and migrating job hunting content"
+  },
+  {
+    "content": "Create job-hunting.claude/README.md",
+    "status": "completed",
+    "activeForm": "Creating job-hunting.claude/README.md"
+  },
+  {
+    "content": "Create placeholder READMEs for personal-projects.claude/ and learning.claude/",
+    "status": "completed",
+    "activeForm": "Creating placeholder READMEs"
+  },
+  {
+    "content": "Update main CLAUDE.md with new structure documentation",
+    "status": "completed",
+    "activeForm": "Updating main CLAUDE.md"
+  },
+  {
+    "content": "Update main README.md with restructuring information",
+    "status": "completed",
+    "activeForm": "Updating main README.md"
+  },
+  {
+    "content": "Verify migration completeness",
+    "status": "completed",
+    "activeForm": "Verifying migration completeness"
+  },
+  {
+    "content": "Commit and push changes to GitHub",
+    "status": "in_progress",
+    "activeForm": "Committing and pushing changes"
+  }
+]

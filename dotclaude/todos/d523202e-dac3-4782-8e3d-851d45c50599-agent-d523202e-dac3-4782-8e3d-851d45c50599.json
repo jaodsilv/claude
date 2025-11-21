@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Create the download.sh script with parameter handling and curl download functionality",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Make the script executable",
+    "status": "completed",
+    "id": "2"
+  }
+]

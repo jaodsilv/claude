@@ -1,0 +1,88 @@
+# LaTeX Templates
+
+Multi-variant LaTeX templates for resumes, CVs, cover letters, and other documents with automation tooling and analysis capabilities.
+
+## Overview
+
+This repository contains LaTeX templates and automation tools for creating professional resumes and cover letters with multiple specialized variants. The system supports:
+
+1. Multi-variant resume generation (Backend, Data Engineering, Infrastructure, Full-Stack, etc.)
+2. Cover letter templates
+3. Curriculum Vitae (CV) templates
+4. PowerShell automation scripts for document processing
+5. HTML analysis and comparison tools
+6. Comprehensive documentation and guides
+
+## Repository Structure
+
+```
+latex-templates/
+├── Resume/              # Resume templates and variants
+├── CurriculumVitae/     # CV templates
+├── Cover Letter/        # Cover letter templates
+├── scripts/             # PowerShell automation scripts
+├── analysis/            # HTML comparison and analysis tools
+├── docs/                # Documentation (guides, plans, prompts)
+├── certified-translation/  # Certified translation templates
+└── financial-means/     # Financial documentation templates
+```
+
+## Features
+
+1. **Multi-Variant Resume System**: Create specialized resume versions for different job roles
+2. **Template-Based**: Easily customizable LaTeX templates
+3. **Automation Scripts**: PowerShell tools for batch processing
+4. **HTML Analysis**: Visual comparison tools for resume variants
+5. **Comprehensive Documentation**: 27+ guides, plans, and implementation docs
+
+## Usage
+
+### Compiling Documents
+
+Use your preferred LaTeX compiler (pdflatex, xelatex, lualatex):
+
+```bash
+cd Resume
+pdflatex your-resume.tex
+```
+
+### Automation
+
+PowerShell scripts are available in the `scripts/` directory for:
+1. Batch compilation
+2. Document extraction and analysis
+3. HTML report generation
+
+### Templates
+
+All templates are designed to be easily customizable:
+1. Edit the `.tex` files with your information
+2. Adjust styling and formatting as needed
+3. Compile to generate PDF output
+
+## Documentation
+
+See the `docs/` directory for:
+1. Quick start guides
+2. Resume matching guides
+3. Implementation plans
+4. Web integration documentation
+
+## Important Notes
+
+1. **PDFs are not committed**: All `.pdf` files are gitignored. Only source `.tex` files are version controlled.
+2. **Personal data**: Remove any personal information before committing changes
+3. **Templates only**: This repository contains templates. Filled documents should be kept in a separate private repository.
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Related Repositories
+
+1. **job-applications** (private): Filled resumes and cover letters
+2. **job-hunting-automation**: Python automation tools for job searching
+
+## Contributing
+
+This is a personal template repository. Feel free to fork and adapt for your own use.

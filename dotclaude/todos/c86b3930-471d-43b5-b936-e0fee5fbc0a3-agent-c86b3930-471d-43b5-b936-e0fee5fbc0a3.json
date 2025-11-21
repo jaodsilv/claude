@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Add YAML import to converter.py",
+    "status": "in_progress"
+  },
+  {
+    "content": "Create load_conversions_from_yaml function",
+    "status": "pending"
+  },
+  {
+    "content": "Add load_from_yaml method to HTMLToMarkdownConverter class",
+    "status": "pending"
+  },
+  {
+    "content": "Update main function to support YAML file mode",
+    "status": "pending"
+  },
+  {
+    "content": "Test the YAML loading functionality",
+    "status": "pending"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Read the download, convert, and convert-verify templates",
+    "status": "completed",
+    "id": "read-templates"
+  },
+  {
+    "content": "Process all 90 URLs for download and conversion (sequential downloads, parallel conversions)",
+    "status": "in_progress",
+    "id": "process-urls"
+  },
+  {
+    "content": "Verify all conversions completed successfully",
+    "status": "pending",
+    "id": "verify-conversions"
+  },
+  {
+    "content": "Generate final completion report with success/failure statistics",
+    "status": "pending",
+    "id": "generate-report"
+  }
+]

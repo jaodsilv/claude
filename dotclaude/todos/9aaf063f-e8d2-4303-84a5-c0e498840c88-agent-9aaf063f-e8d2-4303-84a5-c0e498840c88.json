@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Read the target file to convert",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Read the archetype file for structure reference",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Read the example file for implementation reference",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Analyze differences and create conversion plan",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Convert the file to match archetype",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Log actions to converter log file",
+    "status": "in_progress",
+    "id": "6"
+  }
+]

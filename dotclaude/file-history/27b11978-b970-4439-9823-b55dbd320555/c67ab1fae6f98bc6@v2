@@ -1,0 +1,4 @@
+resume_filepath: @job-hunting/resume.md
+conversation_history_filepath: @job-hunting/history/thetradedesk-gail.yaml
+output_filepath: @job-hunting/history/thetradedesk-gail.yaml
+datetime_now:
