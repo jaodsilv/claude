@@ -1,0 +1,225 @@
+{
+  "source": "super-claude",
+  "source_type": "submodule",
+  "discovered_at": "2025-01-18",
+  "repository": "https://github.com/SuperClaude-Org/SuperClaude",
+  "total_items": 24,
+  "items": [
+    {
+      "name": "analyze",
+      "type": "command",
+      "path": "SuperClaude/Commands/analyze.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Comprehensive code analysis across quality, security, performance, and architecture",
+      "keywords": ["analysis", "quality", "security", "performance", "architecture"]
+    },
+    {
+      "name": "build",
+      "type": "command",
+      "path": "SuperClaude/Commands/build.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Build, compile, and package projects with error handling",
+      "keywords": ["build", "compile", "package", "optimization"]
+    },
+    {
+      "name": "cleanup",
+      "type": "command",
+      "path": "SuperClaude/Commands/cleanup.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Clean up code and remove unused dependencies",
+      "keywords": ["cleanup", "refactor", "optimization"]
+    },
+    {
+      "name": "design",
+      "type": "command",
+      "path": "SuperClaude/Commands/design.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "System and architecture design assistance",
+      "keywords": ["design", "architecture", "planning"]
+    },
+    {
+      "name": "document",
+      "type": "command",
+      "path": "SuperClaude/Commands/document.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Generate and maintain documentation",
+      "keywords": ["documentation", "docs", "generation"]
+    },
+    {
+      "name": "estimate",
+      "type": "command",
+      "path": "SuperClaude/Commands/estimate.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Estimate task complexity and time requirements",
+      "keywords": ["estimation", "planning", "project-management"]
+    },
+    {
+      "name": "explain",
+      "type": "command",
+      "path": "SuperClaude/Commands/explain.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Explain code functionality and patterns",
+      "keywords": ["explain", "documentation", "understanding"]
+    },
+    {
+      "name": "git",
+      "type": "command",
+      "path": "SuperClaude/Commands/git.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Git workflow and version control assistance",
+      "keywords": ["git", "version-control", "commits"]
+    },
+    {
+      "name": "implement",
+      "type": "command",
+      "path": "SuperClaude/Commands/implement.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Feature implementation guidance",
+      "keywords": ["implementation", "features", "coding"]
+    },
+    {
+      "name": "improve",
+      "type": "command",
+      "path": "SuperClaude/Commands/improve.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Code improvement and refactoring suggestions",
+      "keywords": ["improvement", "refactor", "quality"]
+    },
+    {
+      "name": "index",
+      "type": "command",
+      "path": "SuperClaude/Commands/index.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Index and organize project resources",
+      "keywords": ["index", "organization", "search"]
+    },
+    {
+      "name": "load",
+      "type": "command",
+      "path": "SuperClaude/Commands/load.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Load context and project information",
+      "keywords": ["context", "loading", "memory"]
+    },
+    {
+      "name": "spawn",
+      "type": "command",
+      "path": "SuperClaude/Commands/spawn.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "Spawn specialized agents for tasks",
+      "keywords": ["agents", "spawning", "multi-agent"]
+    },
+    {
+      "name": "task",
+      "type": "command",
+      "path": "SuperClaude/Commands/task.md",
+      "category": "Productivity",
+      "quality_score": 5,
+      "description": "Task management and tracking",
+      "keywords": ["tasks", "management", "todo"]
+    },
+    {
+      "name": "test",
+      "type": "command",
+      "path": "SuperClaude/Commands/test.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Execute tests and generate test reports",
+      "keywords": ["testing", "qa", "coverage"]
+    },
+    {
+      "name": "troubleshoot",
+      "type": "command",
+      "path": "SuperClaude/Commands/troubleshoot.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Debug and troubleshoot issues",
+      "keywords": ["debugging", "troubleshooting", "errors"]
+    },
+    {
+      "name": "workflow",
+      "type": "command",
+      "path": "SuperClaude/Commands/workflow.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Workflow automation and management",
+      "keywords": ["workflow", "automation", "process"]
+    },
+    {
+      "name": "orchestrator",
+      "type": "doc",
+      "path": "SuperClaude/Core/ORCHESTRATOR.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "Agent orchestration and coordination system",
+      "keywords": ["orchestration", "agents", "coordination"]
+    },
+    {
+      "name": "personas",
+      "type": "doc",
+      "path": "SuperClaude/Core/PERSONAS.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "AI specialist personas for different domains",
+      "keywords": ["personas", "specialists", "roles"]
+    },
+    {
+      "name": "principles",
+      "type": "doc",
+      "path": "SuperClaude/Core/PRINCIPLES.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Core development principles and best practices",
+      "keywords": ["principles", "best-practices", "guidelines"]
+    },
+    {
+      "name": "rules",
+      "type": "doc",
+      "path": "SuperClaude/Core/RULES.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Development rules and conventions",
+      "keywords": ["rules", "conventions", "standards"]
+    },
+    {
+      "name": "modes",
+      "type": "doc",
+      "path": "SuperClaude/Core/MODES.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "Operation modes for different contexts",
+      "keywords": ["modes", "context", "operation"]
+    },
+    {
+      "name": "mcp",
+      "type": "doc",
+      "path": "SuperClaude/Core/MCP.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "MCP server integration documentation",
+      "keywords": ["mcp", "integration", "servers"]
+    },
+    {
+      "name": "installer",
+      "type": "script",
+      "path": "setup/",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Python-based installation suite for SuperClaude",
+      "keywords": ["installer", "setup", "automation", "python"]
+    }
+  ]
+}

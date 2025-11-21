@@ -1,0 +1,219 @@
+{
+  "source": "awesome-claude-code-subagents",
+  "source_type": "submodule",
+  "discovered_at": "2025-01-18",
+  "repository": "https://github.com/voltagent/awesome-claude-code-subagents",
+  "total_items": 110,
+  "summary": "Production-ready specialized agents across 8 categories following best practices with MCP integration",
+  "categories": {
+    "core-development": 9,
+    "language-specialists": 24,
+    "infrastructure": 12,
+    "quality-security": 12,
+    "data-ai": 12,
+    "developer-experience": 9,
+    "specialized-domains": 10,
+    "business-product": 22
+  },
+  "items": [
+    {
+      "name": "frontend-developer",
+      "type": "agent",
+      "path": "categories/01-core-development/frontend-developer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Expert UI engineer for React 18+, Vue 3+, Angular 15+ with WCAG 2.1 AA compliance",
+      "keywords": ["frontend", "react", "vue", "angular", "ui", "accessibility"]
+    },
+    {
+      "name": "backend-developer",
+      "type": "agent",
+      "path": "categories/01-core-development/backend-developer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Server-side expert for scalable API development",
+      "keywords": ["backend", "api", "server", "scalability"]
+    },
+    {
+      "name": "fullstack-developer",
+      "type": "agent",
+      "path": "categories/01-core-development/fullstack-developer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "End-to-end feature development specialist",
+      "keywords": ["fullstack", "frontend", "backend", "integration"]
+    },
+    {
+      "name": "typescript-pro",
+      "type": "agent",
+      "path": "categories/02-language-specialists/typescript-pro.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "TypeScript development specialist with strict mode expertise",
+      "keywords": ["typescript", "types", "javascript"]
+    },
+    {
+      "name": "python-pro",
+      "type": "agent",
+      "path": "categories/02-language-specialists/python-pro.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Python ecosystem master with focus on modern best practices",
+      "keywords": ["python", "django", "fastapi", "pandas"]
+    },
+    {
+      "name": "rust-engineer",
+      "type": "agent",
+      "path": "categories/02-language-specialists/rust-engineer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Systems programming expert in Rust with ownership mastery",
+      "keywords": ["rust", "systems", "performance", "safety"]
+    },
+    {
+      "name": "golang-pro",
+      "type": "agent",
+      "path": "categories/02-language-specialists/golang-pro.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Go concurrency specialist for high-performance systems",
+      "keywords": ["golang", "go", "concurrency", "microservices"]
+    },
+    {
+      "name": "devops-engineer",
+      "type": "agent",
+      "path": "categories/03-infrastructure/devops-engineer.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "CI/CD and automation infrastructure expert",
+      "keywords": ["devops", "ci-cd", "automation", "infrastructure"]
+    },
+    {
+      "name": "kubernetes-specialist",
+      "type": "agent",
+      "path": "categories/03-infrastructure/kubernetes-specialist.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Container orchestration master with k8s expertise",
+      "keywords": ["kubernetes", "containers", "orchestration", "docker"]
+    },
+    {
+      "name": "cloud-architect",
+      "type": "agent",
+      "path": "categories/03-infrastructure/cloud-architect.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Multi-cloud AWS/GCP/Azure architecture specialist",
+      "keywords": ["cloud", "aws", "gcp", "azure", "architecture"]
+    },
+    {
+      "name": "security-engineer",
+      "type": "agent",
+      "path": "categories/03-infrastructure/security-engineer.md",
+      "category": "Security",
+      "quality_score": 5,
+      "description": "Security concerns and vulnerability assessment expert",
+      "keywords": ["security", "vulnerabilities", "pentesting", "compliance"]
+    },
+    {
+      "name": "code-reviewer",
+      "type": "agent",
+      "path": "categories/04-quality-security/code-reviewer.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Comprehensive code quality review specialist",
+      "keywords": ["code-review", "quality", "best-practices"]
+    },
+    {
+      "name": "test-automator",
+      "type": "agent",
+      "path": "categories/04-quality-security/test-automator.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Test automation framework specialist",
+      "keywords": ["testing", "automation", "qa", "coverage"]
+    },
+    {
+      "name": "performance-engineer",
+      "type": "agent",
+      "path": "categories/04-quality-security/performance-engineer.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Performance optimization and profiling expert",
+      "keywords": ["performance", "optimization", "profiling", "benchmarking"]
+    },
+    {
+      "name": "security-auditor",
+      "type": "agent",
+      "path": "categories/04-quality-security/security-auditor.md",
+      "category": "Security",
+      "quality_score": 5,
+      "description": "Security audit and compliance specialist",
+      "keywords": ["security", "audit", "compliance", "standards"]
+    },
+    {
+      "name": "ml-engineer",
+      "type": "agent",
+      "path": "categories/05-data-ai/ml-engineer.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "Machine learning model development specialist",
+      "keywords": ["machine-learning", "ml", "ai", "models"]
+    },
+    {
+      "name": "data-engineer",
+      "type": "agent",
+      "path": "categories/05-data-ai/data-engineer.md",
+      "category": "DevOps & Infrastructure",
+      "quality_score": 5,
+      "description": "Data pipeline and ETL specialist",
+      "keywords": ["data", "etl", "pipelines", "warehouse"]
+    },
+    {
+      "name": "llm-architect",
+      "type": "agent",
+      "path": "categories/05-data-ai/llm-architect.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "LLM integration and prompt engineering specialist",
+      "keywords": ["llm", "prompts", "ai", "architecture"]
+    },
+    {
+      "name": "prompt-engineer",
+      "type": "agent",
+      "path": "categories/05-data-ai/prompt-engineer.md",
+      "category": "AI & Prompts",
+      "quality_score": 5,
+      "description": "AI prompt design and optimization expert",
+      "keywords": ["prompts", "ai", "optimization", "engineering"]
+    },
+    {
+      "name": "documentation-engineer",
+      "type": "agent",
+      "path": "categories/06-developer-experience/documentation-engineer.md",
+      "category": "Documentation",
+      "quality_score": 5,
+      "description": "Technical documentation and API docs specialist",
+      "keywords": ["documentation", "technical-writing", "api-docs"]
+    },
+    {
+      "name": "refactoring-specialist",
+      "type": "agent",
+      "path": "categories/06-developer-experience/refactoring-specialist.md",
+      "category": "Development Workflow",
+      "quality_score": 5,
+      "description": "Code refactoring and improvement expert",
+      "keywords": ["refactoring", "code-quality", "improvement"]
+    },
+    {
+      "name": "git-workflow-manager",
+      "type": "agent",
+      "path": "categories/06-developer-experience/git-workflow-manager.md",
+      "category": "Git & Version Control",
+      "quality_score": 5,
+      "description": "Git workflow and branching strategy specialist",
+      "keywords": ["git", "workflow", "version-control", "branching"]
+    }
+  ],
+  "notes": "This is a representative sample of 22 agents from 110 total. All agents follow production-ready standards with MCP tool integration, comprehensive checklists, and industry best practices."
+}
