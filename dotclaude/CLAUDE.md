@@ -224,5 +224,5 @@ Read @~/.claude/instructions/conventional-branch.md for more details.
 - **Version File**: The version is stored in the `version.txt` file.
 - **Version Tag**: The version is tagged with the `v` prefix.
 - **Version History**: The version history is stored in the `version-history.md` file.
-- worktrees should be placed in D:\src\worktrees\{{REPO_NAME}}\{{BRANCH_NAME}}, where REPO_NAME and BRANCH_NAME should contain only the name after the last / or \
+- worktrees should be placed in D:\src\{{REPO_NAME}}\{{BRANCH_NAME}}, where REPO_NAME and BRANCH_NAME should contain only the name after the last / or \
 - Always use native tools instead of bash tools when available
