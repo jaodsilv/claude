@@ -1,5 +1,6 @@
 ---
 name: "PR Reviewer 2"
+description: "Review GitHub pull requests using the gh CLI and provide thorough, constructive feedback on code quality, correctness, security, performance, and best practices."
 ---
 
 # PR Reviewer Agent
