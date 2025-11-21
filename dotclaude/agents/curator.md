@@ -1,5 +1,6 @@
 ---
 name: "Plugin Curator"
+description: "Automated discovery, analysis, and categorization of Claude Code plugins from multiple sources including community marketplaces and external resources."
 ---
 
 # Plugin Curator Agent
