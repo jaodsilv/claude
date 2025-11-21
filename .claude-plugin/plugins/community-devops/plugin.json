@@ -1,0 +1,41 @@
+{
+  "name": "community-devops",
+  "version": "1.0.0",
+  "description": "Curated DevOps and infrastructure tools from the Claude Code community, including CI/CD, deployment automation, Kubernetes, and cloud architecture",
+  "author": {
+    "name": "João da Silva",
+    "url": "https://github.com/jaodsilv"
+  },
+  "category": "devops-infrastructure",
+  "keywords": [
+    "devops",
+    "ci-cd",
+    "kubernetes",
+    "cloud",
+    "deployment",
+    "infrastructure",
+    "automation",
+    "community-curated"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/jaodsilv/claude",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaodsilv/claude.git"
+  },
+  "commands": [
+    "external-resources/super-claude/SuperClaude/Commands/build.md",
+    "external-resources/awesome-claude-code/resources/slash-commands/release/release.md",
+    "external-resources/awesome-claude-code/resources/slash-commands/husky/husky.md",
+    "external-resources/awesome-claude-code/resources/slash-commands/act/act.md"
+  ],
+  "agents": [
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/devops-engineer.md",
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/kubernetes-specialist.md",
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/cloud-architect.md",
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/deployment-engineer.md",
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/platform-engineer.md",
+    "external-resources/awesome-claude-code-subagents/categories/03-infrastructure/sre-engineer.md"
+  ],
+  "notes": "Comprehensive DevOps toolkit combining SuperClaude build/release automation with community CI/CD tools and production-ready infrastructure specialists."
+}

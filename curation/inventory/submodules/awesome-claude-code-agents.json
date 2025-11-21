@@ -1,0 +1,45 @@
+{
+  "source": "awesome-claude-code-agents",
+  "source_type": "submodule",
+  "discovered_at": "2025-01-18",
+  "repository": "https://github.com/hesreallyhim/awesome-claude-code-agents",
+  "total_items": 4,
+  "items": [
+    {
+      "name": "backend-typescript-architect",
+      "type": "agent",
+      "path": "agents/backend-typescript-architect.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Backend architecture specialist for TypeScript applications",
+      "keywords": ["backend", "typescript", "architecture", "api"]
+    },
+    {
+      "name": "python-backend-engineer",
+      "type": "agent",
+      "path": "agents/python-backend-engineer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "Python backend development specialist",
+      "keywords": ["python", "backend", "fastapi", "django"]
+    },
+    {
+      "name": "senior-code-reviewer",
+      "type": "agent",
+      "path": "agents/senior-code-reviewer.md",
+      "category": "Testing & QA",
+      "quality_score": 5,
+      "description": "Comprehensive code review specialist with focus on quality",
+      "keywords": ["code-review", "quality", "best-practices", "senior"]
+    },
+    {
+      "name": "ui-engineer",
+      "type": "agent",
+      "path": "agents/ui-engineer.md",
+      "category": "Code Generation",
+      "quality_score": 5,
+      "description": "UI/UX engineering specialist for frontend applications",
+      "keywords": ["ui", "frontend", "react", "vue", "ux"]
+    }
+  ]
+}

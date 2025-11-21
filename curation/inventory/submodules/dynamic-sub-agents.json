@@ -1,0 +1,28 @@
+{
+  "source": "dynamic-sub-agents",
+  "source_type": "submodule",
+  "discovered_at": "2025-01-18",
+  "repository": "https://github.com/[unknown]/dynamic-sub-agents",
+  "total_items": 2,
+  "items": [
+    {
+      "name": "claude-md",
+      "type": "doc",
+      "path": "CLAUDE.md",
+      "category": "AI & Prompts",
+      "quality_score": 3,
+      "description": "Configuration for dynamic agent spawning",
+      "keywords": ["agents", "dynamic", "spawning", "configuration"]
+    },
+    {
+      "name": "readme",
+      "type": "doc",
+      "path": "readme.md",
+      "category": "Documentation",
+      "quality_score": 3,
+      "description": "Documentation for dynamic sub-agent system",
+      "keywords": ["documentation", "agents", "system"]
+    }
+  ],
+  "notes": "Small repository focused on dynamic agent spawning concepts. Limited content requiring further investigation."
+}

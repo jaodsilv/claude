@@ -1,0 +1,124 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jaodsilv-claude-marketplace",
+  "version": "1.0.0",
+  "description": "Personal productivity marketplace: TDD workflows, job hunting automation, and curated community development tools",
+  "owner": {
+    "name": "João da Silva",
+    "url": "https://github.com/jaodsilv"
+  },
+  "plugins": [
+    {
+      "name": "tdd-pro",
+      "description": "Professional TDD workflow with multi-agent coordination, conventional commits, and branch management",
+      "source": ".claude-plugin/plugins/tdd-pro",
+      "category": "development-workflow",
+      "version": "1.0.0",
+      "keywords": ["tdd", "testing", "workflow", "automation", "conventional-commits", "git"]
+    },
+    {
+      "name": "docs-automation",
+      "description": "Automated documentation download, conversion, and verification with multi-agent coordination",
+      "source": ".claude-plugin/plugins/docs-automation",
+      "category": "documentation",
+      "version": "1.0.0",
+      "keywords": ["documentation", "download", "conversion", "automation"]
+    },
+    {
+      "name": "job-hunting-pro",
+      "description": "Comprehensive job hunting automation: cover letter evaluation, improvement, interview prep, and company research",
+      "source": ".claude-plugin/plugins/job-hunting-pro",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": ["job-hunting", "career", "cover-letter", "interview", "ats"]
+    },
+    {
+      "name": "community-testing",
+      "description": "Curated testing and QA tools: TDD workflows, code quality, test automation, and QA agents",
+      "source": ".claude-plugin/plugins/community-testing",
+      "category": "testing-qa",
+      "version": "1.0.0",
+      "keywords": ["testing", "qa", "tdd", "automation", "community"]
+    },
+    {
+      "name": "community-documentation",
+      "description": "Curated documentation tools: batch pipeline, generation, PRD, Roadmap, and API docs",
+      "source": ".claude-plugin/plugins/community-documentation",
+      "category": "documentation",
+      "version": "1.0.0",
+      "keywords": ["documentation", "docs", "prd", "api-docs", "community"]
+    },
+    {
+      "name": "community-devops",
+      "description": "Curated DevOps tools: CI/CD, Kubernetes, cloud architecture, and SRE",
+      "source": ".claude-plugin/plugins/community-devops",
+      "category": "devops-infrastructure",
+      "version": "1.0.0",
+      "keywords": ["devops", "ci-cd", "kubernetes", "cloud", "community"]
+    },
+    {
+      "name": "community-prompts",
+      "description": "Curated AI and prompt tools: prompt engineering, agent orchestration, and 100+ examples",
+      "source": ".claude-plugin/plugins/community-prompts",
+      "category": "ai-prompts",
+      "version": "1.0.0",
+      "keywords": ["prompts", "ai", "llm", "agents", "community"]
+    },
+    {
+      "name": "community-git-tools",
+      "description": "Curated Git tools: conventional commits/branches, PR workflows, and automation",
+      "source": ".claude-plugin/plugins/community-git-tools",
+      "category": "git-version-control",
+      "version": "1.0.0",
+      "keywords": ["git", "version-control", "commits", "pr", "community"]
+    },
+    {
+      "name": "community-best-of",
+      "description": "Top-rated tools across all categories with unique innovations highlighted",
+      "source": ".claude-plugin/plugins/community-best-of",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": ["best-practices", "curated", "top-rated", "community"]
+    },
+    {
+      "name": "jaodsilv-workflow",
+      "description": "jaodsilv's complete development workflow: TDD, conventional standards, multi-agent coordination",
+      "source": ".claude-plugin/plugins/jaodsilv-workflow",
+      "category": "development-workflow",
+      "version": "1.0.0",
+      "keywords": ["tdd", "workflow", "conventional", "multi-agent", "jaodsilv"]
+    },
+    {
+      "name": "jaodsilv-docs",
+      "description": "jaodsilv's unique batch documentation pipeline: download, convert, verify",
+      "source": ".claude-plugin/plugins/jaodsilv-docs",
+      "category": "documentation",
+      "version": "1.0.0",
+      "keywords": ["documentation", "batch", "automation", "pipeline", "jaodsilv"]
+    },
+    {
+      "name": "jaodsilv-career",
+      "description": "jaodsilv's comprehensive career skill - ONLY career tool in Claude Code ecosystem",
+      "source": ".claude-plugin/plugins/jaodsilv-career",
+      "category": "job-hunting-career",
+      "version": "1.0.0",
+      "keywords": ["career", "job-hunting", "unique", "jaodsilv"]
+    },
+    {
+      "name": "marketplace-curator",
+      "description": "Tools for curating your own marketplace: discovery, analysis, and collection creation",
+      "source": ".claude-plugin/plugins/marketplace-curator",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": ["curation", "marketplace", "discovery", "meta"]
+    },
+    {
+      "name": "community-bundle",
+      "description": "Meta-plugin bundling all 6 community collections (86+ tools) for easy installation",
+      "source": ".claude-plugin/plugins/community-bundle",
+      "category": "productivity",
+      "version": "1.0.0",
+      "keywords": ["bundle", "community", "meta", "collection"]
+    }
+  ]
+}
