@@ -1,0 +1,112 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\claude\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Applying permission update: Adding 9 allow rule(s) to destination 'localSettings': ["WebFetch(domain:docs.anthropic.com)","Bash(find:*)","WebFetch(domain:claudelog.com)","WebFetch(domain:claudelog.com)","WebFetch(domain:htdocs.dev)","WebFetch(domain:docs.claude.ai)","WebFetch(domain:claude.ai)","WebFetch(domain:shchegrikovich.substack.com)","Bash(rm:*)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: false, type: boolean
+[DEBUG] ENABLE_SKILLS check failed, returning empty
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Summarizing all 2 messages (~0 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579642642
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105068 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579642642 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579643478
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105068 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579643478 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Summarizing last 6 of 51 messages (~133485 tokens)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at __ (B:/~BUN/root/claude.exe:66:408)
+    at MDY (B:/~BUN/root/claude.exe:3482:3498)
+    at Ud (B:/~BUN/root/claude.exe:3482:4812)
+[DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Summarizing all 3 messages (~0 tokens)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760579651729-9xeazu.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\7f2fb776-05bc-4400-a6cb-fa942857ca70-agent-7f2fb776-05bc-4400-a6cb-fa942857ca70.json.tmp.38240.1760579651943
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\7f2fb776-05bc-4400-a6cb-fa942857ca70-agent-7f2fb776-05bc-4400-a6cb-fa942857ca70.json.tmp.38240.1760579651943 to D:\joaod\.claude\todos\7f2fb776-05bc-4400-a6cb-fa942857ca70-agent-7f2fb776-05bc-4400-a6cb-fa942857ca70.json
+[DEBUG] File D:\joaod\.claude\todos\7f2fb776-05bc-4400-a6cb-fa942857ca70-agent-7f2fb776-05bc-4400-a6cb-fa942857ca70.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579653508
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579653508 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Stream started - received first chunk
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 24 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579661114
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579661114 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579661660
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104538 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579661660 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579661967
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104538 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579661967 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.38240.1760579663334
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.38240.1760579663334 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool:
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19

@@ -1,0 +1,169 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424023280
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424023280 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424023406
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424023406 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[ERROR] AxiosError: Error
+    at LC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at fj (B:/~BUN/root/claude.exe:66:408)
+    at cIW (B:/~BUN/root/claude.exe:3430:3475)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at fj (B:/~BUN/root/claude.exe:66:408)
+    at cIW (B:/~BUN/root/claude.exe:3430:3475)
+    at Wu (B:/~BUN/root/claude.exe:3430:4425)
+    at tm (B:/~BUN/root/claude.exe:882:5995)
+    at <anonymous> (B:/~BUN/root/claude.exe:888:281)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760424025629-v0ilpc.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\1bc8dbfd-562c-4d86-bb23-eb154ef984a0-agent-1bc8dbfd-562c-4d86-bb23-eb154ef984a0.json.tmp.6312.1760424025881
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\1bc8dbfd-562c-4d86-bb23-eb154ef984a0-agent-1bc8dbfd-562c-4d86-bb23-eb154ef984a0.json.tmp.6312.1760424025881 to D:\joaod\.claude\todos\1bc8dbfd-562c-4d86-bb23-eb154ef984a0-agent-1bc8dbfd-562c-4d86-bb23-eb154ef984a0.json
+[DEBUG] File D:\joaod\.claude\todos\1bc8dbfd-562c-4d86-bb23-eb154ef984a0-agent-1bc8dbfd-562c-4d86-bb23-eb154ef984a0.json written atomically
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\worktrees\LifeHacking\command-system-update\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424026289
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424026289 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[ERROR] AxiosError: Error
+    at LC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 512 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+[DEBUG] Failed to fetch Grove notice config: AxiosError: Request failed with status code 401
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424030783
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424030783 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424031058
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33523 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424031058 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424031136
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33523 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424031136 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424031355
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33628 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424031355 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.14
+[DEBUG] Version 2.0.14 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.14
+[ERROR] AxiosError: Error
+    at LC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+[ERROR] Error: Error: 401 {"type":"error","error":{"type":"authentication_error","message":"OAuth token has expired. Please obtain a new token or refresh your existing token."},"request_id":"req_011CU6dhKhffH5m7E4szZzVm"}
+    at generate (B:/~BUN/root/claude.exe:381:21420)
+    at makeRequest (B:/~BUN/root/claude.exe:526:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] AxiosError: Error
+    at LC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.14
+[DEBUG] Version 2.0.14 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.14
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760424025629-v0ilpc.sh
+[DEBUG] FileHistory: Added snapshot for c5ef1776-54cc-4507-95cd-306862f2b92e, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424079545
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33673 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424079545 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424079743
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33696 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424079743 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424079838
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 33785 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424079838 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.6312.1760424080066
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 34205 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.6312.1760424080066 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically

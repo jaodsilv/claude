@@ -1,0 +1,63 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[ERROR] AxiosError: Error
+    at SC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at aj (B:/~BUN/root/claude.exe:66:408)
+    at OFW (B:/~BUN/root/claude.exe:3449:3475)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at aj (B:/~BUN/root/claude.exe:66:408)
+    at OFW (B:/~BUN/root/claude.exe:3449:3475)
+    at $u (B:/~BUN/root/claude.exe:3449:4425)
+    at Hu (B:/~BUN/root/claude.exe:882:5995)
+    at <anonymous> (B:/~BUN/root/claude.exe:888:281)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.33844.1760477189889
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 35963 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.33844.1760477189889 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760477192360-dqn94j.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\b7cc93d0-67f7-4336-8d4f-b16f57c3f98d-agent-b7cc93d0-67f7-4336-8d4f-b16f57c3f98d.json.tmp.33844.1760477192414
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\b7cc93d0-67f7-4336-8d4f-b16f57c3f98d-agent-b7cc93d0-67f7-4336-8d4f-b16f57c3f98d.json.tmp.33844.1760477192414 to D:\joaod\.claude\todos\b7cc93d0-67f7-4336-8d4f-b16f57c3f98d-agent-b7cc93d0-67f7-4336-8d4f-b16f57c3f98d.json
+[DEBUG] File D:\joaod\.claude\todos\b7cc93d0-67f7-4336-8d4f-b16f57c3f98d-agent-b7cc93d0-67f7-4336-8d4f-b16f57c3f98d.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[ERROR] AxiosError: Error
+    at SC (B:/~BUN/root/claude.exe:27:1142)
+    at <anonymous> (B:/~BUN/root/claude.exe:32:9845)
+    at emit (node:events:92:22)
+    at endReadableNT (internal:streams/readable:861:50)
+    at processTicksAndRejections (native:7:39)
+    at request (B:/~BUN/root/claude.exe:34:2146)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 1017 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)

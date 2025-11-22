@@ -1,0 +1,50 @@
+[
+  {
+    "content": "Add validation checkboxes for claimed current features in CLAUDE.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Update testing section in CLAUDE.md to align with DEV_PLAN.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Consolidate overlapping content between CLAUDE.md and SystemDesign.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Add buffer time and break down complex tasks in DEV_PLAN.md",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Enhance README.md with feature overview, build commands, and troubleshooting",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Add API key validation, error handling, and rotation documentation",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Move testing setup to Phase 1 in DEV_PLAN.md",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  },
+  {
+    "content": "Add TODO for architecture diagrams in SystemDesign.md",
+    "status": "completed",
+    "priority": "low",
+    "id": "8"
+  }
+]

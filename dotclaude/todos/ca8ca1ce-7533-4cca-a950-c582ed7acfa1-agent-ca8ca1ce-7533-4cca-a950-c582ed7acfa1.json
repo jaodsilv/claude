@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Launch Manager Sub Agents for each unprocessed file",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "main_04"
+  },
+  {
+    "content": "Monitor and manage sub-agent callbacks",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "main_05"
+  },
+  {
+    "content": "Update checklist file as files are completed",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "main_06"
+  },
+  {
+    "content": "Manager Sub Agent 10: SoftSkillsGrowth/study-day-command.md",
+    "status": "pending",
+    "priority": "medium",
+    "id": "agent_10"
+  },
+  {
+    "content": "Manager Sub Agent 12: SoftSkillsGrowth/track-progress-command.md",
+    "status": "completed",
+    "priority": "medium",
+    "id": "agent_12"
+  },
+  {
+    "content": "SoftSkillsGrowth directory: 6/7 files completed (study-day-command.md pending)",
+    "status": "in_progress",
+    "priority": "medium",
+    "id": "softskills_status"
+  },
+  {
+    "content": "Manager Sub Agent 13: TechnicalGrowth/CommandsTemplates/fast-learning.md",
+    "status": "pending",
+    "priority": "medium",
+    "id": "agent_13"
+  }
+]

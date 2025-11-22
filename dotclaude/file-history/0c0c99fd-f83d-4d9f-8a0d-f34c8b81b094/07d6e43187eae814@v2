@@ -1,0 +1,120 @@
+# Job Hunting Automation
+
+Python automation tools for job searching, including scrapers, scorers, H1B analysis, and skills optimization.
+
+## Overview
+
+This repository contains Python tools to automate various aspects of the job hunting process:
+
+1. **Job Search Automation**: Indeed scraper and job scoring algorithms
+2. **H1B Company Analysis**: Company name normalization and H1B data processing
+3. **Skills Sorter**: Resume optimization based on job descriptions
+
+## Repository Structure
+
+```
+job-hunting-automation/
+├── python/
+│   ├── job_search_automation/    # Indeed scraper and job scorer
+│   ├── counting_h1b/             # H1B company analysis tools
+│   └── skills_sorter/            # Skills ranking and optimization
+├── README.md
+└── .gitignore
+```
+
+## Python Tools
+
+### Job Search Automation
+
+**Location:** `python/job_search_automation/`
+
+Tools for scraping job postings and scoring them based on personal preferences:
+
+1. **indeed_job_scraper.py**: Scrapes job listings from Indeed with rate limiting
+2. **job_scorer.py**: Scores jobs based on configurable criteria
+
+### H1B Company Analysis
+
+**Location:** `python/counting_h1b/`
+
+Tools for analyzing H1B sponsorship data:
+
+1. **company_name_normalizer.py**: Normalizes company names for consistent analysis
+2. **company_name_matcher.py**: Matches variations of company names
+3. **company_name_analyzer.py**: Analyzes H1B sponsorship patterns
+
+### Skills Sorter
+
+**Location:** `python/skills_sorter/`
+
+Tools for optimizing resume skills based on job descriptions:
+
+1. **skills_sorter.py**: Ranks and prioritizes skills based on job requirements
+2. **skills.py**: Skills data structures and utilities
+
+## Installation
+
+Each Python tool may have its own requirements. Install dependencies as needed:
+
+```bash
+cd python/job_search_automation
+pip install -r requirements.txt  # if exists
+
+cd ../counting_h1b
+pip install -r requirements.txt  # if exists
+
+cd ../skills_sorter
+pip install -r requirements.txt  # if exists
+```
+
+## Usage
+
+### Job Scraping
+
+```bash
+cd python/job_search_automation
+python indeed_job_scraper.py
+```
+
+### H1B Analysis
+
+```bash
+cd python/counting_h1b
+python normalize_company_names.py
+```
+
+### Skills Optimization
+
+```bash
+cd python/skills_sorter
+python skills_sorter.py --precision 2
+```
+
+## Important Notes
+
+1. **Rate Limiting**: Web scrapers include rate limiting to respect website policies
+2. **API Keys**: Some tools may require API keys in `.env` files (gitignored)
+3. **Data Privacy**: Downloaded data and results are gitignored
+4. **Work in Progress**: Some tools may not be fully functional (refactoring planned)
+
+## Related Repositories
+
+1. **job-applications** (private): Personal job application materials
+2. **latex-templates** (public): LaTeX templates for resumes and cover letters
+3. **claude**: Claude Code configurations including job hunting slash commands
+
+## Job Hunting Slash Commands
+
+Custom Claude Code slash commands for job hunting workflows are located in:
+- **Repository**: claude
+- **Location**: `job-hunting.claude/commands/`
+
+These include commands for scraping, scoring, H1B analysis, and skills ranking integrated with Claude Code.
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Contributing
+
+This is a personal automation repository. Feel free to fork and adapt for your own use.

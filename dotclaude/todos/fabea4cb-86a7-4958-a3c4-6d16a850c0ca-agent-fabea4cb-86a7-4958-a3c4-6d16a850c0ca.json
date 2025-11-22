@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Parse /docs:download command arguments and validate parameters",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Launch docs:batch-downloader agent to download URLs to specified path",
+    "status": "in_progress",
+    "id": "2"
+  }
+]

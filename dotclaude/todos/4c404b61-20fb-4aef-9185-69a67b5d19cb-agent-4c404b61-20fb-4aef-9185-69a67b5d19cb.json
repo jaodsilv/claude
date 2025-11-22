@@ -1,0 +1,20 @@
+[
+  {
+    "content": "Identify files not following kebab-case in both directories",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Rename actual files to kebab-case",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update the checklist file with new names",
+    "status": "completed",
+    "priority": "medium",
+    "id": "3"
+  }
+]

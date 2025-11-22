@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Setup 6 repositories with TASK.md files via parallel subagents",
+    "status": "completed",
+    "activeForm": "Setting up 6 repositories with TASK.md files via parallel subagents"
+  },
+  {
+    "content": "Restructure claude repository with specialized configs",
+    "status": "pending",
+    "activeForm": "Restructuring claude repository with specialized configs"
+  },
+  {
+    "content": "Mark LifeHackingScripts as deprecated with DEPRECATED.md",
+    "status": "pending",
+    "activeForm": "Marking LifeHackingScripts as deprecated with DEPRECATED.md"
+  },
+  {
+    "content": "Verify all repositories and remotes",
+    "status": "pending",
+    "activeForm": "Verifying all repositories and remotes"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Fetch official Claude Code sub-agents documentation",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create agent-creator-2 using guidelines and official docs",
+    "status": "completed",
+    "id": "2"
+  }
+]

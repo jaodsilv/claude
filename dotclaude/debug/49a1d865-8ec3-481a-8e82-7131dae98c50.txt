@@ -1,0 +1,125 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Summarizing all 5 messages (~0 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477391161
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 42414 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477391161 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477391251
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 42414 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477391251 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760477392973-dycajm.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\49a1d865-8ec3-481a-8e82-7131dae98c50-agent-49a1d865-8ec3-481a-8e82-7131dae98c50.json.tmp.1396.1760477393013
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\49a1d865-8ec3-481a-8e82-7131dae98c50-agent-49a1d865-8ec3-481a-8e82-7131dae98c50.json.tmp.1396.1760477393013 to D:\joaod\.claude\todos\49a1d865-8ec3-481a-8e82-7131dae98c50-agent-49a1d865-8ec3-481a-8e82-7131dae98c50.json
+[DEBUG] File D:\joaod\.claude\todos\49a1d865-8ec3-481a-8e82-7131dae98c50-agent-49a1d865-8ec3-481a-8e82-7131dae98c50.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477393104
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 42033 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477393104 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 1785 results
+[ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:947:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at aj (B:/~BUN/root/claude.exe:66:408)
+    at OFW (B:/~BUN/root/claude.exe:3449:3483)
+    at $u (B:/~BUN/root/claude.exe:3449:4425)
+[DEBUG] MCP server "todo": Starting connection with timeout of 30000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477396549
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 42033 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477396549 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for SessionStart:startup
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477396912
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 41928 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477396912 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477396994
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 41928 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477396994 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477397068
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 41928 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477397068 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.1396.1760477397245
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 42033 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.1396.1760477397245 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] MCP server "todo": Successfully connected to stdio server in 5338ms
+[DEBUG] MCP server "todo": Connection established with capabilities: {"hasTools":true,"hasPrompts":false,"hasResources":false,"serverVersion":{"name":"claude/tengu","version":"2.0.15"}}
+[ERROR] MCP server "todo" Failed to fetch tools: [
+  {
+    "code": "invalid_literal",
+    "expected": "object",
+    "path": [
+      "tools",
+      0,
+      "outputSchema",
+      "type"
+    ],
+    "message": "Invalid literal value, expected \"object\""
+  },
+  {
+    "code": "invalid_literal",
+    "expected": "object",
+    "path": [
+      "tools",
+      5,
+      "outputSchema",
+      "type"
+    ],
+    "message": "Invalid literal value, expected \"object\""
+  }
+]
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter

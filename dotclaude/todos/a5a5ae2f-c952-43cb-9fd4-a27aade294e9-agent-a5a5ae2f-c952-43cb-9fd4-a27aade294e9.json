@@ -1,0 +1,12 @@
+[
+  {
+    "content": "Parse arguments to extract command-name and task",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Launch command-creator agent with parameters",
+    "status": "in_progress",
+    "id": "2"
+  }
+]

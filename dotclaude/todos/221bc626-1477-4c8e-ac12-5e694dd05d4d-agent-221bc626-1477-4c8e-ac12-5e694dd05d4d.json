@@ -1,0 +1,77 @@
+[
+  {
+    "content": "Aggregate all content into XML structure",
+    "status": "completed",
+    "activeForm": "Aggregating all content into XML structure"
+  },
+  {
+    "content": "Run overlap analysis evaluation",
+    "status": "in_progress",
+    "activeForm": "Running overlap analysis evaluation"
+  },
+  {
+    "content": "Run keywords coverage evaluation",
+    "status": "pending",
+    "activeForm": "Running keywords coverage evaluation"
+  },
+  {
+    "content": "Run ATS friendliness evaluation",
+    "status": "pending",
+    "activeForm": "Running ATS friendliness evaluation"
+  },
+  {
+    "content": "Run skills alignment evaluation",
+    "status": "pending",
+    "activeForm": "Running skills alignment evaluation"
+  },
+  {
+    "content": "Run terminology analysis evaluation",
+    "status": "pending",
+    "activeForm": "Running terminology analysis evaluation"
+  },
+  {
+    "content": "Run company culture alignment evaluation",
+    "status": "pending",
+    "activeForm": "Running company culture alignment evaluation"
+  },
+  {
+    "content": "Run communication style evaluation",
+    "status": "pending",
+    "activeForm": "Running communication style evaluation"
+  },
+  {
+    "content": "Run relevance evaluation",
+    "status": "pending",
+    "activeForm": "Running relevance evaluation"
+  },
+  {
+    "content": "Run impact demonstration evaluation",
+    "status": "pending",
+    "activeForm": "Running impact demonstration evaluation"
+  },
+  {
+    "content": "Run personalization level evaluation",
+    "status": "pending",
+    "activeForm": "Running personalization level evaluation"
+  },
+  {
+    "content": "Run technical positioning evaluation",
+    "status": "pending",
+    "activeForm": "Running technical positioning evaluation"
+  },
+  {
+    "content": "Run professional presentation evaluation",
+    "status": "pending",
+    "activeForm": "Running professional presentation evaluation"
+  },
+  {
+    "content": "Compile all evaluation results",
+    "status": "pending",
+    "activeForm": "Compiling all evaluation results"
+  },
+  {
+    "content": "Write final evaluation to output file",
+    "status": "pending",
+    "activeForm": "Writing final evaluation to output file"
+  }
+]
