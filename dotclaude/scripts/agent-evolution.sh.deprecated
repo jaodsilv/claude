@@ -1,5 +1,19 @@
 #!/bin/bash
 
+# ============================================================================
+# DEPRECATED: 2025-10-20
+# ============================================================================
+# This script is deprecated and should not be used.
+#
+# Reason: The approach of self-evolving agents through bash scripting is
+# superseded by more maintainable manual agent improvement workflows.
+# The automated evolution process proved to be unpredictable and difficult
+# to control, leading to inconsistent results and high token consumption.
+#
+# For agent improvements, please use manual review and iterative refinement
+# processes instead.
+# ============================================================================
+
 # Agent Evolution Script
 # Continuously improves agents through iterative creation and comparison
 
