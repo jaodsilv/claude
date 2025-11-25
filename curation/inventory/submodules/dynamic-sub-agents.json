@@ -12,7 +12,12 @@
       "category": "AI & Prompts",
       "quality_score": 3,
       "description": "Configuration for dynamic agent spawning",
-      "keywords": ["agents", "dynamic", "spawning", "configuration"]
+      "keywords": [
+        "agents",
+        "dynamic",
+        "spawning",
+        "configuration"
+      ]
     },
     {
       "name": "readme",
@@ -21,7 +26,11 @@
       "category": "Documentation",
       "quality_score": 3,
       "description": "Documentation for dynamic sub-agent system",
-      "keywords": ["documentation", "agents", "system"]
+      "keywords": [
+        "documentation",
+        "agents",
+        "system"
+      ]
     }
   ],
   "notes": "Small repository focused on dynamic agent spawning concepts. Limited content requiring further investigation."
