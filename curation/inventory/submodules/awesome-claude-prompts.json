@@ -12,7 +12,15 @@
       "category": "AI & Prompts",
       "quality_score": 4,
       "description": "Extensive collection of 100+ prompts for various tasks including business, technical writing, career, and specialized domains",
-      "keywords": ["prompts", "claude", "examples", "templates", "business", "career", "technical-writing"]
+      "keywords": [
+        "prompts",
+        "claude",
+        "examples",
+        "templates",
+        "business",
+        "career",
+        "technical-writing"
+      ]
     }
   ],
   "notes": "This is a prompt collection repository with examples for business analysis, content creation, career development, marketing, and technical tasks. Content is primarily in README format rather than individual files."

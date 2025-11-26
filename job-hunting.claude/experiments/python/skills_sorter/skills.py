@@ -1,6 +1,6 @@
 import heapq
 from typing import Iterable, Any
-from 
+from
 from dataclasses import dataclass
 from abc import ABC, abstractmethod
 
@@ -14,13 +14,13 @@ class SkillRelevanceForJobPositions:
 
     def average(self) -> float:
         return (self.backend + self.data_eng + self.general_swe + self.distrib_systems) / 4
-    
+
     def weighted_average(self) -> float:
         return (self.backend * self.weights[0] + self.data_eng * self.weights[1] + self.general_swe * self.weights[2] + self.distrib_systems * self.weights[3])/sum(self.weights)
-    
+
     def __repr__(self) -> str:
         return f"{self.backend}, {self.data_eng}, {self.general_swe}, {self.distrib_systems}"
-    
+
     def __str__(self) -> str:
         return f"Backend: {self.backend}, Data Eng: {self.data_eng}, General SWE: {self.general_swe}, Distrib Systems: {self.distrib_systems}"
 
@@ -56,10 +56,10 @@ class SkillFrequencyInJobPosts:
         description_weight = 1.0
         required_weight = 3.0
         preferred_weight = 2.0
-        
+
         # Calculate maximum possible weighted sum
         max_weighted_sum = sample_size * (title_weight + description_weight + required_weight + preferred_weight)
-        
+
         # Calculate actual weighted sum
         weighted_sum = (
             self.title * title_weight +
@@ -67,14 +67,14 @@ class SkillFrequencyInJobPosts:
             self.required * required_weight +
             self.preferred * preferred_weight
         )
-        
+
         # Normalize to range [0,1]
         non_normalized_relevance = weighted_sum / max_weighted_sum
         self.raw_relevance = non_normalized_relevance
 
     def __repr__(self) -> str:
         return f"{self.title}, {self.description}, {self.required}, {self.preferred}{", " if self.raw_relevance is not None else ""}{self.raw_relevance}{", " if self.normalized_relevance is not None else ""}{self.normalized_relevance}"
-    
+
     def __str__(self) -> str:
         return f"Title Count: {self.title}, Description Count: {self.description}, Required Count: {self.required}, Preferred Count: {self.preferred}{", Raw Relevance: " if self.raw_relevance is not None else ""}{self.raw_relevance}{", Normalized Relevance: " if self.normalized_relevance is not None else ""}{self.normalized_relevance}"
 
@@ -85,7 +85,7 @@ class SkillFrequency(Skill):
 
     def __lt__(self, other):
         return self.frequency < other.frequency
-    
+
     def get_relevance(self, sample_size: int) -> float:
         self.frequency.absolute_relevance(sample_size)
 
@@ -203,7 +203,7 @@ class SkillCollection(Iterable[Skill]):
 
     def averageRelevance(self):
         return sum(skill.averageRelevance() for skill in self.skills_max) / len(self.skills_max)
-    
+
     def averageBackendRelevance(self):
         return sum(skill.relevance.backend for skill in self.skills_max) / len(self.skills_max)
 
@@ -220,7 +220,7 @@ class SkillCollection(Iterable[Skill]):
         self.skills_min = self.skills_max.copy()
         heapq.heapify(self.skills_min)
         return heapq.heappop(self.skills_min)
-    
+
     def fullyEmpty(self):
         return len(self.skills_min) == 0
 

@@ -68,7 +68,7 @@ You must use the Task(:*) tool to delegate each evaluation to its specialized su
 Pass all the marked tags and their content to each:
 
 Group 1: Style
-10. **COMMUNICATION**: Delegate to `cover-letter-evaluator:communication` agent. Tags to pass: `<cover_letter>`, `<output_filepath>`, `<job_description>`, 
+10. **COMMUNICATION**: Delegate to `cover-letter-evaluator:communication` agent. Tags to pass: `<cover_letter>`, `<output_filepath>`, `<job_description>`,
 10. **COMPANY CULTURE ALIGNMENT**: Delegate to `cover-letter-evaluator:culture` agent. Tags to pass: `<cover_letter>`, `<cover_letter_guidelines>`, `<output_filepath>`
 11. **PERSONALIZATION LEVEL**: Delegate to `cover-letter-evaluator:personalization` agent. Tags to pass: `<cover_letter>`, `<job_description>`, `<resume>`, `<output_filepath>`
 
@@ -93,7 +93,7 @@ Group 3: Job Description
 You must use the Task(:*) tool to delegate each evaluation to its specialized sub-agent.Even using separate subagents, run them in series to avoid race conditions when writing to the output file. Pass the aggregated content from Step 6 to each:
 
 19. **TRUE GAPS CLEANUP**: Delegate to `cover-letter-evaluator:true-gaps` agent with the content from tags resume and cover_letter
-    
+
 20. **RESULT COMBINER**: Delegate to `cover-letter-evaluator:result-combiner` agent with the aggregated content from Step 6
 
 ## Quality Control

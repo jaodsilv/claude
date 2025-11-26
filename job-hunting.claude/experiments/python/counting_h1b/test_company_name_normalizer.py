@@ -176,4 +176,4 @@ class TestRemoveCommonWords(unittest.TestCase):
                 self.assertEqual(remove_common_words(input_name), expected)
 
 if __name__ == '__main__':
-    unittest.main() 
+    unittest.main()

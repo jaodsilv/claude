@@ -451,7 +451,7 @@
 [DEBUG] FileHistory: Added snapshot for 6d2013dc-38cf-4dd6-8646-d12a9f325e7f, tracking 1 files
 [DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -462,7 +462,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -473,7 +473,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -484,7 +484,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -531,7 +531,7 @@
 [DEBUG] FileHistory: Added snapshot for 60adff54-58c5-406d-8416-ef20dba5dcef, tracking 1 files
 [DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
 [DEBUG] Stream started - received first chunk
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
@@ -542,7 +542,7 @@
     at xv (B:/~BUN/root/claude.exe:77:38285)
     at mw (B:/~BUN/root/claude.exe:77:38139)
     at n$ (B:/~BUN/root/claude.exe:77:35218)
-[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown: 
+[ERROR] Error: Error: Language not supported while highlighting code, falling back to markdown:
     at yI (B:/~BUN/root/claude.exe:2077:731)
     at map (native:1:11)
     at a3 (B:/~BUN/root/claude.exe:2077:448)
