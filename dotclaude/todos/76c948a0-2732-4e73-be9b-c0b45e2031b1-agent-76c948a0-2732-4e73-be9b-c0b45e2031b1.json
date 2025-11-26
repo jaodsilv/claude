@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Check current git status and identify changes to move",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Use git stash to preserve changes for transfer",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Clean up this repo after moving changes",
+    "status": "pending",
+    "id": "3"
+  }
+]

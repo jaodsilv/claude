@@ -79,7 +79,7 @@ orchestrator.md
 
 * **Code Generation Agent**: This agent writes and optimizes code, detects inefficiencies, suggests improvements, and can even implement fixes in real time. It provides inline code suggestions  and can handle full workflows, from generating code snippets to entire application components.
 
-* **Code Review Agent**: Automatically analyzes code for quality, style, potential issues, and vulnerabilities. It suggests fixes and helps catch errors early, ensuring clean, high-quality code and adherence to coding standards.   
+* **Code Review Agent**: Automatically analyzes code for quality, style, potential issues, and vulnerabilities. It suggests fixes and helps catch errors early, ensuring clean, high-quality code and adherence to coding standards.  
 
 ### Quality Assurance & Testing:
 
@@ -91,19 +91,19 @@ orchestrator.md
 
 * **User Acceptance Testing (UAT) Agent**: Coordinates with Subject Matter Experts (SMEs) to validate that solutions meet business requirements. It creates real-world test scenarios, documents findings, and facilitates feedback sessions, contributing to reduced post-release defects and increased user adoption.
 
-* **Debugging Agent**: Extends beyond simple find-and-fix procedures. This agent uses data analytics and machine learning to identify where bugs are most likely to occur in the codebase, thereby improving the efficiency of testing processes and allowing human developers to focus their efforts on potentially problematic or high-risk areas.   
+* **Debugging Agent**: Extends beyond simple find-and-fix procedures. This agent uses data analytics and machine learning to identify where bugs are most likely to occur in the codebase, thereby improving the efficiency of testing processes and allowing human developers to focus their efforts on potentially problematic or high-risk areas.  
 
 ### Operations & Infrastructure:
 
-* **DevOps/Deployment Agent**: Manages infrastructure and deployment processes. This agent automates CI/CD workflows, ensuring smooth and continuous delivery of software updates.   
+* **DevOps/Deployment Agent**: Manages infrastructure and deployment processes. This agent automates CI/CD workflows, ensuring smooth and continuous delivery of software updates.  
 
 ### Cross-functional/Support Agents:
 
-* **Documentation Agent**: Generates and updates various forms of documentation, including API documentation, user manuals, and internal technical specifications.   
+* **Documentation Agent**: Generates and updates various forms of documentation, including API documentation, user manuals, and internal technical specifications.  
 
-* **Knowledge Management Agent**: Stores and retrieves past interactions, project history, and accumulated knowledge, enabling personalized experiences and providing comprehensive responses to queries from other agents or humans.   
+* **Knowledge Management Agent**: Stores and retrieves past interactions, project history, and accumulated knowledge, enabling personalized experiences and providing comprehensive responses to queries from other agents or humans.  
 
-* **Compliance Agent**: Automatically audits project data and processes against regulatory requirements (e.g., healthcare, finance, technology standards), flags inconsistencies, and recommends corrective actions. It ensures data integrity and adherence to industry standards.   
+* **Compliance Agent**: Automatically audits project data and processes against regulatory requirements (e.g., healthcare, finance, technology standards), flags inconsistencies, and recommends corrective actions. It ensures data integrity and adherence to industry standards.  
 
 ### As Table
 

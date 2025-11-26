@@ -14,7 +14,14 @@
       "source": ".claude-plugin/plugins/tdd-pro",
       "category": "development-workflow",
       "version": "1.0.0",
-      "keywords": ["tdd", "testing", "workflow", "automation", "conventional-commits", "git"]
+      "keywords": [
+        "tdd",
+        "testing",
+        "workflow",
+        "automation",
+        "conventional-commits",
+        "git"
+      ]
     },
     {
       "name": "docs-automation",
@@ -22,7 +29,12 @@
       "source": ".claude-plugin/plugins/docs-automation",
       "category": "documentation",
       "version": "1.0.0",
-      "keywords": ["documentation", "download", "conversion", "automation"]
+      "keywords": [
+        "documentation",
+        "download",
+        "conversion",
+        "automation"
+      ]
     },
     {
       "name": "job-hunting-pro",
@@ -30,7 +42,13 @@
       "source": ".claude-plugin/plugins/job-hunting-pro",
       "category": "productivity",
       "version": "1.0.0",
-      "keywords": ["job-hunting", "career", "cover-letter", "interview", "ats"]
+      "keywords": [
+        "job-hunting",
+        "career",
+        "cover-letter",
+        "interview",
+        "ats"
+      ]
     },
     {
       "name": "community-testing",
@@ -38,7 +56,13 @@
       "source": ".claude-plugin/plugins/community-testing",
       "category": "testing-qa",
       "version": "1.0.0",
-      "keywords": ["testing", "qa", "tdd", "automation", "community"]
+      "keywords": [
+        "testing",
+        "qa",
+        "tdd",
+        "automation",
+        "community"
+      ]
     },
     {
       "name": "community-documentation",
@@ -46,7 +70,13 @@
       "source": ".claude-plugin/plugins/community-documentation",
       "category": "documentation",
       "version": "1.0.0",
-      "keywords": ["documentation", "docs", "prd", "api-docs", "community"]
+      "keywords": [
+        "documentation",
+        "docs",
+        "prd",
+        "api-docs",
+        "community"
+      ]
     },
     {
       "name": "community-devops",
@@ -54,7 +84,13 @@
       "source": ".claude-plugin/plugins/community-devops",
       "category": "devops-infrastructure",
       "version": "1.0.0",
-      "keywords": ["devops", "ci-cd", "kubernetes", "cloud", "community"]
+      "keywords": [
+        "devops",
+        "ci-cd",
+        "kubernetes",
+        "cloud",
+        "community"
+      ]
     },
     {
       "name": "community-prompts",
@@ -62,7 +98,13 @@
       "source": ".claude-plugin/plugins/community-prompts",
       "category": "ai-prompts",
       "version": "1.0.0",
-      "keywords": ["prompts", "ai", "llm", "agents", "community"]
+      "keywords": [
+        "prompts",
+        "ai",
+        "llm",
+        "agents",
+        "community"
+      ]
     },
     {
       "name": "community-git-tools",
@@ -70,7 +112,13 @@
       "source": ".claude-plugin/plugins/community-git-tools",
       "category": "git-version-control",
       "version": "1.0.0",
-      "keywords": ["git", "version-control", "commits", "pr", "community"]
+      "keywords": [
+        "git",
+        "version-control",
+        "commits",
+        "pr",
+        "community"
+      ]
     },
     {
       "name": "community-best-of",
@@ -78,7 +126,12 @@
       "source": ".claude-plugin/plugins/community-best-of",
       "category": "productivity",
       "version": "1.0.0",
-      "keywords": ["best-practices", "curated", "top-rated", "community"]
+      "keywords": [
+        "best-practices",
+        "curated",
+        "top-rated",
+        "community"
+      ]
     },
     {
       "name": "jaodsilv-workflow",
@@ -86,7 +139,13 @@
       "source": ".claude-plugin/plugins/jaodsilv-workflow",
       "category": "development-workflow",
       "version": "1.0.0",
-      "keywords": ["tdd", "workflow", "conventional", "multi-agent", "jaodsilv"]
+      "keywords": [
+        "tdd",
+        "workflow",
+        "conventional",
+        "multi-agent",
+        "jaodsilv"
+      ]
     },
     {
       "name": "jaodsilv-docs",
@@ -94,7 +153,13 @@
       "source": ".claude-plugin/plugins/jaodsilv-docs",
       "category": "documentation",
       "version": "1.0.0",
-      "keywords": ["documentation", "batch", "automation", "pipeline", "jaodsilv"]
+      "keywords": [
+        "documentation",
+        "batch",
+        "automation",
+        "pipeline",
+        "jaodsilv"
+      ]
     },
     {
       "name": "jaodsilv-career",
@@ -102,7 +167,12 @@
       "source": ".claude-plugin/plugins/jaodsilv-career",
       "category": "job-hunting-career",
       "version": "1.0.0",
-      "keywords": ["career", "job-hunting", "unique", "jaodsilv"]
+      "keywords": [
+        "career",
+        "job-hunting",
+        "unique",
+        "jaodsilv"
+      ]
     },
     {
       "name": "marketplace-curator",
@@ -110,7 +180,12 @@
       "source": ".claude-plugin/plugins/marketplace-curator",
       "category": "productivity",
       "version": "1.0.0",
-      "keywords": ["curation", "marketplace", "discovery", "meta"]
+      "keywords": [
+        "curation",
+        "marketplace",
+        "discovery",
+        "meta"
+      ]
     },
     {
       "name": "community-bundle",
@@ -118,7 +193,12 @@
       "source": ".claude-plugin/plugins/community-bundle",
       "category": "productivity",
       "version": "1.0.0",
-      "keywords": ["bundle", "community", "meta", "collection"]
+      "keywords": [
+        "bundle",
+        "community",
+        "meta",
+        "collection"
+      ]
     }
   ]
 }

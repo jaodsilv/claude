@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Initialize local repository structure and directories",
+    "status": "completed",
+    "activeForm": "Initializing local repository structure and directories"
+  },
+  {
+    "content": "Transfer and organize content from source locations",
+    "status": "completed",
+    "activeForm": "Transferring and organizing content from source locations"
+  },
+  {
+    "content": "Create .gitignore file",
+    "status": "completed",
+    "activeForm": "Creating .gitignore file"
+  },
+  {
+    "content": "Create README.md file",
+    "status": "completed",
+    "activeForm": "Creating README.md file"
+  },
+  {
+    "content": "Create INDEX.md files for each directory",
+    "status": "in_progress",
+    "activeForm": "Creating INDEX.md files for each directory"
+  },
+  {
+    "content": "Add LICENSE file",
+    "status": "pending",
+    "activeForm": "Adding LICENSE file"
+  },
+  {
+    "content": "Create sample study plan template",
+    "status": "pending",
+    "activeForm": "Creating sample study plan template"
+  },
+  {
+    "content": "Create initial commit and push to GitHub",
+    "status": "pending",
+    "activeForm": "Creating initial commit and pushing to GitHub"
+  },
+  {
+    "content": "Verify all success criteria",
+    "status": "pending",
+    "activeForm": "Verifying all success criteria"
+  }
+]

@@ -1,0 +1,386 @@
+# LifeHackingScripts - Deprecation Tasks
+
+**Repository**: https://github.com/jaodsilv/LifeHackingScripts
+**Status**: Content migrated to specialized repositories, needs deprecation marking
+**Visibility**: PUBLIC (will remain public but marked as deprecated)
+
+## Overview
+
+This repository has been restructured and its content migrated to specialized repositories. The remaining task is to mark it as deprecated and document where content has moved.
+
+## Migration Summary
+
+**Content has been migrated to:**
+
+1. **latex-templates** (public)
+   - Location: https://github.com/jaodsilv/latex-templates
+   - Migrated: All LaTeX/ directory content (templates, scripts, analysis tools, docs)
+
+2. **job-applications** (private)
+   - Location: https://github.com/jaodsilv/job-applications (private)
+   - Migrated: IndustryResearch/, ResumesExtractionResults/
+   - Migrated: Worktree content from D:/src/CoverLetters/* and D:/src/Resumes/*
+
+3. **job-hunting-automation** (public)
+   - Location: https://github.com/jaodsilv/job-hunting-automation
+   - Migrated: python/job_search_automation/, python/counting_h1b/, python/skills_sorter/
+
+4. **personal-sticker-album** (public)
+   - Location: https://github.com/jaodsilv/personal-sticker-album
+   - Migrated: Worktree AlbumFall content
+
+5. **personal-system-design-tools** (public)
+   - Location: https://github.com/jaodsilv/personal-system-design-tools
+   - Migrated: Worktree system-design-chart content
+
+6. **personal-web-scrapers** (public)
+   - Location: https://github.com/jaodsilv/personal-web-scrapers
+   - Migrated: python/web_scrapers/, Shortcuts/regex-to-copy-paste.txt
+
+## Content Marked for Review (Not Migrated)
+
+**These directories remain for user review:**
+
+1. **PromptEngineering/**
+   - Status: Deprecated, under review
+   - Reason: Pre-Claude-Code prompt engineering system
+   - Action: User will review for migration to claude/ repository or archival
+
+2. **Learning/** (JS, React, Rust)
+   - Status: Deprecated, under review
+   - Reason: Educational exercises, may no longer be actively used
+   - Action: User will review for migration to learning.claude/ or archival
+
+3. **python/Training/**
+   - Status: Deprecated, under review
+   - Reason: Python learning exercises
+   - Action: User will review along with Learning/ directory
+
+## Tasks to Complete
+
+### 1. Create DEPRECATED.md
+
+Create a comprehensive deprecation notice in the root of the repository:
+
+```markdown
+# DEPRECATED - Repository Restructured
+
+**⚠️ This repository has been deprecated and restructured into specialized repositories.**
+
+## Status
+
+This repository is no longer actively maintained. All content has been migrated to purpose-specific repositories for better organization and maintainability.
+
+## Migration Map
+
+Content from this repository has been moved to the following locations:
+
+### LaTeX Templates and Tools → latex-templates
+**Repository**: https://github.com/jaodsilv/latex-templates
+**Visibility**: PUBLIC
+**Migrated Content**:
+- LaTeX/ directory (all subdirectories)
+  - Resume templates and variants
+  - CV templates
+  - Cover letter templates
+  - PowerShell automation scripts
+  - HTML analysis and comparison tools
+  - All 27 documentation files
+  - Certified translation templates
+  - Financial means templates
+
+### Job Application Materials → job-applications
+**Repository**: https://github.com/jaodsilv/job-applications
+**Visibility**: PRIVATE
+**Migrated Content**:
+- IndustryResearch/
+- ResumesExtractionResults/
+- Filled resumes from worktrees (D:/src/Resumes/*)
+- Filled cover letters from worktrees (D:/src/CoverLetters/*)
+
+### Job Hunting Automation Tools → job-hunting-automation
+**Repository**: https://github.com/jaodsilv/job-hunting-automation
+**Visibility**: PUBLIC
+**Migrated Content**:
+- python/job_search_automation/
+- python/counting_h1b/
+- python/skills_sorter/
+
+### Personal Projects
+
+#### Sticker Album → personal-sticker-album
+**Repository**: https://github.com/jaodsilv/personal-sticker-album
+**Visibility**: PUBLIC
+**Migrated Content**:
+- Worktree: AlbumFall
+
+#### System Design Tools → personal-system-design-tools
+**Repository**: https://github.com/jaodsilv/personal-system-design-tools
+**Visibility**: PUBLIC
+**Migrated Content**:
+- Worktree: system-design-chart
+
+#### Web Scrapers → personal-web-scrapers
+**Repository**: https://github.com/jaodsilv/personal-web-scrapers
+**Visibility**: PUBLIC
+**Migrated Content**:
+- python/web_scrapers/
+- Shortcuts/regex-to-copy-paste.txt
+
+## Content Under Review
+
+The following directories remain in this repository for review and potential future migration:
+
+### PromptEngineering/
+**Status**: Deprecated, under review
+**Reason**: Pre-Claude-Code prompt engineering system. Content being evaluated for:
+- Migration to claude/ repository (https://github.com/jaodsilv/claude)
+- Archival if no longer needed
+
+**Contents**:
+- ClaudeProjects/ - Project-specific prompt templates
+- CommandSystem/ - Command standardization and validation
+- ClaudePersonalizedStyles/ - Personalized response styles
+- GeneratedContent/ - AI-generated content storage
+- Prompts/ - Various prompt templates
+- Templates/ - Reusable templates
+
+### Learning/
+**Status**: Deprecated, under review
+**Reason**: Educational programming exercises. Under review for:
+- Migration to learning.claude/ configuration
+- Migration to personal learning repository
+- Archival if no longer actively used
+
+**Contents**:
+- JS/ - JavaScript exercises (calculators, buttons, grids)
+- React/ - React learning projects
+- Rust/ - Rust programming exercises
+
+### python/Training/
+**Status**: Deprecated, under review
+**Reason**: Python learning exercises. Will be reviewed along with Learning/ directory.
+
+**Contents**:
+- heap_from_scratch.py - Heap implementation exercise
+
+## Repository Fate
+
+### Options Being Considered:
+1. **Archive** - Make repository read-only after review complete
+2. **Delete** - Delete after confirming all valuable content migrated
+3. **Repurpose** - Use for a new focused purpose
+
+### Timeline:
+- Review of deprecated content: To be scheduled
+- Final decision on repository fate: After review complete
+
+## How to Find Your Old Content
+
+If you're looking for something that was in LifeHackingScripts:
+
+1. **LaTeX/resume/cover letter templates** → check `latex-templates`
+2. **Filled application documents** → check `job-applications` (private)
+3. **Python job hunting tools** → check `job-hunting-automation`
+4. **Personal projects** → check respective repositories
+5. **Prompt engineering content** → Still in this repo under review
+6. **Learning projects** → Still in this repo under review
+
+## Related Repositories
+
+All new repositories are part of an improved organizational structure:
+
+- **claude** - Claude Code configurations: https://github.com/jaodsilv/claude
+- **ai-message-writer-assistant** - Communication assistant: https://github.com/jaodsilv/ai-message-writer-assistant
+
+## Questions?
+
+If you're looking for specific content and can't find it, check the migration map above or open an issue in the relevant new repository.
+
+## Acknowledgments
+
+This repository served well for rapid prototyping and learning but has been restructured for:
+- Better organization and discoverability
+- Clearer separation of concerns
+- Appropriate visibility settings (public vs private)
+- Improved maintainability
+
+---
+
+**Last Updated**: 2025-10-15
+**Restructuring Date**: 2025-10-15
+```
+
+### 2. Update Main README.md
+
+Prepend deprecation notice to existing README.md:
+
+```markdown
+# ⚠️ DEPRECATED - See DEPRECATED.md
+
+**This repository has been restructured.** See [DEPRECATED.md](DEPRECATED.md) for migration details and new repository locations.
+
+---
+
+[Original README content below]
+```
+
+Keep the rest of the original README intact for historical reference.
+
+### 3. Add .github/ISSUE_TEMPLATE/redirect.md
+
+Create an issue template to help users find migrated content:
+
+```markdown
+---
+name: Where did my content go?
+about: Help finding content that was migrated from this repository
+title: 'Looking for: [describe what you''re looking for]'
+labels: 'question, migration'
+assignees: ''
+---
+
+## What are you looking for?
+
+Describe what content you're trying to find from the old LifeHackingScripts repository.
+
+## Check the Migration Map
+
+Before creating this issue, please check [DEPRECATED.md](../DEPRECATED.md) for the migration map.
+
+Common locations:
+- LaTeX templates → https://github.com/jaodsilv/latex-templates
+- Job applications → https://github.com/jaodsilv/job-applications (private)
+- Job hunting Python tools → https://github.com/jaodsilv/job-hunting-automation
+- Personal projects → Check respective repositories listed in DEPRECATED.md
+
+## Still can't find it?
+
+If you've checked the migration map and still can't find what you're looking for, please provide details here:
+
+**What I'm looking for:**
+[Description]
+
+**Where I expected it to be:**
+[Repository/location]
+
+**Why I need it:**
+[Optional context]
+```
+
+### 4. Create Migration Summary Badge
+
+Add badge to README showing deprecation status:
+
+At the top of README.md:
+```markdown
+![Status: Deprecated](https://img.shields.io/badge/status-deprecated-red)
+![Migration: Complete](https://img.shields.io/badge/migration-complete-green)
+```
+
+### 5. Commit Deprecation Notice
+
+```bash
+cd D:/src/LifeHackingScripts
+
+git add DEPRECATED.md README.md .github/
+git commit -m "docs: mark repository as deprecated and restructured
+
+- Add comprehensive DEPRECATED.md with migration map
+- Update README.md with deprecation notice
+- Add issue template for finding migrated content
+- Add deprecation status badges
+- Document content under review (PromptEngineering, Learning, Training)
+- Link to all new specialized repositories
+
+Content has been migrated to:
+- latex-templates (public)
+- job-applications (private)
+- job-hunting-automation (public)
+- personal-sticker-album (public)
+- personal-system-design-tools (public)
+- personal-web-scrapers (public)
+
+Content under review:
+- PromptEngineering/ - will review for claude/ migration
+- Learning/ - will review for archival or new repo
+- python/Training/ - will review with Learning/"
+
+git push origin main
+```
+
+### 6. Update Repository Settings on GitHub
+
+**Via GitHub Web Interface:**
+
+1. Go to repository settings
+2. Update repository description: "⚠️ DEPRECATED - Restructured into specialized repositories. See DEPRECATED.md"
+3. Add topics: `deprecated`, `archived`, `migration-complete`
+4. Consider adding a custom repository social preview image with "DEPRECATED" text
+
+### 7. Optional: Archive Repository
+
+**If user decides to archive after review:**
+
+Via GitHub web interface:
+1. Settings → Danger Zone → Archive this repository
+2. Confirm archival
+
+**Note**: Only archive after completing review of PromptEngineering/, Learning/, and python/Training/
+
+## Verification Steps
+
+1. Verify DEPRECATED.md is comprehensive and accurate
+2. Verify README.md shows deprecation notice
+3. Verify issue template created
+4. Verify badges display correctly
+5. Verify commit message is clear
+6. Test git push succeeds
+7. Verify deprecation notice visible on GitHub
+8. Verify repository description updated
+
+## Notes
+
+- **Don't delete yet**: Keep repository until PromptEngineering/ and Learning/ content reviewed
+- **Historical value**: Repository shows evolution of tools and learning
+- **Link preservation**: Existing links to this repo will still work
+- **Search**: GitHub search will find the deprecation notice
+
+## Success Criteria
+
+- [ ] DEPRECATED.md created and comprehensive
+- [ ] README.md updated with deprecation notice
+- [ ] Issue template created
+- [ ] Status badges added
+- [ ] Changes committed with clear message
+- [ ] Pushed to GitHub
+- [ ] Repository description updated on GitHub
+- [ ] Topics added on GitHub
+- [ ] Deprecation clearly visible to visitors
+
+## Post-Deprecation Tasks (Future)
+
+After user reviews PromptEngineering/, Learning/, and python/Training/:
+
+1. Migrate valuable content to appropriate repositories
+2. Delete or archive remaining deprecated content
+3. Decide whether to archive or delete the repository
+4. Update DEPRECATED.md with final status
+5. Add "FINAL STATUS" section documenting ultimate fate
+
+## User Review Checklist (Provided for Reference)
+
+Content requiring your review:
+
+- [ ] PromptEngineering/ClaudeProjects/ - Useful for claude/ repo?
+- [ ] PromptEngineering/CommandSystem/ - Useful for claude/ repo?
+- [ ] PromptEngineering/ClaudePersonalizedStyles/ - Useful for claude/ repo?
+- [ ] Learning/JS/ - Keep, migrate, or archive?
+- [ ] Learning/React/ - Keep, migrate, or archive?
+- [ ] Learning/Rust/ - Keep, migrate, or archive?
+- [ ] python/Training/ - Keep, migrate, or archive?
+
+After review:
+- [ ] Valuable content migrated
+- [ ] Decide on repository fate (archive/delete/repurpose)
+- [ ] Update DEPRECATED.md with final status

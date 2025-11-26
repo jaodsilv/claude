@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Create 4 new PUBLIC GitHub repositories",
+    "status": "completed",
+    "activeForm": "Creating 4 new PUBLIC GitHub repositories"
+  },
+  {
+    "content": "Create 2 new PRIVATE GitHub repositories",
+    "status": "completed",
+    "activeForm": "Creating 2 new PRIVATE GitHub repositories"
+  },
+  {
+    "content": "Rename ai-job-seeking-claude-code to job-hunting-automation on GitHub",
+    "status": "completed",
+    "activeForm": "Renaming ai-job-seeking-claude-code to job-hunting-automation on GitHub"
+  },
+  {
+    "content": "Initialize latex-templates locally and transfer content",
+    "status": "completed",
+    "activeForm": "Initializing latex-templates locally and transferring content"
+  },
+  {
+    "content": "Initialize job-applications locally and transfer content",
+    "status": "completed",
+    "activeForm": "Initializing job-applications locally and transferring content"
+  },
+  {
+    "content": "Update job-hunting-automation with Python tools",
+    "status": "completed",
+    "activeForm": "Updating job-hunting-automation with Python tools"
+  },
+  {
+    "content": "Analyze 4 new folders for repository recommendations",
+    "status": "completed",
+    "activeForm": "Analyzing 4 new folders for repository recommendations"
+  },
+  {
+    "content": "Rename personal-sticker-album to sticker-album-generator on GitHub",
+    "status": "completed",
+    "activeForm": "Renaming personal-sticker-album to sticker-album-generator on GitHub"
+  },
+  {
+    "content": "Prepare 6 repositories with TASK.md files via parallel subagents",
+    "status": "completed",
+    "activeForm": "Preparing 6 repositories with TASK.md files via parallel subagents"
+  },
+  {
+    "content": "Restructure claude repository with specialized configs",
+    "status": "pending",
+    "activeForm": "Restructuring claude repository with specialized configs"
+  },
+  {
+    "content": "Mark LifeHackingScripts as deprecated with DEPRECATED.md",
+    "status": "pending",
+    "activeForm": "Marking LifeHackingScripts as deprecated with DEPRECATED.md"
+  },
+  {
+    "content": "Verify all repositories and remotes",
+    "status": "pending",
+    "activeForm": "Verifying all repositories and remotes"
+  }
+]

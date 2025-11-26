@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create dotclaude/scripts/ directory if it doesn't exist",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create download.py in dotclaude/scripts/ with correct path",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Remove incorrectly placed file from .claude/scripts/",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Test the function works correctly",
+    "status": "completed",
+    "id": "4"
+  }
+]

@@ -3,5 +3,7 @@
   "permissions": {
     "defaultMode": "plan"
   },
-  "alwaysThinkingEnabled": true
+  "alwaysThinkingEnabled": true,
+  "USE_BUILTIN_RIPGREP": 0,
+  "useBuiltinRipgrep": 0
 }

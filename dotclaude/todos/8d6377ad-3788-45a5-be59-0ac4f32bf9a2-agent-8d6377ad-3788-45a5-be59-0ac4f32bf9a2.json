@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Process CommandSystem files: validate command relevance, kebab-case naming, and archetype compliance",
+    "status": "completed",
+    "priority": "high",
+    "id": "validate-files-1"
+  },
+  {
+    "content": "Convert applications-tracking-commands.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-app-tracking-1"
+  },
+  {
+    "content": "Convert project-base-instructions.md (ApplicationsTracking) to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-app-tracking-2"
+  },
+  {
+    "content": "Convert company-research-commands.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-company-research-1"
+  },
+  {
+    "content": "Convert project-base-instructions.md (CompanyResearch) to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-company-research-2"
+  },
+  {
+    "content": "Convert feedback-integration-command.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-interview-prep-1"
+  },
+  {
+    "content": "Convert interview-roleplay-command.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-interview-prep-2"
+  },
+  {
+    "content": "Convert save-status-command.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-interview-prep-3"
+  },
+  {
+    "content": "Convert setup-interview-prep-command.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-interview-prep-4"
+  },
+  {
+    "content": "Convert study-session-command.md to archetype format",
+    "status": "pending",
+    "priority": "high",
+    "id": "convert-interview-prep-5"
+  }
+]

@@ -1,0 +1,202 @@
+[DEBUG] Executing hooks for SessionStart:clear
+[DEBUG] Getting matching hook commands for SessionStart with query: clear
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for 1b13d2b8-807c-47b4-a8da-1d5b05a19b57, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760579599928
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104945 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760579599928 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760579600053
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 105029 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760579600053 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Executing hooks for SessionStart:resume
+[DEBUG] Getting matching hook commands for SessionStart with query: resume
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: No need to copy file history for resuming with same session id: 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580142528
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580142528 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580142739
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580142739 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580142945
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104643 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580142945 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580144263
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104538 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580144263 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580144362
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104538 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580144362 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.28612.1760580144955
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104538 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.28612.1760580144955 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602588179
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104539 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602588179 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602588425
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104644 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602588425 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602589010
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104645 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602589010 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] FileHistory: Making snapshot for message 2fa84521-58bd-4b68-9519-1803745a2aad
+[DEBUG] FileHistory: Added snapshot for 2fa84521-58bd-4b68-9519-1803745a2aad, tracking 0 files
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/todos</command-name>
+            <command-message>todos</command-message>
+           ...
+[DEBUG] UserCommandMessage rendering: "todos" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602886594
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104646 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602886594 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602886683
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104730 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602886683 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602888069
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104730 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602888069 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Getting matching hook commands for SessionStart with query: resume
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "resume" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094-agent-0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094.json.tmp.15444.1760602917157
+[DEBUG] Temp file written successfully, size: 2208 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094-agent-0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094.json.tmp.15444.1760602917157 to D:\joaod\.claude\todos\0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094-agent-0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094.json
+[DEBUG] File D:\joaod\.claude\todos\0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094-agent-0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094.json written atomically
+[DEBUG] FileHistory: Copied backup edb65e181984475d@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 3c756649ba7fdd78@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup fbd06e404552ec8f@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 07d6e43187eae814@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 5ccf40a0422e0183@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup ee516ba114307106@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 374cd28bc7cfb987@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 600d20642789fc71@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 406976a0788028bd@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup f86627268efacae3@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup e3a7bbcd6bb1adac@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup ead84a375293cade@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup bdb6f7665775971a@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup c051aca677ec241d@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 748fbecb00c72fb3@v2 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup e3a7bbcd6bb1adac@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup ead84a375293cade@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup 748fbecb00c72fb3@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] FileHistory: Copied backup f86627268efacae3@v3 from session 71202b80-baf6-463e-8aee-ba67f9f5f385 to 0c0c99fd-f83d-4d9f-8a0d-f34c8b81b094
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/clear</command-name>
+            <command-message>clear</command-message>
+           ...
+[DEBUG] UserCommandMessage rendering: "clear" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Rendering user message with 1 content blocks
+[DEBUG] Block 0: <command-name>/todos</command-name>
+            <command-message>todos</command-message>
+           ...
+[DEBUG] UserCommandMessage rendering: "todos" (args: "none")
+[DEBUG] isSkillFormat: false, prefix: "/"
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602917741
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104625 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602917741 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.15444.1760602917817
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 104625 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.15444.1760602917817 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically

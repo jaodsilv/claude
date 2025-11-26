@@ -1,0 +1,87 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] >>>>> getSkillsIfEnabled() CALLED <<<<<
+[DEBUG] ENABLE_SKILLS value: false, type: boolean
+[DEBUG] ENABLE_SKILLS check failed, returning empty
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Summarizing all 2 messages (~6951 tokens)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579509410
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579509410 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579509496
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579509496 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Summarizing last 6 of 35 messages (~134570 tokens)
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Summarizing all 2 messages (~6927 tokens)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760579511746-nkaiqg.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\6be10474-a62c-45a2-982b-1aa9bf2a7389-agent-6be10474-a62c-45a2-982b-1aa9bf2a7389.json.tmp.64500.1760579511805
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\6be10474-a62c-45a2-982b-1aa9bf2a7389-agent-6be10474-a62c-45a2-982b-1aa9bf2a7389.json.tmp.64500.1760579511805 to D:\joaod\.claude\todos\6be10474-a62c-45a2-982b-1aa9bf2a7389-agent-6be10474-a62c-45a2-982b-1aa9bf2a7389.json
+[DEBUG] File D:\joaod\.claude\todos\6be10474-a62c-45a2-982b-1aa9bf2a7389-agent-6be10474-a62c-45a2-982b-1aa9bf2a7389.json written atomically
+[DEBUG] Summarizing last 8 of 14 messages (~126705 tokens)
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Summarizing all 3 messages (~0 tokens)
+[DEBUG] Stream started - received first chunk
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579516185
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579516185 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579516594
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103816 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579516594 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579516775
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103816 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579516775 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579516863
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103816 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579516863 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Trust not accepted for current directory - skipping plugin installations
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.64500.1760579517186
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103921 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.64500.1760579517186 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
