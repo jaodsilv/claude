@@ -23,7 +23,14 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Expert UI engineer for React 18+, Vue 3+, Angular 15+ with WCAG 2.1 AA compliance",
-      "keywords": ["frontend", "react", "vue", "angular", "ui", "accessibility"]
+      "keywords": [
+        "frontend",
+        "react",
+        "vue",
+        "angular",
+        "ui",
+        "accessibility"
+      ]
     },
     {
       "name": "backend-developer",
@@ -32,7 +39,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Server-side expert for scalable API development",
-      "keywords": ["backend", "api", "server", "scalability"]
+      "keywords": [
+        "backend",
+        "api",
+        "server",
+        "scalability"
+      ]
     },
     {
       "name": "fullstack-developer",
@@ -41,7 +53,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "End-to-end feature development specialist",
-      "keywords": ["fullstack", "frontend", "backend", "integration"]
+      "keywords": [
+        "fullstack",
+        "frontend",
+        "backend",
+        "integration"
+      ]
     },
     {
       "name": "typescript-pro",
@@ -50,7 +67,11 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "TypeScript development specialist with strict mode expertise",
-      "keywords": ["typescript", "types", "javascript"]
+      "keywords": [
+        "typescript",
+        "types",
+        "javascript"
+      ]
     },
     {
       "name": "python-pro",
@@ -59,7 +80,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Python ecosystem master with focus on modern best practices",
-      "keywords": ["python", "django", "fastapi", "pandas"]
+      "keywords": [
+        "python",
+        "django",
+        "fastapi",
+        "pandas"
+      ]
     },
     {
       "name": "rust-engineer",
@@ -68,7 +94,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Systems programming expert in Rust with ownership mastery",
-      "keywords": ["rust", "systems", "performance", "safety"]
+      "keywords": [
+        "rust",
+        "systems",
+        "performance",
+        "safety"
+      ]
     },
     {
       "name": "golang-pro",
@@ -77,7 +108,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Go concurrency specialist for high-performance systems",
-      "keywords": ["golang", "go", "concurrency", "microservices"]
+      "keywords": [
+        "golang",
+        "go",
+        "concurrency",
+        "microservices"
+      ]
     },
     {
       "name": "devops-engineer",
@@ -86,7 +122,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "CI/CD and automation infrastructure expert",
-      "keywords": ["devops", "ci-cd", "automation", "infrastructure"]
+      "keywords": [
+        "devops",
+        "ci-cd",
+        "automation",
+        "infrastructure"
+      ]
     },
     {
       "name": "kubernetes-specialist",
@@ -95,7 +136,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Container orchestration master with k8s expertise",
-      "keywords": ["kubernetes", "containers", "orchestration", "docker"]
+      "keywords": [
+        "kubernetes",
+        "containers",
+        "orchestration",
+        "docker"
+      ]
     },
     {
       "name": "cloud-architect",
@@ -104,7 +150,13 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Multi-cloud AWS/GCP/Azure architecture specialist",
-      "keywords": ["cloud", "aws", "gcp", "azure", "architecture"]
+      "keywords": [
+        "cloud",
+        "aws",
+        "gcp",
+        "azure",
+        "architecture"
+      ]
     },
     {
       "name": "security-engineer",
@@ -113,7 +165,12 @@
       "category": "Security",
       "quality_score": 5,
       "description": "Security concerns and vulnerability assessment expert",
-      "keywords": ["security", "vulnerabilities", "pentesting", "compliance"]
+      "keywords": [
+        "security",
+        "vulnerabilities",
+        "pentesting",
+        "compliance"
+      ]
     },
     {
       "name": "code-reviewer",
@@ -122,7 +179,11 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Comprehensive code quality review specialist",
-      "keywords": ["code-review", "quality", "best-practices"]
+      "keywords": [
+        "code-review",
+        "quality",
+        "best-practices"
+      ]
     },
     {
       "name": "test-automator",
@@ -131,7 +192,12 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Test automation framework specialist",
-      "keywords": ["testing", "automation", "qa", "coverage"]
+      "keywords": [
+        "testing",
+        "automation",
+        "qa",
+        "coverage"
+      ]
     },
     {
       "name": "performance-engineer",
@@ -140,7 +206,12 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Performance optimization and profiling expert",
-      "keywords": ["performance", "optimization", "profiling", "benchmarking"]
+      "keywords": [
+        "performance",
+        "optimization",
+        "profiling",
+        "benchmarking"
+      ]
     },
     {
       "name": "security-auditor",
@@ -149,7 +220,12 @@
       "category": "Security",
       "quality_score": 5,
       "description": "Security audit and compliance specialist",
-      "keywords": ["security", "audit", "compliance", "standards"]
+      "keywords": [
+        "security",
+        "audit",
+        "compliance",
+        "standards"
+      ]
     },
     {
       "name": "ml-engineer",
@@ -158,7 +234,12 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "Machine learning model development specialist",
-      "keywords": ["machine-learning", "ml", "ai", "models"]
+      "keywords": [
+        "machine-learning",
+        "ml",
+        "ai",
+        "models"
+      ]
     },
     {
       "name": "data-engineer",
@@ -167,7 +248,12 @@
       "category": "DevOps & Infrastructure",
       "quality_score": 5,
       "description": "Data pipeline and ETL specialist",
-      "keywords": ["data", "etl", "pipelines", "warehouse"]
+      "keywords": [
+        "data",
+        "etl",
+        "pipelines",
+        "warehouse"
+      ]
     },
     {
       "name": "llm-architect",
@@ -176,7 +262,12 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "LLM integration and prompt engineering specialist",
-      "keywords": ["llm", "prompts", "ai", "architecture"]
+      "keywords": [
+        "llm",
+        "prompts",
+        "ai",
+        "architecture"
+      ]
     },
     {
       "name": "prompt-engineer",
@@ -185,7 +276,12 @@
       "category": "AI & Prompts",
       "quality_score": 5,
       "description": "AI prompt design and optimization expert",
-      "keywords": ["prompts", "ai", "optimization", "engineering"]
+      "keywords": [
+        "prompts",
+        "ai",
+        "optimization",
+        "engineering"
+      ]
     },
     {
       "name": "documentation-engineer",
@@ -194,7 +290,11 @@
       "category": "Documentation",
       "quality_score": 5,
       "description": "Technical documentation and API docs specialist",
-      "keywords": ["documentation", "technical-writing", "api-docs"]
+      "keywords": [
+        "documentation",
+        "technical-writing",
+        "api-docs"
+      ]
     },
     {
       "name": "refactoring-specialist",
@@ -203,7 +303,11 @@
       "category": "Development Workflow",
       "quality_score": 5,
       "description": "Code refactoring and improvement expert",
-      "keywords": ["refactoring", "code-quality", "improvement"]
+      "keywords": [
+        "refactoring",
+        "code-quality",
+        "improvement"
+      ]
     },
     {
       "name": "git-workflow-manager",
@@ -212,7 +316,12 @@
       "category": "Git & Version Control",
       "quality_score": 5,
       "description": "Git workflow and branching strategy specialist",
-      "keywords": ["git", "workflow", "version-control", "branching"]
+      "keywords": [
+        "git",
+        "workflow",
+        "version-control",
+        "branching"
+      ]
     }
   ],
   "notes": "This is a representative sample of 22 agents from 110 total. All agents follow production-ready standards with MCP tool integration, comprehensive checklists, and industry best practices."
