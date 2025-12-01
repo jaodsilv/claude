@@ -81,7 +81,7 @@ You must use the Task(:*) tool to delegate each evaluation to its specialized su
 You must use the Task(:*) tool to delegate each evaluation to its specialized sub-agent.Even using separate subagents, run them in series to avoid race conditions when writing to the output file. Pass the aggregated content from Step 6 to each:
 
 19. **TRUE GAPS CLEANUP**: Delegate to `cover-letter-evaluator:true-gaps` agent with the content from tags resume and cover_letter
-    
+
 20. **RESULT COMBINER**: Delegate to `cover-letter-evaluator:result-combiner` agent with the aggregated content from Step 6
 
 ## Quality Control
