@@ -1,8 +1,13 @@
+# DISABLED: This workflow is disabled to avoid consuming Anthropic API credits.
+# PR reviews are now done manually using Claude Code's built-in /review command,
+# which uses the Claude.ai MAX plan instead of API credits.
+# To re-enable, remove this comment and uncomment the 'on:' trigger below.
+
 name: Claude Code Review
 
-on:
-  pull_request:
-    types: [opened, synchronize]
+# on:
+#   pull_request:
+#     types: [opened, synchronize]
     # Optional: Only run on specific file changes
     # paths:
     #   - "src/**/*.ts"
