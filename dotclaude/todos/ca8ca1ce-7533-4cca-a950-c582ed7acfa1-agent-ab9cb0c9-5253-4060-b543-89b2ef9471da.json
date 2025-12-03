@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Launch Converter Sub Agent for resume-optimization-commands.md with archetype and examples",
+    "status": "completed",
+    "priority": "high",
+    "id": "converter-agent-01"
+  },
+  {
+    "content": "Launch Reviewer Sub Agent to review converted file",
+    "status": "completed",
+    "priority": "high",
+    "id": "reviewer-agent-01"
+  }
+]

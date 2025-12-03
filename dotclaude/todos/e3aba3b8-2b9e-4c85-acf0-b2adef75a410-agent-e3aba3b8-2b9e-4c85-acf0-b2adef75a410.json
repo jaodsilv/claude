@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Create server-side Claude API client with factory pattern",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create server-side message generation service",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Update home route with action function and fetcher integration",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Create TypeScript interfaces and validation schemas",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Set up testing framework and write unit tests",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Create environment configuration and validation",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Clean up old claude-api files",
+    "status": "completed",
+    "priority": "low",
+    "id": "7"
+  },
+  {
+    "content": "Document findings and update DEV_PLAN.md",
+    "status": "completed",
+    "priority": "low",
+    "id": "8"
+  },
+  {
+    "content": "Fix test environment configuration for Anthropic SDK",
+    "status": "completed",
+    "priority": "high",
+    "id": "9"
+  },
+  {
+    "content": "Update CLAUDE.md with validated feature status",
+    "status": "completed",
+    "priority": "medium",
+    "id": "10"
+  }
+]

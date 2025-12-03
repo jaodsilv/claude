@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze conversation history and process status",
+    "status": "completed",
+    "activeForm": "Analyzing conversation history and process status"
+  },
+  {
+    "content": "Assess job position fit against resume",
+    "status": "completed",
+    "activeForm": "Assessing job position fit against resume"
+  },
+  {
+    "content": "Calculate optimal response timing strategy",
+    "status": "completed",
+    "activeForm": "Calculating optimal response timing strategy"
+  },
+  {
+    "content": "Draft professional response to recruiter",
+    "status": "completed",
+    "activeForm": "Drafting professional response to recruiter"
+  },
+  {
+    "content": "Update conversation history file with response",
+    "status": "in_progress",
+    "activeForm": "Updating conversation history file with response"
+  }
+]

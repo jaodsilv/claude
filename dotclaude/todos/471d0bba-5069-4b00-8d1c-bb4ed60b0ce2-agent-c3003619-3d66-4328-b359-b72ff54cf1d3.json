@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check/create output directory structure",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/sdk to general/sdk.md",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Download https://docs.anthropic.com/en/docs/claude-code/cli-reference to general/cli-reference.md",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Convert downloaded documents to proper format",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Verify conversions completed successfully",
+    "status": "pending",
+    "id": "5"
+  }
+]

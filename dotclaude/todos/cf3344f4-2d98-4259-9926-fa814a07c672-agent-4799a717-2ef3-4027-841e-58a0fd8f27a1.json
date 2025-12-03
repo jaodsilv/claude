@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Read the download, convert, and convert-verify templates",
+    "status": "completed",
+    "id": "read-templates"
+  },
+  {
+    "content": "Download all 32 URLs sequentially with 5-second delays",
+    "status": "in_progress",
+    "id": "download-urls"
+  },
+  {
+    "content": "Convert all downloaded documents to markdown format in parallel",
+    "status": "pending",
+    "id": "convert-docs"
+  },
+  {
+    "content": "Verify all conversions completed successfully",
+    "status": "pending",
+    "id": "verify-conversions"
+  }
+]

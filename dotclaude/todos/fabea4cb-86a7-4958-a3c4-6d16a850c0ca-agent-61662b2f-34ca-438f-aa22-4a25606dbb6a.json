@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Download SDK documentation from https://docs.anthropic.com/en/docs/claude-code/sdk",
+    "status": "in_progress",
+    "id": "download-sdk"
+  },
+  {
+    "content": "Convert SDK documentation to markdown format",
+    "status": "pending",
+    "id": "convert-sdk"
+  },
+  {
+    "content": "Verify SDK documentation conversion",
+    "status": "pending",
+    "id": "verify-sdk"
+  },
+  {
+    "content": "Download CLI reference from https://docs.anthropic.com/en/docs/claude-code/cli-reference",
+    "status": "pending",
+    "id": "download-cli"
+  },
+  {
+    "content": "Convert CLI reference to markdown format",
+    "status": "pending",
+    "id": "convert-cli"
+  },
+  {
+    "content": "Verify CLI reference conversion",
+    "status": "pending",
+    "id": "verify-cli"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze conversation history and job position requirements",
+    "status": "completed",
+    "activeForm": "Analyzing conversation history and job position requirements"
+  },
+  {
+    "content": "Calculate job fit score and identify knowledge gaps",
+    "status": "completed",
+    "activeForm": "Calculating job fit score and identifying knowledge gaps"
+  },
+  {
+    "content": "Develop response timing strategy",
+    "status": "completed",
+    "activeForm": "Developing response timing strategy"
+  },
+  {
+    "content": "Craft response message and recommendations",
+    "status": "in_progress",
+    "activeForm": "Crafting response message and recommendations"
+  },
+  {
+    "content": "Update conversation history file with response",
+    "status": "pending",
+    "activeForm": "Updating conversation history file with response"
+  }
+]

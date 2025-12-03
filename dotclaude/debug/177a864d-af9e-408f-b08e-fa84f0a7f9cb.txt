@@ -1,0 +1,269 @@
+[DEBUG] Executing hooks for SessionStart:clear
+[DEBUG] Getting matching hook commands for SessionStart with query: clear
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "clear" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Added snapshot for 8c856b40-d32e-4572-8259-53608ef9c653, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760488035910
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 64364 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760488035910 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760488035988
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 64448 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760488035988 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Executing hooks for UserPromptSubmit
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] FileHistory: Making snapshot for message 8b73244f-4cc7-4ad9-a2e4-0e553bf3cddd
+[DEBUG] FileHistory: Added snapshot for 8b73244f-4cc7-4ad9-a2e4-0e553bf3cddd, tracking 0 files
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488067317
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488067317 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488067977
+[DEBUG] Temp file written successfully, size: 750 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488067977 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488108942
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488108942 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488109019
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 752 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488109019 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488114549
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488114549 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488115839
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 754 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488115839 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488123260
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488123260 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488123351
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 756 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488123351 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488131887
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488131887 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488131961
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 758 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488131961 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Edit
+[DEBUG] Executing hooks for PreToolUse:Edit
+[DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Permission suggestions for Edit: [
+  {
+    "type": "setMode",
+    "mode": "acceptEdits",
+    "destination": "session"
+  }
+]
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] FileHistory: Tracked file modification for D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\Akraya-Dipak-unknown.yaml
+[DEBUG] Writing to temp file: D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\Akraya-Dipak-unknown.yaml.tmp.17696.1760488301311
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 3509 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\Akraya-Dipak-unknown.yaml.tmp.17696.1760488301311 to D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\Akraya-Dipak-unknown.yaml
+[DEBUG] File D:\src\worktrees\LifeHacking\system-prompts\job-hunting\history\Akraya-Dipak-unknown.yaml written atomically
+[DEBUG] Executing hooks for PostToolUse:Edit
+[DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Checking for native installer update to version 2.0.15
+[DEBUG] Version 2.0.15 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.15
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: TodoWrite
+[DEBUG] Executing hooks for PreToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PreToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488311473
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json.tmp.17696.1760488311473 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-9c379a55-6eb1-4400-9e2c-14e9c81735b5.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488311573
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json.tmp.17696.1760488311573 to D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json
+[DEBUG] File D:\joaod\.claude\todos\177a864d-af9e-408f-b08e-fa84f0a7f9cb-agent-177a864d-af9e-408f-b08e-fa84f0a7f9cb.json written atomically
+[DEBUG] Executing hooks for PostToolUse:TodoWrite
+[DEBUG] Getting matching hook commands for PostToolUse with query: TodoWrite
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "TodoWrite" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /jobs:overlap-analysis, /jobs:new-history, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter, /docs:download, /jobs:add-to-history
+[DEBUG] Stream started - received first chunk
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760488326058
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 64645 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760488326058 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Executing hooks for Stop
+[DEBUG] Getting matching hook commands for Stop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Found 0 hook commands to execute
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760488326374
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 64645 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760488326374 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.17696.1760488326462
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 64956 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.17696.1760488326462 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)

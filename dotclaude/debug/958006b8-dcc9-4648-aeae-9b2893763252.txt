@@ -1,0 +1,574 @@
+[DEBUG] Watching for changes in setting files D:\joaod\.claude\settings.json, D:\src\claude\.claude\settings.local.json...
+[DEBUG] Using bash path: "C:\Program Files\Git\bin\bash.exe"
+[DEBUG] Applying permission update: Adding 9 allow rule(s) to destination 'localSettings': ["WebFetch(domain:docs.anthropic.com)","Bash(find:*)","WebFetch(domain:claudelog.com)","WebFetch(domain:claudelog.com)","WebFetch(domain:htdocs.dev)","WebFetch(domain:docs.claude.ai)","WebFetch(domain:claude.ai)","WebFetch(domain:shchegrikovich.substack.com)","Bash(rm:*)"]
+[DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+[DEBUG] Registered 0 hooks from 0 plugins
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557434889
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85473 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557434889 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557434997
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85473 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557434997 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Loading skills from directories: managed=C:\ProgramData\ClaudeCode\.claude\skills, user=D:\joaod\.claude\skills, project=D:\src\claude\.claude\skills
+[DEBUG] Loaded 0 skills total (managed: 0, user: 0, project: 0)
+[DEBUG] Total plugin commands loaded: 0
+[DEBUG] Total plugin skills loaded: 0
+[DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=D:\joaod\.local\bin\claude.exe)
+[DEBUG] Creating shell snapshot for bash (C:\Program Files\Git\bin\bash.exe)
+[DEBUG] Looking for shell config file: D:\joaod\.bashrc
+[DEBUG] Shell config file not found: D:\joaod\.bashrc, creating snapshot with Claude Code defaults only
+[DEBUG] Snapshots directory: D:\joaod\.claude\shell-snapshots
+[DEBUG] Creating snapshot at: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760557438482-f137ox.sh
+[DEBUG] Shell binary exists: true
+[DEBUG] Execution timeout: 10000ms
+[DEBUG] Writing to temp file: D:\joaod\.claude\todos\958006b8-dcc9-4648-aeae-9b2893763252-agent-958006b8-dcc9-4648-aeae-9b2893763252.json.tmp.21748.1760557438660
+[DEBUG] Temp file written successfully, size: 2 bytes
+[DEBUG] Renaming D:\joaod\.claude\todos\958006b8-dcc9-4648-aeae-9b2893763252-agent-958006b8-dcc9-4648-aeae-9b2893763252.json.tmp.21748.1760557438660 to D:\joaod\.claude\todos\958006b8-dcc9-4648-aeae-9b2893763252-agent-958006b8-dcc9-4648-aeae-9b2893763252.json
+[DEBUG] File D:\joaod\.claude\todos\958006b8-dcc9-4648-aeae-9b2893763252-agent-958006b8-dcc9-4648-aeae-9b2893763252.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557438801
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85073 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557438801 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[ERROR] Error streaming, falling back to non-streaming mode: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error in non-streaming fallback: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+[ERROR] Error: Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the "X-Api-Key" or "Authorization" headers to be explicitly omitted
+    at validateHeaders (B:/~BUN/root/claude.exe:352:935)
+    at buildHeaders (B:/~BUN/root/claude.exe:352:8427)
+    at async buildRequest (B:/~BUN/root/claude.exe:352:7493)
+    at async makeRequest (B:/~BUN/root/claude.exe:352:3332)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Shell snapshot created successfully (277 bytes)
+[DEBUG] Total plugin agents loaded: 0
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557500904
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85073 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557500904 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557501657
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85073 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557501657 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] Telemetry flushed successfully
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557519502
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85073 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557519502 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557519590
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85073 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557519590 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557519802
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85349 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557519802 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557520661
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85475 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557520661 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557528692
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85582 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557528692 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557534732
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85581 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557534732 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557538258
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85581 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557538258 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Getting matching hook commands for SessionStart with query: startup
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557538605
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85476 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557538605 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557538695
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85476 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557538695 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] performStartupChecks called, ENABLE_PLUGINS=true
+[DEBUG] Starting background plugin installations
+[DEBUG] performBackgroundPluginInstallations called
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760557538928
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 85581 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760557538928 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+[DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Metrics opt-out API response: enabled=true
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 1,
+  "rejected_count": 0
+}
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 1,
+  "rejected_count": 0
+}
+[DEBUG] Applying permission update: Setting mode to 'acceptEdits'
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760559286347
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 86314 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760559286347 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Applying permission update: Setting mode to 'plan'
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] FileHistory: Added snapshot for 1c26b8f0-ecd2-4ef4-ae5e-e31733b81c1b, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760559295213
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 86359 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760559295213 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bcGWKYQ6D2Bf1ZCk67"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[ERROR] SyntaxError: SyntaxError: JSON Parse error: Unexpected identifier "API"
+    at <parse> (:0)
+    at parse (unknown)
+    at <anonymous> (B:/~BUN/root/claude.exe:64:724)
+    at Y (B:/~BUN/root/claude.exe:11:15050)
+    at PgG (B:/~BUN/root/claude.exe:1004:20364)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Glob
+[DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Read
+[DEBUG] Getting matching hook commands for PreToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Read
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Checking for native installer update to version 2.0.17
+[DEBUG] Version 2.0.17 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.17
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bgAp8awaZFVhQv11W1"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at xS0 (B:/~BUN/root/claude.exe:1165:3005)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bgEMCm2cRGhstSnYif"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at xS0 (B:/~BUN/root/claude.exe:1165:3005)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bgRBKcydfqwCSuT1Th"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bgVXmRcEaFSSnUgJU3"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at lN (B:/~BUN/root/claude.exe:3441:6703)
+    at uh1 (B:/~BUN/root/claude.exe:3292:3553)
+    at <anonymous> (B:/~BUN/root/claude.exe:3290:6388)
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bhcxX7WtBQzwwK3ji9"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at zwY (B:/~BUN/root/claude.exe:3441:3506)
+    at au (B:/~BUN/root/claude.exe:3441:4812)
+    at some (native:1:11)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bhfreo5K6Gw2Yn2Mxq"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at xS0 (B:/~BUN/root/claude.exe:1165:2727)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bhk5eaQY45SSfCXx7C"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bhuJ37s9UbaQ7n1rR2"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at lN (B:/~BUN/root/claude.exe:3441:6703)
+    at uh1 (B:/~BUN/root/claude.exe:3292:3553)
+    at <anonymous> (B:/~BUN/root/claude.exe:3290:6388)
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9biuXT5er5jeeZmivtU"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at zwY (B:/~BUN/root/claude.exe:3441:3498)
+    at au (B:/~BUN/root/claude.exe:3441:4812)
+    at some (native:1:11)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bixnQmpSAwzrssrnqP"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at zwY (B:/~BUN/root/claude.exe:3441:3506)
+    at au (B:/~BUN/root/claude.exe:3441:4812)
+    at some (native:1:11)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9biz34xpZdnfypjPyEc"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at lN (B:/~BUN/root/claude.exe:3441:6703)
+    at uh1 (B:/~BUN/root/claude.exe:3292:3553)
+    at <anonymous> (B:/~BUN/root/claude.exe:3290:6388)
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: Bash
+[DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+[DEBUG] Hooks: getAsyncHookResponseAttachments called
+[DEBUG] Hooks: checkForNewResponses called
+[DEBUG] Hooks: Found 0 total hooks in registry
+[DEBUG] Hooks: checkForNewResponses returning 0 responses
+[ERROR] Error: Error: 400 {"type":"error","error":{"type":"invalid_request_error","message":"This credential is only authorized for use with Claude Code and cannot be used for other API requests."},"request_id":"req_011CU9bjkLq8pbM3PyBW6Kht"}
+    at generate (B:/~BUN/root/claude.exe:198:83027)
+    at makeRequest (B:/~BUN/root/claude.exe:352:5345)
+    at processTicksAndRejections (native:7:39)
+    at spawnSync (unknown)
+    at spawnSync (node:child_process:226:22)
+    at execSync (node:child_process:275:109)
+    at z_ (B:/~BUN/root/claude.exe:66:408)
+    at lN (B:/~BUN/root/claude.exe:3441:6703)
+    at uh1 (B:/~BUN/root/claude.exe:3292:3553)
+    at <anonymous> (B:/~BUN/root/claude.exe:3290:6388)
+[DEBUG] Slash commands included in SlashCommand tool: /docs:download, /jobs:overlap-analysis, /jobs:improve-cover-letter, /jobs:eval-cover-letterv2, /jobs:eval-cover-letter
+[DEBUG] Stream started - received first chunk
+[DEBUG] executePreToolHooks called for tool: ExitPlanMode
+[DEBUG] Getting matching hook commands for PreToolUse with query: ExitPlanMode
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "ExitPlanMode" (0 before deduplication)
+[DEBUG] Getting matching hook commands for Notification with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 7,
+  "rejected_count": 0
+}
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567565523
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 96573 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567565523 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567565615
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98264 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567565615 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567566919
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98343 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567566919 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] FileHistory: [Rewind] Rewinding to snapshot for 1c26b8f0-ecd2-4ef4-ae5e-e31733b81c1b
+[DEBUG] FileHistory: [Rewind] Finished rewinding to 1c26b8f0-ecd2-4ef4-ae5e-e31733b81c1b
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567574059
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98344 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567574059 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567575004
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98239 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567575004 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567575111
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98239 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567575111 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567575313
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 98344 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567575313 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] Metrics opt-out API response: enabled=true
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 2,
+  "rejected_count": 0
+}
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567768093
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103104 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567768093 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] AutoUpdaterWrapper: Installation type: native, using native: true
+[DEBUG] Getting matching hook commands for SessionEnd with query: undefined
+[DEBUG] Found 0 hook matchers in settings
+[DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+[DEBUG] Cleaned up session snapshot: D:\joaod\.claude\shell-snapshots\snapshot-bash-1760557438482-f137ox.sh
+[DEBUG] FileHistory: Making snapshot for message 82a2e7d0-598c-4e91-a8c8-4c5630de55cc
+[DEBUG] FileHistory: Added snapshot for 82a2e7d0-598c-4e91-a8c8-4c5630de55cc, tracking 0 files
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567771832
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103105 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567771832 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567771970
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103188 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567771970 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically
+[DEBUG] Checking for native installer update to version 2.0.19
+[DEBUG] Version 2.0.19 already installed, updating symlink
+[DEBUG] Successfully updated to version 2.0.19
+[DEBUG] BigQuery metrics exported successfully
+[DEBUG] API Response: {
+  "accepted_count": 2,
+  "rejected_count": 0
+}
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter flush complete
+[DEBUG] BigQuery metrics exporter shutdown complete
+[DEBUG] Writing to temp file: D:\joaod\.claude.json.tmp.21748.1760567772364
+[DEBUG] Preserving file permissions: 100666
+[DEBUG] Temp file written successfully, size: 103613 bytes
+[DEBUG] Applied original permissions to temp file
+[DEBUG] Renaming D:\joaod\.claude.json.tmp.21748.1760567772364 to D:\joaod\.claude.json
+[DEBUG] File D:\joaod\.claude.json written atomically

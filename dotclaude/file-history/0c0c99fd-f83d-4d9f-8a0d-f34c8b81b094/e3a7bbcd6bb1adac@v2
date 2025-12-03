@@ -1,0 +1,1107 @@
+# Repository Restructuring Analysis - New Folders
+**Date**: 2025-10-15
+**Analyst**: Claude Code
+**Folders Analyzed**: @tmp/ATS/, @tmp/Coding Interview/, @WEB/, @scripts/
+
+---
+
+## Executive Summary
+
+This analysis evaluates 4 folders currently without git repositories to determine optimal repository structure, naming conventions, visibility settings, and custom tooling requirements.
+
+### Key Findings
+
+1. **tmp/ATS/**: Contains comprehensive ATS research with mermaid diagrams and detailed platform analysis - Recommend PRIVATE repository for job hunting research
+2. **tmp/Coding Interview/**: Contains ~54 technical interview preparation materials (images, cheat sheets, diagrams) - Recommend PRIVATE repository for interview prep
+3. **WEB/**: Contains web-saved interview guides (Uber backend engineering) - Recommend merging with interview prep repository
+4. **scripts/**: Contains ~50+ Windows system administration scripts - Recommend PUBLIC repository for reusable scripts
+
+### Repository Proposals
+
+1. **ats-research** (PRIVATE) - ATS platform research and diagrams
+2. **interview-prep** (PRIVATE) - Technical interview preparation materials including web-saved guides
+3. **windows-admin-scripts** (PUBLIC) - Windows system administration and maintenance scripts
+
+---
+
+## Phase 1: Repository Inventory
+
+### 1.1 tmp/ATS/ Analysis
+
+**Location**: `D:/src/tmp/ATS/`
+
+**Content Inventory**:
+```
+tmp/ATS/
+├── company_research.mmd                    # Mermaid diagram - Company research workflow
+├── cover_letter_best_practices_research.mmd # Mermaid diagram - Cover letter best practices
+├── draft_writing_orchestra.mmd             # Mermaid diagram - Draft writing process
+├── jd_matching_orchestra.mmd               # Mermaid diagram - Job description matching
+├── master_resume.mmd                       # Mermaid diagram - Master resume structure
+├── polishing_orchestra.mmd                 # Mermaid diagram - Document polishing workflow
+├── pruning_orchestra.mmd                   # Mermaid diagram - Content pruning process
+├── resume_best_practices_research.mmd      # Mermaid diagram - Resume best practices
+├── tailoring_orchestra.mmd                 # Mermaid diagram - Resume tailoring workflow
+├── top_20_ats_for_small_companies.mmd      # Mermaid diagram - ATS comparison
+└── top20.md                                # 1100+ lines - Comprehensive ATS research document
+```
+
+**File Count**: 11 files
+**Total Lines**: ~1,200+ lines (top20.md alone has 1,100+ lines)
+
+**Content Type**: Research documentation and workflow diagrams
+**Technology Stack**: Mermaid diagrams, Markdown
+**Sensitive Data**: Company research data, job hunting strategies (PRIVATE)
+
+**Purpose**: Applicant Tracking System (ATS) research and job application workflow documentation
+
+**Key Characteristics**:
+1. Comprehensive ATS platform comparison (top 20 systems)
+2. Workflow orchestration diagrams for job application process
+3. Best practices research for resumes and cover letters
+4. Data aggregated from multiple AI models (ChatGPT, Claude, Gemini)
+5. Market share and feature analysis for ATS platforms
+
+### 1.2 tmp/Coding Interview/ Analysis
+
+**Location**: `D:/src/tmp/Coding Interview/`
+
+**Content Inventory**:
+```
+tmp/Coding Interview/
+├── [54 image files - PNG, WEBP formats]
+│   ├── API architectural styles comparison
+│   ├── Backend roadmap visualizations
+│   ├── CAP theorem diagrams
+│   ├── Caching strategies and workflows
+│   ├── CDN workflow diagrams
+│   ├── Coding interview cheat sheets
+│   ├── Database decision trees
+│   ├── Database types overview
+│   ├── Design patterns (Bloom filter, geo-hash)
+│   ├── Load balancer algorithms
+│   ├── Microservices architecture
+│   ├── REST API best practices
+│   ├── System design patterns
+│   └── GraphQL guides
+└── Python Coding Practice Technical Interviews.pdf  # Certificate
+```
+
+**File Count**: ~55 files
+**Content Type**: Interview preparation materials (visual cheat sheets, diagrams, certificates)
+**Technology Stack**: Image files (PNG, WEBP), PDF
+**Sensitive Data**: Personal learning materials (PRIVATE recommended)
+
+**Purpose**: Technical interview preparation resource collection
+
+**Key Characteristics**:
+1. Visual cheat sheets for quick reference during interview prep
+2. System design diagrams and architectural patterns
+3. Algorithm and data structure visualizations
+4. API design best practices
+5. Database selection decision trees
+6. Completion certificate for Python interview practice
+
+### 1.3 WEB/ Analysis
+
+**Location**: `D:/src/WEB/`
+
+**Content Inventory**:
+```
+WEB/
+├── Uber Careers _ Backend Engineering Interview Guide.md  # Interview guide
+├── times.html                                             # Related HTML file
+└── times.md                                              # Related markdown file
+```
+
+**File Count**: 3 files
+**Content Type**: Web-saved interview guides
+**Technology Stack**: Markdown, HTML
+**Sensitive Data**: Company-specific interview preparation (PRIVATE)
+
+**Purpose**: Web-saved career and interview preparation content
+
+**Key Characteristics**:
+1. Company-specific interview guides (Uber)
+2. Backend engineering focus
+3. Minimal content (3 files)
+4. Closely related to interview preparation
+
+**Recommendation**: Merge with tmp/Coding Interview/ into unified interview-prep repository
+
+### 1.4 scripts/ Analysis
+
+**Location**: `D:/src/scripts/`
+
+**Content Inventory** (from current_scripts_inventory.md):
+```
+scripts/
+├── current_scripts_inventory.md            # 237 lines - Comprehensive inventory
+├── [50+ batch and PowerShell scripts]
+│   ├── Profile repair scripts
+│   │   ├── emergency_repair_all_profiles.bat
+│   │   ├── fix_single_profile.bat
+│   │   ├── junction_safety_check.bat
+│   │   └── comprehensive_profile_diagnostics.bat
+│   ├── Permission management
+│   │   ├── grant_full_permissions.bat
+│   │   ├── reset_permissions.bat
+│   │   └── verify_permissions.bat
+│   ├── Backup and migration
+│   │   ├── backup_user_profiles.bat
+│   │   ├── migrate_to_local_account.bat
+│   │   └── validate_backup.bat
+│   ├── System diagnostics
+│   │   ├── system_health_check.bat
+│   │   └── profile_diagnostics.ps1
+│   ├── Registry operations
+│   │   ├── registry_backup_*.reg
+│   │   └── profile_list_backup.reg
+│   └── Documentation
+│       ├── README.md
+│       ├── MIGRATION_GUIDE.md
+│       └── TROUBLESHOOTING.md
+```
+
+**File Count**: ~50+ files
+**Total Lines**: ~5,000+ estimated (237 lines in inventory alone)
+
+**Content Type**: System administration scripts
+**Technology Stack**: Batch (.bat), PowerShell (.ps1), Registry (.reg), Markdown documentation
+**Sensitive Data**: System configuration patterns (PUBLIC - no personal data)
+
+**Purpose**: Windows system maintenance, profile repair, and migration automation
+
+**Key Characteristics**:
+1. Production-ready Windows administration tools
+2. Comprehensive error handling and logging
+3. Safety mechanisms (junction point validation, backup verification)
+4. Emergency repair capabilities
+5. Well-documented with usage guides
+6. Modular script design
+7. Active maintenance (17 scripts marked as active)
+
+---
+
+## Phase 2: Project Identification
+
+### 2.1 Identified Projects
+
+#### Project 1: ATS Research Repository
+- **Current Location**: tmp/ATS/
+- **Project Type**: Job hunting research documentation
+- **Scope**: ATS platform analysis, workflow diagrams, best practices
+- **Dependencies**: None (standalone documentation)
+- **Lifecycle**: Active research phase
+- **Integration Points**: Related to job-applications and job-hunting-automation repositories
+
+#### Project 2: Technical Interview Preparation Repository
+- **Current Locations**: tmp/Coding Interview/ + WEB/
+- **Project Type**: Interview preparation resource collection
+- **Scope**: Technical cheat sheets, system design diagrams, company-specific guides
+- **Dependencies**: None (reference materials)
+- **Lifecycle**: Ongoing collection and curation
+- **Integration Points**: Personal career development
+
+#### Project 3: Windows Administration Scripts
+- **Current Location**: scripts/
+- **Project Type**: System administration automation toolkit
+- **Scope**: Profile repair, permission management, backup, diagnostics
+- **Dependencies**: Windows OS, PowerShell
+- **Lifecycle**: Mature and actively maintained
+- **Integration Points**: Standalone utility collection (potential community value)
+
+### 2.2 Project Relationships
+
+```
+Personal Career Development Ecosystem:
+├── job-applications (PRIVATE)
+│   └── Filled application documents
+├── job-hunting-automation (PUBLIC)
+│   └── Python automation tools
+├── ats-research (PRIVATE) ← NEW
+│   └── ATS platform research
+├── interview-prep (PRIVATE) ← NEW
+│   └── Technical interview materials
+└── latex-templates (PUBLIC)
+    └── Document templates
+
+Personal Utilities:
+└── windows-admin-scripts (PUBLIC) ← NEW
+    └── System administration tools
+```
+
+---
+
+## Phase 3: Branch and Worktree Analysis
+
+**Analysis Result**: None of the 4 folders have existing git repositories, branches, or worktrees.
+
+**Recommendation**: Fresh initialization for all new repositories.
+
+---
+
+## Phase 4: Naming Analysis
+
+### 4.1 Repository Name Proposals
+
+#### Option Set 1: Descriptive Technical Names
+
+1. **ats-research**
+   - **Pros**: Clear, concise, technical
+   - **Cons**: Abbreviation may not be immediately clear to outsiders
+   - **Alternatives**: ats-platform-research, applicant-tracking-research
+
+2. **interview-prep** (or **interview-preparation**)
+   - **Pros**: Clear purpose, commonly understood term
+   - **Cons**: Generic (many repos with similar names)
+   - **Alternatives**: technical-interview-prep, coding-interview-resources, software-interview-materials
+
+3. **windows-admin-scripts**
+   - **Pros**: Descriptive, indicates OS and purpose
+   - **Cons**: Slightly verbose
+   - **Alternatives**: windows-scripts, admin-tools-windows, windows-sysadmin-toolkit
+
+#### Option Set 2: Personal Context Names
+
+1. **job-hunt-ats-research**
+   - **Pros**: Clearly part of job hunting ecosystem
+   - **Cons**: Verbose
+
+2. **career-interview-prep**
+   - **Pros**: Broader scope, career-focused
+   - **Cons**: Less technical specificity
+
+3. **personal-windows-scripts**
+   - **Pros**: Indicates personal collection
+   - **Cons**: Less discoverable for others
+
+### 4.2 Final Naming Recommendations
+
+**Recommendation 1**: **ats-research** (PRIVATE)
+- Rationale: Concise, technical, clear scope
+- Target audience: Personal use
+- Discoverability: Not applicable (private)
+
+**Recommendation 2**: **interview-prep** (PRIVATE)
+- Rationale: Clear purpose, commonly used term
+- Target audience: Personal use
+- Discoverability: Not applicable (private)
+
+**Recommendation 3**: **windows-admin-scripts** (PUBLIC)
+- Rationale: Descriptive, indicates OS platform and script nature
+- Target audience: Windows administrators, DevOps engineers
+- Discoverability: Good for GitHub search
+- Community value: High (reusable system administration tools)
+
+---
+
+## Phase 5: Conflict Detection
+
+### 5.1 Existing Repository Conflicts
+
+**Check Against Current Repositories**:
+
+1. **ats-research**: ✅ No conflict
+   - Distinct from job-hunting-automation (different focus)
+   - Distinct from job-applications (research vs applications)
+
+2. **interview-prep**: ✅ No conflict
+   - No existing interview preparation repository
+   - Complements career development ecosystem
+
+3. **windows-admin-scripts**: ✅ No conflict
+   - No existing Windows scripting repository
+   - Distinct purpose from other repositories
+
+### 5.2 Content Overlap Analysis
+
+**Potential Overlaps**:
+
+1. **ats-research** ↔ **job-hunting-automation**
+   - Overlap: Both related to job hunting
+   - Distinction: Research/documentation vs automation tools
+   - Resolution: Clear separation - research stays in ats-research, Python tools in job-hunting-automation
+
+2. **interview-prep** ↔ **learning.claude/** (future)
+   - Overlap: Both educational
+   - Distinction: Interview-specific vs general learning
+   - Resolution: Interview materials stay in interview-prep
+
+3. **windows-admin-scripts** ↔ **personal-system-design-tools**
+   - Overlap: None (different purposes)
+   - Distinction: Administration scripts vs design visualization
+
+---
+
+## Phase 6: Visibility Assessment
+
+### 6.1 Public vs Private Evaluation
+
+#### Repository 1: ats-research
+- **Recommended Visibility**: **PRIVATE** 🔒
+- **Rationale**:
+  1. Contains personal job hunting strategies
+  2. Company research data may be sensitive
+  3. Workflow diagrams reveal personal application process
+  4. No community value (highly personalized)
+  5. Research aggregated from AI models (unclear licensing)
+
+#### Repository 2: interview-prep
+- **Recommended Visibility**: **PRIVATE** 🔒
+- **Rationale**:
+  1. Personal learning progress and preparation materials
+  2. May contain company-specific interview information
+  3. Downloaded cheat sheets (copyright considerations)
+  4. Certificate with personal information
+  5. No unique community value (materials available elsewhere)
+
+#### Repository 3: windows-admin-scripts
+- **Recommended Visibility**: **PUBLIC** 🌐
+- **Rationale**:
+  1. Generic system administration tools
+  2. No personal data or credentials
+  3. High community value (reusable scripts)
+  4. Well-documented and production-ready
+  5. Demonstrates professional Windows administration skills
+  6. Could help other administrators with similar needs
+
+**Exception Considerations**:
+- Scripts should be reviewed for hardcoded paths before making public
+- Registry backup files should be excluded via .gitignore
+- Any machine-specific configurations should be templated
+
+### 6.2 Visibility Summary
+
+| Repository | Visibility | Justification |
+|-----------|-----------|---------------|
+| ats-research | PRIVATE | Personal job hunting research and strategies |
+| interview-prep | PRIVATE | Personal learning materials and company-specific guides |
+| windows-admin-scripts | PUBLIC | Generic, reusable system administration tools |
+
+---
+
+## Phase 7: Custom Tooling Requirements
+
+### 7.1 Claude Code Slash Commands
+
+#### For ats-research Repository
+
+**Custom Slash Commands**:
+
+1. **/research:update-platform** - Update ATS platform research data
+   - Purpose: Refresh ATS platform market share and features
+   - Usage: Query AI models for latest ATS data
+   - Output: Updated markdown sections
+
+2. **/research:validate-diagram** - Validate mermaid diagram syntax
+   - Purpose: Ensure workflow diagrams render correctly
+   - Usage: Parse and validate .mmd files
+   - Output: Syntax errors or success confirmation
+
+3. **/research:compare-platforms** - Compare ATS platforms
+   - Purpose: Generate comparison tables
+   - Usage: Extract data from top20.md
+   - Output: Formatted comparison markdown
+
+**Custom Agents**:
+
+1. **ats-researcher** - ATS platform research agent
+   - Task: Query multiple AI models for ATS data
+   - Tools: WebSearch, Read, Write
+   - Output: Structured research markdown
+
+2. **diagram-validator** - Mermaid diagram validation agent
+   - Task: Validate and render mermaid diagrams
+   - Tools: Read, Bash (mermaid-cli)
+   - Output: Validation report
+
+#### For interview-prep Repository
+
+**Custom Slash Commands**:
+
+1. **/prep:organize-by-topic** - Organize materials by technical topic
+   - Purpose: Categorize cheat sheets and diagrams
+   - Usage: Analyze image filenames and content
+   - Output: Organized directory structure
+
+2. **/prep:create-study-plan** - Generate interview study plan
+   - Purpose: Create structured preparation timeline
+   - Usage: Analyze available materials and topics
+   - Output: Markdown study plan with daily goals
+
+3. **/prep:extract-key-concepts** - Extract key concepts from materials
+   - Purpose: Create quick reference summaries
+   - Usage: Analyze images and documents
+   - Output: Markdown concept summary
+
+**Custom Agents**:
+
+1. **material-organizer** - Interview material organization agent
+   - Task: Categorize and organize files by topic
+   - Tools: Read, Glob, Write, Bash (file operations)
+   - Output: Organized directory structure
+
+2. **study-planner** - Interview preparation planning agent
+   - Task: Create personalized study schedules
+   - Tools: Read, Write, TodoWrite
+   - Output: Structured study plan markdown
+
+#### For windows-admin-scripts Repository
+
+**Custom Slash Commands**:
+
+1. **/scripts:test-script** - Test script on target system
+   - Purpose: Safely test batch/PowerShell scripts
+   - Usage: Run script in test mode with logging
+   - Output: Test execution report
+
+2. **/scripts:create-script** - Generate new admin script
+   - Purpose: Scaffold new batch or PowerShell script
+   - Usage: Provide script purpose and parameters
+   - Output: Script template with error handling
+
+3. **/scripts:update-docs** - Update script documentation
+   - Purpose: Sync script inventory and READMEs
+   - Usage: Scan scripts directory and update docs
+   - Output: Updated markdown documentation
+
+**Custom Agents**:
+
+1. **script-tester** - Safe script testing agent
+   - Task: Execute scripts in controlled environment
+   - Tools: Bash, Read, Write (logs)
+   - Output: Execution report with results
+
+2. **script-generator** - Admin script generation agent
+   - Task: Create new scripts from templates
+   - Tools: Read (templates), Write, Edit
+   - Output: Production-ready script files
+
+3. **doc-updater** - Documentation maintenance agent
+   - Task: Keep script inventory and docs synchronized
+   - Tools: Glob, Read, Write, Edit
+   - Output: Updated documentation files
+
+### 7.2 Integration with Existing Repositories
+
+#### Integration 1: ats-research + job-hunting-automation
+- **Connection**: Research informs automation tool development
+- **Workflow**: ATS research → identifies automation opportunities → Python tools
+- **Slash Command**: `/jobs:implement-ats-feature` (in job-hunting-automation)
+  - Purpose: Implement features based on ATS research
+  - Input: ATS research findings
+  - Output: Python implementation
+
+#### Integration 2: interview-prep + learning.claude/
+- **Connection**: Interview prep is subset of learning
+- **Workflow**: Interview topics → general learning reinforcement
+- **Claude Config**: interview-prep.claude/ for interview-specific agents
+
+#### Integration 3: windows-admin-scripts + personal projects
+- **Connection**: Scripts may support other project workflows
+- **Workflow**: Project needs → script automation
+- **Example**: Backup scripts for project worktrees
+
+---
+
+## Phase 8: Implementation Plan
+
+### 8.1 Repository Creation Commands
+
+```bash
+# Create PRIVATE repository: ats-research
+"C:\Program Files\GitHub CLI\gh.exe" repo create jaodsilv/ats-research --private --description "ATS platform research, workflow diagrams, and job application best practices"
+
+# Create PRIVATE repository: interview-prep
+"C:\Program Files\GitHub CLI\gh.exe" repo create jaodsilv/interview-prep --private --description "Technical interview preparation materials: cheat sheets, system design diagrams, and company-specific guides"
+
+# Create PUBLIC repository: windows-admin-scripts
+"C:\Program Files\GitHub CLI\gh.exe" repo create jaodsilv/windows-admin-scripts --public --description "Windows system administration scripts for profile repair, permission management, backup, and diagnostics"
+```
+
+### 8.2 Local Initialization Sequence
+
+#### Step 1: Initialize ats-research
+
+```bash
+cd D:/src
+mkdir -p ats-research
+cd ats-research
+git init
+git branch -M main
+
+# Transfer content
+cp -r ../tmp/ATS/* ./
+
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/
+.snapshots/
+
+# Generated outputs
+rendered/
+*.html
+*.png
+EOF
+
+# Create README (to be written separately)
+# Create LICENSE (MIT)
+
+# Initial commit
+git add .
+git commit -m "feat: initialize ATS research repository
+
+- Add comprehensive ATS platform research (top20.md)
+- Add 10 mermaid workflow diagrams
+- Add .gitignore for project files
+- Add MIT LICENSE"
+
+git remote add origin https://github.com/jaodsilv/ats-research.git
+git push -u origin main
+```
+
+#### Step 2: Initialize interview-prep
+
+```bash
+cd D:/src
+mkdir -p interview-prep
+cd interview-prep
+git init
+git branch -M main
+
+# Create organized structure
+mkdir -p cheat-sheets
+mkdir -p system-design
+mkdir -p api-design
+mkdir -p databases
+mkdir -p company-guides
+mkdir -p certificates
+
+# Transfer content from Coding Interview
+cp "../tmp/Coding Interview/"*.png ./cheat-sheets/
+cp "../tmp/Coding Interview/"*.webp ./cheat-sheets/
+cp "../tmp/Coding Interview/"*.pdf ./certificates/
+
+# Transfer content from WEB
+cp ../WEB/* ./company-guides/
+
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Personal notes
+notes/
+personal/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+temp/
+tmp/
+.snapshots/
+EOF
+
+# Create README (to be written separately)
+# Create LICENSE (MIT)
+
+# Initial commit
+git add .
+git commit -m "feat: initialize interview preparation repository
+
+- Add technical interview cheat sheets
+- Add system design diagrams
+- Add API and database references
+- Add company-specific interview guides
+- Add completion certificates
+- Organize materials by topic
+- Add MIT LICENSE"
+
+git remote add origin https://github.com/jaodsilv/interview-prep.git
+git push -u origin main
+```
+
+#### Step 3: Initialize windows-admin-scripts
+
+```bash
+cd D:/src
+mkdir -p windows-admin-scripts
+cd windows-admin-scripts
+git init
+git branch -M main
+
+# Transfer content
+cp -r ../scripts/* ./
+
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Registry backups with machine-specific data
+registry_backup_*.reg
+profile_list_backup.reg
+
+# Logs
+*.log
+logs/
+
+# Test outputs
+test-output/
+temp/
+
+# Machine-specific configs
+config/machine-specific/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+EOF
+
+# Create README (to be written separately)
+# Create LICENSE (MIT)
+
+# Initial commit
+git add .
+git commit -m "feat: initialize Windows administration scripts
+
+- Add profile repair and diagnostic scripts
+- Add permission management tools
+- Add backup and migration utilities
+- Add comprehensive documentation
+- Add script inventory and usage guides
+- Add MIT LICENSE"
+
+git remote add origin https://github.com/jaodsilv/windows-admin-scripts.git
+git push -u origin main
+```
+
+---
+
+## Phase 9: Documentation Requirements
+
+### 9.1 README.md Templates
+
+#### ats-research/README.md
+
+```markdown
+# ATS Research
+
+Private repository containing research on Applicant Tracking Systems (ATS), workflow diagrams for job application optimization, and best practices documentation.
+
+## Overview
+
+This repository contains:
+1. Comprehensive ATS platform research (top 20 platforms for small and large companies)
+2. Workflow orchestration diagrams (mermaid format)
+3. Best practices research for resumes and cover letters
+
+## Repository Structure
+
+\```
+ats-research/
+├── top20.md                                    # Comprehensive ATS platform research
+├── company_research.mmd                        # Company research workflow
+├── master_resume.mmd                           # Master resume structure
+├── jd_matching_orchestra.mmd                   # Job description matching process
+├── tailoring_orchestra.mmd                     # Resume tailoring workflow
+├── draft_writing_orchestra.mmd                 # Draft writing process
+├── polishing_orchestra.mmd                     # Document polishing workflow
+├── pruning_orchestra.mmd                       # Content pruning process
+├── resume_best_practices_research.mmd          # Resume best practices
+├── cover_letter_best_practices_research.mmd    # Cover letter best practices
+└── top_20_ats_for_small_companies.mmd          # ATS comparison diagram
+\```
+
+## ATS Platform Research
+
+The `top20.md` file contains comprehensive research comparing top ATS platforms:
+- Market share data
+- Feature comparisons
+- Small company vs large company recommendations
+- Data aggregated from ChatGPT, Claude, and Gemini
+
+## Workflow Diagrams
+
+Mermaid diagrams document the complete job application workflow:
+1. **Company Research**: Research target companies
+2. **Master Resume**: Maintain comprehensive resume
+3. **JD Matching**: Match qualifications to job descriptions
+4. **Tailoring**: Customize resume for specific roles
+5. **Draft Writing**: Create initial application documents
+6. **Polishing**: Refine and optimize content
+7. **Pruning**: Remove unnecessary content
+
+## Rendering Diagrams
+
+To render mermaid diagrams:
+
+\```bash
+# Install mermaid-cli
+npm install -g @mermaid-js/mermaid-cli
+
+# Render diagram
+mmdc -i company_research.mmd -o company_research.png
+\```
+
+## Related Repositories
+
+1. **job-applications** (private): Actual application documents
+2. **job-hunting-automation** (public): Python automation tools
+3. **latex-templates** (public): Document templates
+
+## License
+
+MIT License - See LICENSE file
+```
+
+#### interview-prep/README.md
+
+```markdown
+# Technical Interview Preparation
+
+Private repository containing curated technical interview preparation materials including cheat sheets, system design diagrams, algorithm visualizations, and company-specific interview guides.
+
+## Overview
+
+This repository organizes interview preparation resources by technical topic for efficient study and quick reference during interview preparation.
+
+## Repository Structure
+
+\```
+interview-prep/
+├── cheat-sheets/           # Technical cheat sheets and quick references
+├── system-design/          # System design patterns and architectures
+├── api-design/             # API design best practices and patterns
+├── databases/              # Database selection and design guides
+├── company-guides/         # Company-specific interview guides
+└── certificates/           # Completion certificates
+\```
+
+## Contents
+
+### Cheat Sheets
+- Coding interview fundamentals
+- Algorithm complexity references
+- Common patterns and techniques
+
+### System Design
+- CAP theorem visualizations
+- Microservices architecture patterns
+- Load balancer algorithms
+- Caching strategies
+- CDN workflow diagrams
+
+### API Design
+- REST API best practices
+- GraphQL guides
+- API architectural styles comparison
+
+### Databases
+- Database type comparisons
+- Database decision trees
+- Selection criteria guides
+
+### Company Guides
+- Uber Backend Engineering Interview Guide
+- Company-specific preparation materials
+
+## Usage
+
+1. **Topic Review**: Browse by directory for focused study
+2. **Quick Reference**: Use cheat sheets during preparation
+3. **Practice**: Apply concepts from visual guides
+4. **Company Prep**: Review company-specific guides before interviews
+
+## Study Recommendations
+
+1. Start with fundamentals (cheat-sheets/)
+2. Progress to system design patterns
+3. Practice with real-world scenarios
+4. Review company-specific materials before interviews
+
+## Contributing
+
+This is a personal collection. Materials are curated from various sources for personal interview preparation.
+
+## License
+
+MIT License - See LICENSE file
+
+## Disclaimer
+
+Materials in this repository are collected for personal educational use. Original sources retain their respective copyrights.
+```
+
+#### windows-admin-scripts/README.md
+
+```markdown
+# Windows Administration Scripts
+
+Collection of production-ready Windows system administration scripts for profile repair, permission management, backup operations, and system diagnostics.
+
+## Overview
+
+This repository contains battle-tested batch and PowerShell scripts for common Windows administration tasks, with emphasis on safety, error handling, and comprehensive logging.
+
+## Repository Structure
+
+\```
+windows-admin-scripts/
+├── Profile Repair/
+│   ├── emergency_repair_all_profiles.bat
+│   ├── fix_single_profile.bat
+│   ├── junction_safety_check.bat
+│   └── comprehensive_profile_diagnostics.bat
+├── Permissions/
+│   ├── grant_full_permissions.bat
+│   ├── reset_permissions.bat
+│   └── verify_permissions.bat
+├── Backup/
+│   ├── backup_user_profiles.bat
+│   ├── validate_backup.bat
+│   └── restore_profile.bat
+├── Migration/
+│   ├── migrate_to_local_account.bat
+│   └── profile_migration_guide.md
+├── Diagnostics/
+│   ├── system_health_check.bat
+│   └── profile_diagnostics.ps1
+└── Documentation/
+    ├── README.md
+    ├── current_scripts_inventory.md
+    ├── MIGRATION_GUIDE.md
+    └── TROUBLESHOOTING.md
+\```
+
+## Key Features
+
+1. **Safety First**:
+   - Junction point validation
+   - Backup verification
+   - Rollback capabilities
+   - Comprehensive error handling
+
+2. **Production Ready**:
+   - Detailed logging
+   - Status reporting
+   - Error recovery
+   - Tested in real-world scenarios
+
+3. **Well Documented**:
+   - Script inventories
+   - Usage guides
+   - Troubleshooting docs
+   - Migration guides
+
+## Quick Start
+
+### Profile Repair
+
+\```batch
+# Diagnose profile issues
+comprehensive_profile_diagnostics.bat
+
+# Emergency repair (all profiles)
+emergency_repair_all_profiles.bat
+
+# Fix single profile
+fix_single_profile.bat <username>
+\```
+
+### Permission Management
+
+\```batch
+# Grant full permissions
+grant_full_permissions.bat <path>
+
+# Reset to default
+reset_permissions.bat <path>
+
+# Verify permissions
+verify_permissions.bat <path>
+\```
+
+### Backup Operations
+
+\```batch
+# Backup user profiles
+backup_user_profiles.bat
+
+# Validate backup integrity
+validate_backup.bat <backup_path>
+\```
+
+## Active Scripts
+
+See [current_scripts_inventory.md](current_scripts_inventory.md) for complete list of 17+ active scripts with usage details.
+
+## Requirements
+
+- Windows 10/11 or Windows Server 2016+
+- PowerShell 5.1 or later
+- Administrator privileges (for most operations)
+
+## Safety Guidelines
+
+1. **Always backup** before running repair scripts
+2. **Test on non-production** systems first
+3. **Review logs** after script execution
+4. **Validate** junction points before profile operations
+
+## Contributing
+
+Contributions welcome! Please:
+1. Test scripts thoroughly
+2. Include comprehensive error handling
+3. Add logging for all operations
+4. Update documentation
+
+## License
+
+MIT License - See LICENSE file
+
+## Disclaimer
+
+These scripts modify system configurations. Always:
+- Create backups before use
+- Test in non-production environments
+- Review script contents before execution
+- Use at your own risk
+```
+
+### 9.2 LICENSE Files
+
+All three repositories should use MIT License with:
+- Copyright holder: João Marco Maciel da Silva
+- Year: 2025
+
+---
+
+## Phase 10: Migration Checklist
+
+### 10.1 Pre-Migration Validation
+
+- [ ] Verify no sensitive data in scripts/ (hardcoded passwords, credentials)
+- [ ] Review registry backup files in scripts/ (exclude from git)
+- [ ] Confirm tmp/ATS/ and tmp/Coding Interview/ are OK for private repos
+- [ ] Check image copyright considerations for interview-prep
+- [ ] Verify mermaid diagrams render correctly in ats-research
+
+### 10.2 Repository Creation
+
+- [ ] Create ats-research (PRIVATE) on GitHub
+- [ ] Create interview-prep (PRIVATE) on GitHub
+- [ ] Create windows-admin-scripts (PUBLIC) on GitHub
+
+### 10.3 Local Initialization
+
+- [ ] Initialize ats-research locally
+- [ ] Transfer tmp/ATS/ content
+- [ ] Create .gitignore for ats-research
+- [ ] Create README.md for ats-research
+- [ ] Add MIT LICENSE to ats-research
+
+- [ ] Initialize interview-prep locally
+- [ ] Transfer tmp/Coding Interview/ content
+- [ ] Transfer WEB/ content
+- [ ] Organize files into topic directories
+- [ ] Create .gitignore for interview-prep
+- [ ] Create README.md for interview-prep
+- [ ] Add MIT LICENSE to interview-prep
+
+- [ ] Initialize windows-admin-scripts locally
+- [ ] Transfer scripts/ content
+- [ ] Review and exclude machine-specific registry files
+- [ ] Create .gitignore for windows-admin-scripts
+- [ ] Create README.md for windows-admin-scripts
+- [ ] Add MIT LICENSE to windows-admin-scripts
+
+### 10.4 Post-Migration
+
+- [ ] Push ats-research to GitHub
+- [ ] Push interview-prep to GitHub
+- [ ] Push windows-admin-scripts to GitHub
+- [ ] Verify repositories accessible on GitHub
+- [ ] Create TASKS.md files for each repository
+- [ ] Update main repository list documentation
+
+### 10.5 Cleanup
+
+- [ ] Archive or delete tmp/ATS/ after successful migration
+- [ ] Archive or delete tmp/Coding Interview/ after successful migration
+- [ ] Archive or delete WEB/ after successful migration
+- [ ] Archive or delete scripts/ after successful migration
+
+---
+
+## Appendix A: Repository Summary Table
+
+| Repository | Visibility | Source Folder(s) | Primary Purpose | File Count | Tech Stack |
+|-----------|-----------|------------------|-----------------|-----------|-----------|
+| ats-research | PRIVATE | tmp/ATS/ | ATS platform research and job application workflows | 11 | Mermaid, Markdown |
+| interview-prep | PRIVATE | tmp/Coding Interview/, WEB/ | Technical interview preparation materials | ~55 | Images, PDF, Markdown |
+| windows-admin-scripts | PUBLIC | scripts/ | Windows system administration automation | ~50+ | Batch, PowerShell, Markdown |
+
+## Appendix B: Estimated Repository Sizes
+
+- **ats-research**: ~100 KB (text and diagrams)
+- **interview-prep**: ~50 MB (images and PDFs)
+- **windows-admin-scripts**: ~500 KB (scripts and docs)
+
+## Appendix C: Recommendations Summary
+
+### Immediate Actions
+
+1. Create 3 new repositories as specified
+2. Review scripts/ for any hardcoded sensitive data
+3. Organize interview-prep materials by topic during transfer
+4. Exclude machine-specific registry files from windows-admin-scripts
+
+### Future Enhancements
+
+1. **ats-research**:
+   - Set up automated rendering of mermaid diagrams
+   - Create comparison tables from research data
+   - Add custom Claude Code slash commands for research updates
+
+2. **interview-prep**:
+   - Create study plan generator
+   - Build topic-based organization system
+   - Add progress tracking
+
+3. **windows-admin-scripts**:
+   - Add script testing framework
+   - Create contribution guidelines
+   - Build script generator for common patterns
+   - Add GitHub Actions for script validation
+
+---
+
+**End of Analysis**
+
+**Next Steps**: Execute repository creation commands and follow initialization sequence for all three repositories.

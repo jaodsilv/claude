@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Analyze cover letter against job requirements",
+    "status": "completed",
+    "activeForm": "Analyzing cover letter against job requirements"
+  },
+  {
+    "content": "Identify specific areas for improvement",
+    "status": "completed",
+    "activeForm": "Identifying specific areas for improvement"
+  },
+  {
+    "content": "Write evaluation to file",
+    "status": "in_progress",
+    "activeForm": "Writing evaluation to file"
+  },
+  {
+    "content": "Create improved version of cover letter",
+    "status": "pending",
+    "activeForm": "Creating improved version of cover letter"
+  }
+]

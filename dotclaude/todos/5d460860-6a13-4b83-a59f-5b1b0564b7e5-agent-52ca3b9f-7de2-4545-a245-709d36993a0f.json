@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Check if output directory exists, create if needed",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Check for existing file and handle according to overwrite mode",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Download document from URL using downloader sub-agent",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Convert document format using converter sub-agent",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Verify conversion using verification sub-agent",
+    "status": "pending",
+    "id": "5"
+  }
+]

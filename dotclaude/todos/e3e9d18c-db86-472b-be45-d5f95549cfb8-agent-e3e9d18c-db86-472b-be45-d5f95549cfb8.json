@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Modify event handlers to pass the clicked checkbox to updateCategorySelection",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Rewrite updateCategorySelection function to handle clickedCheckbox parameter",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Test the corrected logic with proper click detection",
+    "status": "in_progress",
+    "id": "3"
+  },
+  {
+    "content": "Remove debugging logs after confirming fix works",
+    "status": "pending",
+    "id": "4"
+  }
+]

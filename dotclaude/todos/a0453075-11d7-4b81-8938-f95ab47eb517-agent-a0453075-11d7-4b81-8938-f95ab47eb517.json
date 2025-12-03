@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Update imports to use proper Claude Code SDK instead of non-existent claude_code_sdk",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Replace CLIENT.messages.create() calls with Claude Code SDK query() function",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Fix async/await patterns to work with Claude Code SDK streaming responses",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Remove undefined CLIENT and MODEL_NAME variables",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Update response handling for Claude Code SDK format",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Fix remove_inapt_floating_variables() function to use Claude Code SDK",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Update main execution flow and fix script structure",
+    "status": "completed",
+    "id": "7"
+  }
+]

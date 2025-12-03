@@ -1,0 +1,44 @@
+[
+  {
+    "content": "Fix YAML syntax errors in project-automation.yml",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Replace hardcoded project URLs with repository variables",
+    "status": "completed",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Pin third-party actions to commit SHAs",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Add error handling and notifications",
+    "status": "completed",
+    "priority": "high",
+    "id": "4"
+  },
+  {
+    "content": "Add concurrency controls",
+    "status": "completed",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Create GitHub issues for optional enhancements",
+    "status": "completed",
+    "priority": "medium",
+    "id": "6"
+  },
+  {
+    "content": "Fix YAML indentation in project-automation.yml lines 63-66, 74-77, 85-88",
+    "status": "completed",
+    "priority": "high",
+    "id": "7"
+  }
+]

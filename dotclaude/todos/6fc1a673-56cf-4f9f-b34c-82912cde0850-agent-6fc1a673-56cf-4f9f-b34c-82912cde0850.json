@@ -1,0 +1,14 @@
+[
+  {
+    "content": "Initialize git repository in ~/.claude folder",
+    "status": "completed",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Create initial commit",
+    "status": "completed",
+    "priority": "medium",
+    "id": "2"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Create convert.py file with necessary imports",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Implement html_to_md function with proper signature",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create system prompt based on converter agent specs",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Implement file reading and HTML content loading",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Set up Claude Code SDK client and API request",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Implement markdown file saving with error handling",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Test the implementation",
+    "status": "completed",
+    "id": "7"
+  }
+]
