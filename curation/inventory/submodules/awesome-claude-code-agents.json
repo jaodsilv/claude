@@ -12,7 +12,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Backend architecture specialist for TypeScript applications",
-      "keywords": ["backend", "typescript", "architecture", "api"]
+      "keywords": [
+        "backend",
+        "typescript",
+        "architecture",
+        "api"
+      ]
     },
     {
       "name": "python-backend-engineer",
@@ -21,7 +26,12 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "Python backend development specialist",
-      "keywords": ["python", "backend", "fastapi", "django"]
+      "keywords": [
+        "python",
+        "backend",
+        "fastapi",
+        "django"
+      ]
     },
     {
       "name": "senior-code-reviewer",
@@ -30,7 +40,12 @@
       "category": "Testing & QA",
       "quality_score": 5,
       "description": "Comprehensive code review specialist with focus on quality",
-      "keywords": ["code-review", "quality", "best-practices", "senior"]
+      "keywords": [
+        "code-review",
+        "quality",
+        "best-practices",
+        "senior"
+      ]
     },
     {
       "name": "ui-engineer",
@@ -39,7 +54,13 @@
       "category": "Code Generation",
       "quality_score": 5,
       "description": "UI/UX engineering specialist for frontend applications",
-      "keywords": ["ui", "frontend", "react", "vue", "ux"]
+      "keywords": [
+        "ui",
+        "frontend",
+        "react",
+        "vue",
+        "ux"
+      ]
     }
   ]
 }

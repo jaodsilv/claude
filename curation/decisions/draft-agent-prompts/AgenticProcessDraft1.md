@@ -83,4 +83,3 @@ Once there is nothing more from (CR), ifa PR should be created. This will launch
 Once PR is created, (FO) should look for PR reviews and restart the planning duo with the review as input. Once plan is ready, restart the coding trio. Loop until there is no new review relevant in the PR
 
 (FO) Should end once the feature is complete and PR is merged
-
