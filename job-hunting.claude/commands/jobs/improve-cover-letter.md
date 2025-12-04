@@ -1,6 +1,6 @@
 ---
 description: improve a cover letter based on an evaluation result
-allowed-tools: Read, TodoWrite, Write, LS, Grep, Glob, Edit
+allowed-tools: Read, TodoWrite, Write, LS, Grep, Glob, Edit, Skill
 argument-hint: cover_letter_filepath: <cover_letter_filepath> job_description_filepath: <job_description_filepath>
 ---
 
@@ -25,6 +25,14 @@ Read the evaluation result file.
 Read the job description file.
 Read the cover letter file.
 Read the why company response file.
+
+## Skill Reference
+
+Use the job hunting skill as a guide for improvements:
+1. Consult `@job-hunting.claude/skills/job-hunting/SKILL.md` sections:
+   1. "Cover Letter Excellence" for structure and best practices
+   2. "Opening Paragraph", "Body Paragraphs", "Closing Paragraph" for specific guidance
+   3. "Common Cover Letter Mistakes" for issues to fix
 
 ## Overview
 

@@ -1,6 +1,6 @@
 ---
 description: evaluate a cover letter
-allowed-tools: Task, Read, TodoWrite, Write, LS, Grep, Glob, Edit
+allowed-tools: Task, Read, TodoWrite, Write, LS, Grep, Glob, Edit, Skill
 argument-hint: cover_letter_filepath: <cover_letter_filepath> job_description_filepath: <job_description_filepath> why_company_response_filepath: <why_company_response_filepath> output_filepath: <output_filepath> resume_filepath: <resume_filepath>
 ---
 
@@ -24,6 +24,13 @@ It will be presented with xml tags or in yaml format with the following tags and
 - `why_company_response_filepath`: (Optional) Path to response for "Why do you want to work for this company?"
 - `resume_filepath`: Path to the candidate's resume
 - `output_filepath`: Path where the evaluation results should be saved
+
+## Skill Reference
+
+Before delegating evaluations, reference the job hunting skill for quality standards:
+1. Consult `@job-hunting.claude/skills/job-hunting/SKILL.md` sections:
+   1. "Cover Letter Quality Checklist" for evaluation criteria
+   2. "Common Cover Letter Mistakes" for issues to flag
 
 ## Execution Workflow
 
