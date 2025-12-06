@@ -17,3 +17,6 @@
 downloads/
 tmp/
 dotclaude/dotclaude/
+
+# Private data junction (linked to private data repository)
+job-hunting.claude/data/

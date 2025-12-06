@@ -1,0 +1,27 @@
+# Personal Information for Job Hunting Plugin
+# Copy this file to ../data/personal-info.yaml and fill in your details
+#
+# This file contains personal data used by:
+# - job-hunting.claude/output-styles/recruiter-response.md
+# - job-hunting.claude/agents/jobs/message-parser.md
+
+# Compensation Information
+# Used for salary discussions and fit score calculations
+compensation:
+  hourly:
+    display: "$XX-XX/hr"      # Your target hourly rate range (e.g., "$75-95/hr")
+  yearly:
+    display: "$XXXk-$XXXk"    # Your target yearly salary range (e.g., "$155k-195k")
+  thresholds:
+    hourly_minimum_display: "$XX/hr"   # Minimum acceptable hourly (e.g., "$70/hr")
+    yearly_minimum_display: "$XXXk"    # Minimum acceptable yearly (e.g., "$150k")
+
+# Signature for LinkedIn/Email messages
+# Used when drafting recruiter responses
+signature:
+  linkedin: |
+    Best regards,
+    [Your Name]
+    [Your Title]
+    [email@example.com] | [(555) 123-4567]
+    GitHub: github.com/yourusername

@@ -94,6 +94,103 @@ To use these specialized agents and commands:
 2. **job-applications** (private): Personal application materials and tracking
 3. **latex-templates**: Resume/CV templates for professional formatting
 
+## Data Repository Setup
+
+This plugin requires a private data repository for personal information that should not be committed to the public configs repository.
+
+### Purpose
+
+The data repository separation ensures:
+
+1. Personal compensation information stays private
+2. Contact details and signatures are not exposed
+3. Conversation history and input files remain confidential
+4. Easy sharing of plugin configs without exposing personal data
+
+### Prerequisites
+
+1. Git installed
+2. Windows (for junction support) or Linux/macOS (for symlinks)
+3. Private GitHub repository for your data
+
+### Setup Steps
+
+1. **Create a private data repository**:
+
+   ```bash
+   gh repo create job-hunting-data --private
+   ```
+
+2. **Clone to your data location**:
+
+   ```bash
+   git clone https://github.com/yourusername/job-hunting-data D:\src\claude\data
+   ```
+
+3. **Create the required directory structure**:
+
+   ```bash
+   cd D:\src\claude\data
+   mkdir job-hunting
+   mkdir job-hunting\history
+   mkdir job-hunting\input
+   ```
+
+4. **Create Windows junction** (run as Administrator):
+
+   ```cmd
+   mklink /J D:\src\claude\job-hunting-configs\job-hunting.claude\data D:\src\claude\data\job-hunting
+   ```
+
+   Or on Linux/macOS:
+
+   ```bash
+   ln -s /path/to/data/job-hunting /path/to/job-hunting-configs/job-hunting.claude/data
+   ```
+
+### Required Directory Structure
+
+```
+job-hunting.claude/
+├── data/                          # Junction to private data repo
+│   ├── personal-info.yaml         # Personal data for template substitution
+│   ├── resume.md                  # Extended resume in markdown format
+│   ├── history/                   # Conversation history files
+│   └── input/                     # Input files for processing
+└── templates/                     # Example templates (committed to configs repo)
+    └── personal-info.example.yaml
+```
+
+### Personal Info Schema
+
+Create `data/personal-info.yaml` based on the template at `templates/personal-info.example.yaml`:
+
+```yaml
+# Compensation Information
+compensation:
+  hourly:
+    display: "$75-95/hr"           # Your target hourly rate range
+  yearly:
+    display: "$155k-195k"          # Your target yearly salary range
+  thresholds:
+    hourly_minimum_display: "$70/hr"   # Minimum acceptable hourly
+    yearly_minimum_display: "$150k"    # Minimum acceptable yearly
+
+# Signature for LinkedIn/Email messages
+signature:
+  linkedin: |
+    Best regards,
+    Your Name
+    Your Title
+    email@example.com | (555) 123-4567
+    GitHub: github.com/yourusername
+```
+
+### Files Using This Data
+
+1. `output-styles/recruiter-response.md` - Uses compensation and signature for drafting responses
+2. `agents/jobs/message-parser.md` - Uses compensation thresholds for fit calculations
+
 ## Integration
 
 Commands in this directory can invoke Python tools from the `job-hunting-automation` repository for:
